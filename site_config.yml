@@ -1,0 +1,48 @@
+baseurl: "/"
+languageCode: hr-HR
+languageLang: hr
+title: Mihalj Ent.
+pluralizelisttitles: false
+sitemap:
+  changefreq: monthly
+  priority: 0.5
+  filename: sitemap.xml
+params:
+  sitename: Mihalj ent konzalting
+  copyright: Mihalj ent konzalting
+  powerBy: webringapps.com
+  googleVerification: KzRGJoaKbFQdMon_w38jhXmZz4dBGs76oKRVecKrwhg
+  googleTrackingId: UA-108440761-2
+  maxNews: 5
+  social:
+    youtube: https://www.youtube.com/channel/UC6w-jwT36e0vMJRKBvkZb0A
+    facebook: https://www.facebook.com/igra.play
+    instagram: https://www.instagram.com/udruga_igra/
+  contact:
+    name: Mihalj ent konzalting
+    email: josip.mihalj@udrugaigra.hr
+    address: Šeferova 3, 10000 Zagreb
+    telephone: +385 1 370 4537
+    mobile: + 385 95 911 0089
+    oib: 02217925295
+    mb: 01418491
+    iban: R6823600001500156332, Zagrebačka banka d.d.
+    web: www.otorina.eu
+
+
+menu:
+  hr:
+  - {Name: "Naslovna", Identifier: home, Url: "/", Weight: 10}
+  - {Name: Galerija, Identifier: galery, Url: "/galerija/", Weight: 20}
+  - {Name: Edukacije, Identifier: education, Url: "/edukacije/", Weight: 23}
+  - {Name: Objave, Identifier: news, Url: "/objave/", Weight: 24}
+  - {Name: Kontakt, Identifier: contact, Url: "/kontakt/", Weight: 25}
+  - {Name: English, Identifier: en, Url: "/en/", Weight: 26}
+
+  en:
+  - {Name: "Home", Identifier: home, Url: "/en/", Weight: 10}
+  - {Name: Galery, Identifier: galery, Url: "/en/galery/", Weight: 20}
+  - {Name: Education, Identifier: education, Url: "/en/education/", Weight: 23}
+  - {Name: News, Identifier: news, Url: "/en/news/", Weight: 24}
+  - {Name: Contact, Identifier: contact, Url: "/en/contact/", Weight: 25}
+  - {Name: Hrvatski, Identifier: hr, Url: "/", Weight: 26}

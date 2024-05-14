@@ -1,0 +1,69 @@
+{{ $baseUrl := .Site.BaseURL }}
+{{ $keywords := split .Site.Params.meta.keywords "," }}
+{{ with .Params.meta.keywords }}
+    {{ $keywords = split . "," }}
+{{ end }}
+{{ $headline := ""}}
+{{ with .Params.meta.headline }}
+    {{ $headline = substr . 0 110 }}
+{{ end }}
+{{ if eq $headline "" }}
+{{ with .Params.intro }}
+    {{ $headline = substr . 0 110 }}
+{{ end }}
+{{ end }}
+{{ if eq $headline "" }}
+{{ with .Params.meta.description }}
+    {{ $headline = substr . 0 110 }}
+{{ end }}
+{{ end }}
+
+{{ $description := .Site.Params.meta.description}}
+{{ with .Params.meta.description }}
+    {{ $description = . }}
+{{ end }}
+
+<script type="application/ld+json">
+{
+    "@context": "http://schema.org",
+    "@type": "NewsArticle",
+    {{ with .Aliases }}
+    "sameAs" : [
+        {{ range . }}{{ . }},{{ end }}
+    ],
+    {{ end }}
+    {{ if eq .Params.type "procedures" }}
+    "mainEntityOfPage": {
+        "@type": "Blog Post",
+        "@id": "{{ .Permalink }}",
+        "headline": "{{ $headline }}",
+        "author": "{{ .Site.Params.organization }}",
+        "publisher": {
+            "@type": "Organization",
+            "name": "{{ .Site.Params.organization }}",
+            "logo": "{{ (printf "%s%s" $baseUrl .Site.Params.logo) | safeURL }}",
+        },
+        {{ with .Params.listed_intro.image }}
+        "image": "{{ (printf "%s%s" $baseUrl .) | safeURL }}",
+        {{ end }}
+        "datePublished": "{{ .Date.Format "2006-01-02" }}"
+    },
+    {{ end }}
+    "headline": "{{ $headline }}",
+    "alternativeHeadline": "{{ .Site.Title }}",
+    "datePublished": "{{ .Date.Format "2006-01-02" }}",
+    "dateModified": "{{ .Lastmod.Format "2006-01-02" }}",
+    "url": "{{ .Permalink }}",
+    "publisher": {
+        "@type": "Organization",
+        "name": "{{ .Site.Params.organization }}"
+    },
+    {{ with .Params.listed_intro.image }}
+        "image": "{{ $baseUrl }}{{ . }}",
+    {{ end }}
+    {{if .Params.categories }}"genre": "{{ range .Params.categories }}{{ . }}{{ end }}",{{ end }}
+    {{if ne (len $keywords) 0 }}"keywords": "{{ range $keywords }}{{ . }},{{ end }}",{{ end }}
+    {{with $description }}"description": "{{ . }}"{{ end  }}
+}
+</script>
+    

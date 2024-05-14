@@ -1,0 +1,53 @@
+ <!--  Start header  -->
+ <header class="tc-header-style3">
+    <div class="header-slider">
+        <div class="swiper-wrapper">
+            {{ range . }}
+            <div class="swiper-slide">
+                <div class="slider-card">
+                    {{ with .image }}
+                    <div class="img">
+                        <img src="{{ .src}}" alt="{{ .alt }}" class="img-cover">
+                    </div>
+                    {{ end }}
+                    <div class="info">
+                        <div class="row">
+                            <div class="col-lg-4">
+                                <div class="title-side">
+                                    <h3> {{ .h3 }} </h3>
+                                    <a href="#" class="t-link"> more about <br> archin </a>
+                                </div>
+                            </div>
+                            <div class="col-lg-8">
+                                <div class="cont">
+                                    <div class="title" data-swiper-parallax="-500">
+                                        <div class="row align-items-center">
+                                            <div class="col-lg-6">
+                                                <h5> {{ .h5 }} </h5>
+                                            </div>
+                                            <div class="col-lg-6 text-lg-end mt-4 mt-lg-0">
+                                                <h6> {{ .h6 }} </h6>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <h1 data-swiper-parallax="-1500"> {{ .h1 }}</h1>
+                                    <div class="text" data-swiper-parallax="-2500">
+                                        {{ .teaser | markdownify }}
+                                    </div>
+                                    <a href="#" class="arrow-icon" data-swiper-parallax="-3000"> <i class="ti-arrow-top-right"></i> </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            {{ end }}
+        </div>
+        <div class="slider-controls">
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+        </div>
+        <div class="swiper-pagination"></div>
+    </div>
+</header>
+<!--  Start header  -->

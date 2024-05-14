@@ -1,0 +1,209 @@
+{{define "navbar"}}
+{{ end }}
+{{define "header"}}{{ end }}
+{{ define "main"}}
+<!--  Start services  -->
+<section class="tc-services-style3">
+    <div class="container">
+        <div class="top-inf mb-80">
+            <div class="row">
+                <div class="col-lg-4">
+                    <h5 class="fsz-30 text-uppercase wow fadeInUp slow" data-wow-delay="0.2s"> our services </h5>
+                </div>
+                <div class="col-lg-4">
+                    <div class="text fsz-18 mt-4 mt-lg-0 pe-lg-5 wow fadeInUp slow" data-wow-delay="0.4s">
+                        ARCHIN Constructions has a passion for perfection. We see great value in focusing on the finer details that can make a big difference to the end result
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="text fsz-18 mt-4 mt-lg-0 wow fadeInUp slow" data-wow-delay="0.6s">
+                        We commitment to quality design & projects are always delivered to an exceptional standard.
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="servives-cards">
+            <div class="row gx-0">
+                <div class="col-lg-4">
+                    <a href="#" class="service-card wow fadeInLeft" data-wow-delay="0.6s">
+                        <div class="num">
+                            <span class="num-cir"> 1 </span>
+                        </div>
+                        <div class="img">
+                            <img src="/img/services/ser1.jpg" alt="" class="img-cover">
+                        </div>
+                        <div class="info">
+                            <p class="fsz-14 color-666"> 24 Cases </p>
+                            <h3 class="fsz-45 text-uppercase fw-500 mt-15"> interior </h3>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-6">
+                    <a href="#" class="service-card wow zoomIn" data-wow-delay="0.2s">
+                        <div class="num">
+                            <span class="num-cir"> 2 </span>
+                        </div>
+                        <div class="img">
+                            <img src="/img/services/ser2.jpg" alt="" class="img-cover">
+                        </div>
+                        <div class="info">
+                            <p class="fsz-14 color-666"> 52 Cases </p>
+                            <h3 class="fsz-45 text-uppercase fw-500 mt-15"> construct </h3>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-2">
+                    <a href="#" class="service-card sm-card wow fadeInRight" data-wow-delay="0.8s">
+                        <div class="num">
+                            <span class="num-cir"> 3 </span>
+                        </div>
+                        <div class="img">
+                            <img src="/img/services/ser3.jpg" alt="" class="img-cover">
+                        </div>
+                        <div class="info">
+                            <p class="fsz-14 color-666"> 52 Cases </p>
+                            <h3 class="fsz-45 text-uppercase fw-500 mt-15"> revamp </h3>
+                        </div>
+                    </a>
+                    <a href="#" class="all-card wow fadeInUp" data-wow-delay="0.4s">
+                        <span> Full <br> Services <i class="ti-arrow-top-right"></i> </span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!--  End services  -->
+
+{{ with .Params.about_us }}
+<!--  Start about  -->
+<section class="tc-about-style3">
+    <div class="top-info">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3">
+                    <div class="info">
+                        <h5 class="fsz-30 text-uppercase mb-80"> {{ .title }} </h5>
+                        <div class="text paraf-bottom fsz-18 mb-15">
+                            {{ .content | markdownify }}
+                        </div>
+                        <a href="#" class="butn borderd mt-70 bg-white py-2 px-3 text-uppercase ltspc-1 hover-bg-yellow1">
+                            <span> About us <i class="small ms-1 ti-arrow-top-right"></i> </span>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-8 offset-lg-1">
+                    <div class="numbers-boxes">
+                        <div class="sm-card js-splittext-lines" data-speed="1" data-lag="0.4">
+                            <h4 class="fsz-70 mb-30"> {{ .boxes.left.number }} </h4>
+                            <p class="p text-uppercase"> {{ .boxes.left.title }} </p>
+                        </div>
+                        <div class="md-card js-splittext-lines" data-speed="1" data-lag="0.8">
+                            <h3 class="fsz-90 mb-90 fw-500"> {{ .boxes.middle.number }} </h3>
+                            <p class="p text-uppercase"> {{ .boxes.middle.title }} </p>
+                        </div>
+                        <div class="lg-card js-splittext-lines" data-speed="1" data-lag="0.2">
+                            <h2 class="fw-500"> {{ .boxes.right.number }} </h2>
+                            <h6 class="text-uppercase text-end fsz-18 lh-4"> {{ .boxes.right.title }} </h6>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <img src="/img/about_pat.png" alt="" class="pattern">
+    </div>
+    <div class="img-content wow">
+        <img src="/img/about.jpg" alt="" class="img-cover main-img">
+    </div>
+</section>
+<!--  End about  -->
+{{ end }}
+
+{{ with .Params.portfolio }}
+<!--  Start portfolio  -->
+<section class="tc-portfolio-style3">
+    <div class="container">
+        <div class="title">
+            <div class="row">
+                <div class="col-lg-4">
+                    <h5 class="fsz-30 text-uppercase wow fadeInUp slow" data-wow-delay="0.2s"> {{ .title }} </h5>
+                </div>
+                <div class="col-lg-6 mt-4 mt-lg-0">
+                    <div class="links wow fadeInUp slow" data-wow-delay="0.4s">
+                        <a href="#"> all </a>
+                        <a href="#"> Construct </a>
+                        <a href="#"> interior </a>
+                        <a href="#"> renovation </a>
+                    </div>
+                </div>
+                <div class="col-lg-2 text-lg-end mt-4 mt-lg-0">
+                    <a href="#" class="text-uppercase hover-yellow1 wow fadeInUp slow" data-wow-delay="0.6s"> <span> all projects </span> <i class="ti-arrow-top-right ms-2"></i> </a>
+                </div>
+            </div>
+        </div>
+        <div class="projects-slider">
+            <div class="swiper-wrapper">
+                {{ range .projects }}
+                <div class="swiper-slide">
+                    <div class="project-card">
+                        <div class="row">
+                            <div class="col-lg-3">
+                                <div class="info">
+                                    <h2 class="fsz-45 text-uppercase fw-500 mb-30"> {{ .title }} </h2>
+                                    <small class="fsz-12 d-block mb-40"> {{ .tags }} </small>
+                                    <p class="fsz-18"> {{ .content | markdownify }} </p>
+                                    <a href="{{ .link }}" class="arrow-icon"> <i class="ti-arrow-top-right"></i> </a>
+                                </div>
+                            </div>
+                            <div class="col-lg-8 offset-lg-1">
+                                <div class="main-img">
+                                    <img src="{{ .image.src }}" alt="{{ .image.alt }}" class="img-cover">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                {{ end }}
+            </div>
+            <div class="slider-controls">
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+            </div>
+        </div>
+    </div>
+    <img src="/img/background/bg_pattern.png" alt="" class="bg" data-speed="0.8">
+</section>
+<!--  End portfolio  -->
+{{ end }}
+
+{{ with .Params.partners }}
+<!--  Start partners  -->
+<section class="tc-partners-style3">
+    <div class="container">
+        <div class="title mb-80">
+            <div class="row">
+                <div class="col-lg-4">
+                    <h5 class="fsz-30 text-uppercase wow fadeInUp slow" data-wow-delay="0.2s"> {{ .title }} </h5>
+                </div>
+                <div class="col-lg-8 mt-4 mt-lg-0">
+                    <div class="text fsz-18 wow fadeInUp slow" data-wow-delay="0.4s"> {{ .content | markdownify }} </div>
+                </div>  
+            </div>
+        </div>
+        <div class="logos">
+            {{ range .list }}
+            <a href="#" class="logo-card wow fadeInUp slow" data-wow-delay="0.2s">
+                <span class="num">1</span>
+                <img src="{{ .logo }}" alt="" class="logo">
+                <p> {{ .title }} </p>
+            </a>
+            {{ end }}
+        </div>
+    </div>
+    <img src="/img/background/bg_pattern.png" alt="" class="bg" data-speed="0.8">
+</section>
+<!--  End partners  -->
+
+{{ end }}
+
+{{ end }}

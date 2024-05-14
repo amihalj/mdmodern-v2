@@ -1,0 +1,24 @@
+<picture>
+    {{ with .image_xxl}}
+      <source media="(min-width: 1200px)" sizes="90vw" data-srcset="{{ . }}">
+    {{ end }}
+    {{ with .image_xl}}
+    <source media="(min-width: 992px)" sizes="90vw" data-srcset="{{ . }}">
+    {{ end }}
+    {{ with .image_l}}
+    <source media="(min-width: 992px)" sizes="90vw" data-srcset="{{ . }}">
+    {{ end }}
+    {{ with .image_m}}
+    <source media="(min-width: 768px)" sizes="90vw" data-srcset="{{ . }}">
+    {{ end }}
+    {{ with .image_s}}
+    <source media="(min-width: 576px)" sizes="90vw" data-srcset="{{ . }}">
+    {{ end }}
+    {{ with .image_xs}}
+    <source media="(min-width: 375px)" sizes="90vw" data-srcset="{{ . }}">
+    {{ end }}
+    {{ with .image_micro}}
+    <source media="(min-width: 0px)" sizes="90vw" data-srcset="{{ . }}">
+    {{ end }}
+    <img data-src="{{ .img }}" alt="{{ .alt }}" class="lazyload" >
+  </picture>

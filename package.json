@@ -1,0 +1,15 @@
+{
+    "name": "mihalj-ent-website",
+    "version": "1.0.0",
+    "description": "otorina.eu web",
+    "main": "",
+    "dependencies": {},
+    "devDependencies": {},
+    "scripts": {},
+    "repository": {
+        "type": "git",
+        "url": "git@github.com:amihalj/otorina.git"
+    },
+    "author": "Otorina.eu",
+    "license": "ISC"
+}

@@ -1,0 +1,49 @@
+/* --------------- blog style3 --------------- */
+.tc-blog-style3 {
+    padding: 140px 0;
+    background-color: #ECECEC;
+
+    .blog-card {
+        position: relative;
+        display: block;
+        margin-bottom: 10px;
+        &:hover {
+            .info {
+                h4 {
+                    color: var(--color-yellow1);
+                }
+            }
+        }
+        .img {
+            height: 230px;
+        }
+        .info {
+            padding: 30px 0;
+            border-top: 1px solid #B4B4B4;
+            h4 {
+                font-size: 36px;
+                transition: all 0.3s ease;
+                margin-bottom: 40px;
+            }
+        }
+        .date {
+            position: absolute;
+            right: 0;
+            top: 30px;
+        }
+    }
+
+}
+
+@media screen and (max-width: 991px) {
+    .tc-blog-style3 {
+        .blog-card {
+            margin-bottom: 50px;
+            .date {
+                position: relative;
+                top: 0;
+                float: right;
+            }
+        }
+    }
+}

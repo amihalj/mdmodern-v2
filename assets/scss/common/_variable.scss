@@ -1,0 +1,207 @@
+
+
+/* --------------- variable --------------- */
+:root{
+    --color-blue1:#4b3ec4;
+    --color-orange1:#FF481F;
+    --color-yellow1:#FF9900;
+    --color-green1:#689210;
+    --color-brown1:#E5C696;
+    --color-brown2:#7D764D;
+    --color-light1:#eff3f6;
+}
+  
+// ------------------ colors -------------------
+
+// ------------------ blue1 ------------------
+
+.color-blue1 {
+    color: var(--color-blue1) !important;
+}
+
+.bg-blue1 {
+    background: var(--color-blue1) !important;
+}
+
+.border-blue1 {
+    border-color: var(--color-blue1) !important;
+}
+
+.hover-blue1:hover {
+    color: var(--color-blue1) !important;
+} 
+
+.hover-bg-blue1:hover {
+    background: var(--color-blue1) !important;
+    border-color: var(--color-blue1) !important;
+    color: #fff !important;
+    * {
+        color: #fff !important;
+    }
+}
+
+
+// ------------------ orange1 ------------------
+
+.color-orange1 {
+    color: var(--color-orange1) !important;
+}
+
+.bg-orange1 {
+    background: var(--color-orange1) !important;
+}
+
+.border-orange1 {
+    border-color: var(--color-orange1) !important;
+}
+
+.hover-orange1:hover {
+    color: var(--color-orange1) !important;
+} 
+
+.hover-bg-orange1:hover {
+    border-color: var(--color-orange1) !important;
+    background: var(--color-orange1) !important;
+    color: #fff !important;
+    * {
+        color: #fff !important;
+    }
+}
+
+
+// ------------------ orange1 ------------------
+
+.color-yellow1 {
+    color: var(--color-yellow1) !important;
+}
+
+.bg-yellow1 {
+    background: var(--color-yellow1) !important;
+}
+
+.border-yellow1 {
+    border-color: var(--color-yellow1) !important;
+}
+
+.hover-yellow1:hover {
+    color: var(--color-yellow1) !important;
+} 
+
+.hover-bg-yellow1:hover {
+    background: var(--color-yellow1) !important;
+    border-color: var(--color-yellow1) !important;
+    color: #fff;
+    * {
+        color: #fff !important;
+    }
+}
+
+
+// ------------------ green1 ------------------
+
+.color-green1 {
+    color: var(--color-green1) !important;
+}
+
+.bg-green1 {
+    background: var(--color-green1) !important;
+}
+
+.border-green1 {
+    border-color: var(--color-green1) !important;
+}
+
+.hover-green1:hover {
+    color: var(--color-green1) !important;
+} 
+
+.hover-bg-green1:hover {
+    background: var(--color-green1) !important;
+    border-color: var(--color-green1) !important;
+    color: #fff;
+    * {
+        color: #fff !important;
+    }
+}
+
+
+// ------------------ brown1 ------------------
+
+.color-brown1 {
+    color: var(--color-brown1) !important;
+}
+
+.bg-brown1 {
+    background: var(--color-brown1) !important;
+}
+
+.border-brown1 {
+    border-color: var(--color-brown1) !important;
+}
+
+.hover-brown1:hover {
+    color: var(--color-brown1) !important;
+} 
+
+.hover-bg-brown1:hover {
+    background: var(--color-brown1) !important;
+    border-color: var(--color-brown1) !important;
+    color: #fff;
+    * {
+        color: #fff !important;
+    }
+}
+
+// ------------------ brown2 ------------------
+
+.color-brown2 {
+    color: var(--color-brown2) !important;
+}
+
+.bg-brown2 {
+    background: var(--color-brown2) !important;
+}
+
+.border-brown2 {
+    border-color: var(--color-brown2) !important;
+}
+
+.hover-brown2:hover {
+    color: var(--color-brown2) !important;
+} 
+
+.hover-bg-brown2:hover {
+    background: var(--color-brown2) !important;
+    border-color: var(--color-brown2) !important;
+    color: #fff;
+    * {
+        color: #fff !important;
+    }
+}
+
+
+// ----------- hovers -----------
+.hover-white:hover{
+    color: #fff !important;
+}
+
+.hover-bg-white:hover {
+    background-color: #fff !important;
+    color: #000 !important;
+    * {
+        color: #000;
+    }
+}
+
+.hover-black:hover{
+    color: #000 !important;
+}
+
+.hover-bg-black:hover {
+    background-color: #000 !important;
+    border-color: #000 !important;
+    color: #fff !important;
+    * {
+        color: #fff;
+    }
+}

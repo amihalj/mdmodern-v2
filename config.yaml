@@ -1,0 +1,79 @@
+baseurl: ""
+languageCode: hr-HR
+languageLang: hr
+title: otorina.eu
+pluralizelisttitles: false
+sitemap:
+  changefreq: monthly
+  priority: 0.5
+  filename: sitemap.xml
+params:
+  sitename: otorina.eu
+  copyright: otorina.eu
+  author: "dr. Josip Mihalj, orl. spec., plastični kirurg glave i vrata"
+  organization: otorina.eu
+  logo: /img/main/Josip-avatar2.jpg
+  powerBy: powered by [We bring apps](webringapps.com)
+  photoBy: photo by Sandra&Sandra
+  googleVerification:
+  googleTrackingId: G-VXPBR64C6K
+  maxNews: 5
+  social:
+    facebook: https://www.facebook.com/profile.php?id=61554597597118
+    linkedin: https://www.linkedin.com/in/josip-mihalj-26a015138
+    instagram: https://www.instagram.com/dr.josip_mihalj/
+  contact:
+    name: Dr. Josip Mihalj
+    email: josip.mihalj@gmail.com
+    phone: +385 919871942
+    title: orl. spec., plastični kirurg glave i vrata
+    about: > 
+      Otorinolaringolog, subspecijalist plastične kirurgije glave i vrata sa dugogodišnjim iskustvom u liječenju bolesti i tegoba u području uha, grla, nosa, i plastične kirurgije glave i vrata
+    web: www.otorina.eu
+    base_email: am9zaXAubWloYWxqQG90b3JpbmEuZXU=
+    base_phone: KzM4NSA5MSA5ODcxOTQyCg==
+    apikey: 8085abdb-5ecf-4be2-bea9-1f2a7ac73a37
+    subject: Web upit sa otorina.eu
+  
+    labels:
+      hr:
+        form_email: Vaš email
+        form_name: Ime i prezime
+        form_success: Upit je uspješno poslan! Hvala vam na javljanju, javit ćemo vam se
+          u najkraćem mogućem roku.
+        form_message: Poruka
+        contact_info: Informacije za kontakt
+        form_error: Upit nije poslan, probajte ponovno ili pošaljite e-mail direktno.
+        phone: Telefon
+        form_subject: Naslov
+        form_submit: Pošalji upit
+        address: Adresa
+        website: Web stranica
+        email: E-mail
+
+  
+
+  slideshow:
+  - /img/main/jm-bw-relax-2.jpg
+  - /img/main/jm-head-side.jpg
+  - /img/main/jm-gray_shirt_big.jpg
+  - /img/main/jm-uniform-front.jpg
+  
+
+
+menu:
+  hr:
+  - {Name: Galerija zahvata, Identifier: galery, Url: "/galerija/", Weight: 20}
+  - {Name: Kirurgija nosa i sinusa, Identifier: nos, Url: "/kirurgija-nosa-i-sinusa/", Weight: 21}
+  - {Name: Plastična kirurgija glave i vrata, Identifier: vrat, Url: "/plasticna-kirurgija-glave-i-vrata/", Weight: 22}
+  - {Name: Estetski zahvati, Identifier: estetika, Url: "/estetski-zahvati/", Weight: 23}
+  - {Name: Kontakt, Identifier: contact, Url: "/kontakt/", Weight: 24}
+  - {Name: Popis svih zahvata, Identifier: glossary, Url: "/popis-svih-zahvata/", Weight: 26}
+
+  en:
+  - {Name: "Home", Identifier: home, Url: "/en/", Weight: 10}
+  - {Name: Gallery, Identifier: galery, Url: "/en/gallery/", Weight: 20}
+  - {Name: Estetic procedures, Identifier: estetika, Url: "/en/estetic-procedures/", Weight: 23}
+  - {Name: News, Identifier: news, Url: "/en/news/", Weight: 24}
+  - {Name: Contact, Identifier: contact, Url: "/en/contact/", Weight: 25}
+  - {Name: Hrvatski, Identifier: hr, Url: "/", Weight: 26}

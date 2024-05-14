@@ -1,0 +1,85 @@
+/* --------------- navbar style3 --------------- */
+.tc-navbar-style3 {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    z-index: 99;
+    padding: 50px 4vw;
+
+    .btn-select {
+        position: relative;
+        width: max-content;
+        &::before {
+            position: absolute;
+            content: "\f107";
+            font-family: 'Line Awesome Free';
+            font-weight: 900;
+            right: 15px;
+            top: 12px;
+            color: #fff;
+        }
+        .form-select {
+            position: relative;
+            background-color: transparent;
+            border-radius: 0;
+            border: 1px solid #fff;
+            color: #fff;
+            background-image: none;
+            padding: 11px 35px 11px 20px;
+            width: max-content;
+            option {
+                // background-color: #444;
+                color: #000;
+            }
+        }
+    }
+
+    .side-nav {
+        display: flex;
+        justify-content: end;
+        .b-link {
+            padding: 11px 20px;
+            color: #fff;
+            border: 1px solid #fff;
+            &:hover {
+                background-color: #fff;
+                color: #000;
+            }
+        }
+        .ico-link {
+            width: 45px;
+            height: 45px;
+            display: inline-flex;
+            justify-content: center;
+            align-items: center;
+            color: #fff;
+            border: 1px solid #fff;
+            font-size: 18px;
+            &:hover {
+                background-color: #fff;
+                color: #000;
+            }
+        }
+    }
+
+
+}
+
+@media screen and (max-width: 991px) {
+    .tc-navbar-style3 {
+        .col-6 {
+            width: 50% !important;
+        }
+        .col-lg-4 {
+            width: 100%;
+        }
+        .side-nav {
+            width: 100%;
+            margin-top: 20px;
+            a {
+                flex-grow: 1;
+            }
+        }
+    }
+}

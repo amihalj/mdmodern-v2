@@ -1,0 +1,91 @@
+/* --------------- portfolio pg style1 --------------- */
+.contact-pg-style1 {
+    position: relative;
+
+    .social-icons {
+        a {
+            width: 35px;
+            height: 35px;
+            border-radius: 50%;
+            border: 1px solid #ccc;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            margin: 0 5px;
+            &:hover {
+                background-color: var(--color-orange1);
+                border-color: var(--color-orange1);
+                color: #fff;
+            }
+        }
+    }
+
+    .tc-map-style1 {
+        position: relative;
+        padding: 90px 4vw 120px;
+        border-radius: 0 0 30px 30px;
+        margin-bottom: -30px;
+        background-color: #fff;
+        z-index: 10;
+        .map-card {
+            border-radius: 15px;
+            overflow: hidden;
+            height: 700px;
+            iframe {
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+                margin-bottom: -6px;
+                filter: grayscale(0.7);
+            }
+        }
+    }
+
+    .tc-contact-form-style1 {
+        position: relative;
+        padding: 150px 0;
+        background-color: #F1EEE9;
+        overflow: hidden;
+
+        .form {
+            display: block;
+            label {
+                display: block;
+                font-size: 10px;
+                color: #000;
+                text-transform: uppercase;
+            }
+            .form-control {
+                border: 0;
+                background-color: transparent;
+                border-radius: 0;
+                border-bottom: 1px solid #ccc;
+                padding: 10px 0;
+                font-size: 14px;
+                &:hover,
+                &:focus {
+                    border-color: #000;
+                }
+            }
+        }
+
+        .shap {
+            position: absolute;
+            bottom: -10px;
+            left: 0;
+            height: 55%;
+        }
+
+    }
+
+}
+
+@media screen and (max-width: 991px) {
+    .contact-pg-style1 {
+        .tc-map-style1 {
+            .map-card {
+                height: 400px;
+            }
+        }
+    }
+}

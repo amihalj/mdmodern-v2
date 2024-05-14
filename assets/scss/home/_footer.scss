@@ -1,0 +1,94 @@
+/* --------------- footer style3 --------------- */
+.tc-footer-style3 {
+    position: relative;
+    padding: 140px 0 80px;
+    background-color: #1F1F1F;
+    color: #fff;
+
+    a {
+        &:hover {
+            color: var(--color-yellow1);
+            * {
+                color: var(--color-yellow1);
+            }
+        }
+    }
+
+    .top-info {
+        padding: 30px 0;
+        border-bottom: 1px solid #666;
+        .foot-logo {
+            height: 40px;
+        }
+        .top-links {
+            display: flex;
+            justify-content: space-between;
+            a {
+                text-transform: uppercase;
+            }
+        }
+    }
+
+    .main-content {
+        padding: 100px 0;
+        
+    }
+
+    .social-links {
+        display: flex;
+        flex-wrap: wrap;
+        a {
+            width: 35px;
+            height: 35px;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            border-radius: 50%;
+            background-color: #333;
+            margin-inline-end: 10px;
+            margin-top: 10px;
+            &:hover {
+                background-color: var(--color-yellow1);
+                color: #000 !important;
+                * {
+                    color: #000 !important;
+                }
+            }
+        }
+    }
+
+    .btn-select {
+        position: relative;
+        width: max-content;
+        &::before {
+            position: absolute;
+            content: "\f107";
+            font-family: 'Line Awesome Free';
+            font-weight: 900;
+            right: 15px;
+            top: 12px;
+            color: #fff;
+        }
+        .form-select {
+            position: relative;
+            background-color: transparent;
+            border-radius: 0;
+            border: 1px solid #fff;
+            color: #fff;
+            background-image: none;
+            padding: 9px 50px 9px 35px;
+            width: max-content;
+            option {
+                // background-color: #444;
+                color: #000;
+            }
+        }
+    }
+
+}
+
+@media screen and (max-width: 991px) {
+    .tc-footer-style3 {
+
+    }
+}

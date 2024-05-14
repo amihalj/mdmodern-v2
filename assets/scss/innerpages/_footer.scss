@@ -1,0 +1,55 @@
+/* --------------- footer style1 --------------- */
+.tc-footer-style1 {
+
+    .foot-social {
+        a {
+            width: 35px;
+            height: 35px;
+            line-height: 35px;
+            text-align: center;
+            border-radius: 50%;
+            margin-inline-end: 10px;
+            background-color: #fff;
+            border: 1px solid #ccc;
+            font-size: 14px;
+            &:hover {
+                background-color: var(--color-orange1);
+                border-color: var(--color-orange1);
+                color: #fff;
+            }
+        }
+    }
+
+    .footer-links {
+        a {
+            font-size: 14px;
+            color: #666;
+            margin: 5px 0;
+            &:hover {
+                color: #000;
+                text-decoration: underline;
+            }
+        }
+    }
+
+    .foot {
+        padding: 30px 0;
+        border-top: 1px solid #ccc;
+        .foot-links {
+            a {
+                font-size: 14px;
+                margin-inline-end: 4vw;
+                &:last-of-type {
+                    margin: 0;
+                }
+            }
+        }
+    }
+
+}
+
+@media screen and (max-width: 991px) {
+    .tc-footer-style1 {
+
+    }
+}

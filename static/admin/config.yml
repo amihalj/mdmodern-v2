@@ -1,0 +1,365 @@
+backend:
+  name: github
+  repo: amihalj/otorina
+  branch: master
+
+site_url: https://www.md-design.com
+
+publish_mode: editorial_workflow
+media_folder: static/img/assets
+public_folder: /img/assets
+
+slug:
+  encoding: "ascii"
+  clean_accents: true
+
+collections: # A list of collections the CMS should be able to edit
+  - name: estetski-zahvati # Used in routes, ie.: /admin/collections/:slug/edit
+    label: "Estetski zahvati" # Used in the UI
+    label_singular: "Estetski zahvati" # Used in the UI, ie: "New Post"
+    description: >
+      Stranice od estetski zahvati
+    folder: "content/estetski-zahvati"
+    slug: "{{slug}}"
+    create: true # Allow users to create new documents in this collection
+    sortable_fields: ['title', 'date', 'listed_intro.order']
+    view_filters:
+      - label: Posts With Index
+        field: title
+        pattern: "This is post #"
+      - label: Posts Without Index
+        field: title
+        pattern: front matter post
+      - label: Drafts
+        field: draft
+        pattern: true
+
+    fields: # The fields each document in this collection have
+      - { label: "Title", name: "title", widget: "string", tagname: "h1" }
+      - {
+          label: "Publish Date",
+          name: "date",
+          widget: "datetime",
+          date_format: "YYYY-MM-DD",
+          time_format: "HH:mm",
+          format: "YYYY-MM-DD HH:mm",
+        }
+      - { label: "Type", name: "type", widget: "hidden", default: "procedures" }
+      - { label: "Draft", name: "draft", widget: "boolean", default: false }
+      - {
+        label: Meta,
+        name: meta,
+        widget: "object",
+        fields: [
+          { label: "Title", name: title, widget: string, },
+          { label: "Keywords", name: keywords, widget: string, required: false },
+          { label: "Description", name: description, widget: string, required: false },
+          { label: "Headline", name: headline, widget: string, required: false }
+          ]
+        }
+        
+      - label: List view
+        name: listed_intro
+        widget: "object"
+        fields:
+          - { label: "Order in group", name: order, widget: number }
+          - { label: "Image", name: image, widget: image, class: "thumb" }
+          - { label: "Description", name: description, widget: string, required: false }
+
+      - { label: "Heading", name: h1, widget: string }
+      - label: Intro images
+        name: intro_images
+        widget: list
+        fields:
+        - { label: "Title", name: title, widget: string, required: false }
+        - { label: "Tag", name: tag, widget: string, required: false }
+        - { label: "Class", name: class, widget: select, options: ["gold", "dark", "gray"] }
+        - { label: "Image", name: image, widget: image, class: "thumb" }
+      - { label: "Intro", name: intro, widget: markdown, required: false }
+      - { label: "Sections title", name: sections_title, widget: string, required: false }
+      - label: Sections
+        name: sections
+        widget: list
+        fields:
+          - { label: "Title", name: title, widget: string, required: false }
+          - { label: "Class", name: class, widget: string, required: false }
+          - { label: "Text", name: content, widget: markdown, required: false }
+          - label: Section images
+            name: images
+            widget: list
+            required: false
+            fields:
+            - { label: "Title", name: title, widget: string }
+            - { label: "Tag", name: tag, widget: string, required: false }
+            - { label: "Class", name: class, widget: select, options: ["gold", "dark", "gray"] }
+            - { label: "Image", name: image, widget: image, class: "thumb" }
+  
+  - name: kirurgija-nosa-i-sinusa # Used in routes, ie.: /admin/collections/:slug/edit
+    label: "Kirurgija nosa i sinusa" # Used in the UI
+    label_singular: "Kirurgija nosa i sinusa" # Used in the UI, ie: "New Post"
+    description: >
+      Stranice od kirurgije nosa i sinusa
+    folder: "content/kirurgija-nosa-i-sinusa"
+    slug: "{{slug}}"
+    create: true # Allow users to create new documents in this collection
+    sortable_fields: ['title', 'date', 'listed_intro.order']
+    view_filters:
+      - label: Posts With Index
+        field: title
+        pattern: "This is post #"
+      - label: Posts Without Index
+        field: title
+        pattern: front matter post
+      - label: Drafts
+        field: draft
+        pattern: true
+
+    fields: # The fields each document in this collection have
+      - { label: "Title", name: "title", widget: "string", tagname: "h1" }
+      - {
+          label: "Publish Date",
+          name: "date",
+          widget: "datetime",
+          date_format: "YYYY-MM-DD",
+          time_format: "HH:mm",
+          format: "YYYY-MM-DD HH:mm",
+        }
+      - { label: "Type", name: "type", widget: "hidden", default: "procedures" }
+      - { label: "Draft", name: "draft", widget: "boolean", default: false }
+      - {
+        label: Meta,
+        name: meta,
+        widget: "object",
+        fields: [
+          { label: "Title", name: title, widget: string, },
+          { label: "Keywords", name: keywords, widget: string, required: false },
+          { label: "Description", name: description, widget: string, required: false },
+          { label: "Headline", name: headline, widget: string, required: false }
+          ]
+        }
+        
+      - label: List view
+        name: listed_intro
+        widget: "object"
+        fields:
+          - { label: "Order in group", name: order, widget: number }
+          - { label: "Image", name: image, widget: image, class: "thumb" }
+          - { label: "Description", name: description, widget: string, required: false }
+
+      - { label: "Heading", name: h1, widget: string }
+      - label: Intro images
+        name: intro_images
+        widget: list
+        fields:
+        - { label: "Title", name: title, widget: string, required: false }
+        - { label: "Tag", name: tag, widget: string, required: false }
+        - { label: "Class", name: class, widget: select, options: ["gold", "dark", "gray"] }
+        - { label: "Image", name: image, widget: image, class: "thumb" }
+      - { label: "Intro", name: intro, widget: markdown, required: false }
+      - { label: "Sections title", name: sections_title, widget: string, required: false }
+      - label: Sections
+        name: sections
+        widget: list
+        fields:
+          - { label: "Title", name: title, widget: string }
+          - { label: "Class", name: class, widget: string, required: false }
+          - { label: "Text", name: content, widget: markdown, required: false }
+          - label: Section images
+            name: images
+            widget: list
+            required: false
+            fields:
+            - { label: "Title", name: title, widget: string, required: false }
+            - { label: "Tag", name: tag, widget: string, required: false }
+            - { label: "Class", name: class, widget: select, options: ["gold", "dark", "gray"] }
+            - { label: "Image", name: image, widget: image, class: "thumb" }
+
+  - name: plasticna-kirurgija # Used in routes, ie.: /admin/collections/:slug/edit
+    label: "Plastična kirurgija glave i vrata" # Used in the UI
+    label_singular: "Plastična kirurgija glave i vrata" # Used in the UI, ie: "New Post"
+    description: >
+      Stranice od estetski zahvati
+    folder: "content/plasticna-kirurgija-glave-i-vrata"
+    slug: "{{slug}}"
+    create: true # Allow users to create new documents in this collection
+    sortable_fields: ['title', 'date', 'listed_intro.order']
+    view_filters:
+      - label: Posts With Index
+        field: title
+        pattern: "This is post #"
+      - label: Posts Without Index
+        field: title
+        pattern: front matter post
+      - label: Drafts
+        field: draft
+        pattern: true
+
+    fields: # The fields each document in this collection have
+      - { label: "Title", name: "title", widget: "string", tagname: "h1" }
+      - {
+          label: "Publish Date",
+          name: "date",
+          widget: "datetime",
+          date_format: "YYYY-MM-DD",
+          time_format: "HH:mm",
+          format: "YYYY-MM-DD HH:mm",
+        }
+      - { label: "Type", name: "type", widget: "hidden", default: "procedures" }
+      - { label: "Draft", name: "draft", widget: "boolean", default: false }
+      - {
+        label: Meta,
+        name: meta,
+        widget: "object",
+        fields: [
+          { label: "Title", name: title, widget: string, },
+          { label: "Keywords", name: keywords, widget: string, required: false },
+          { label: "Description", name: description, widget: string, required: false },
+          { label: "Headline", name: headline, widget: string, required: false }
+          ]
+        }
+        
+      - label: List view
+        name: listed_intro
+        widget: "object"
+        fields:
+          - { label: "Order in group", name: order, widget: number }
+          - { label: "Image", name: image, widget: image, class: "thumb" }
+          - { label: "Description", name: description, widget: string, required: false }
+
+      - { label: "Heading", name: h1, widget: string }
+      - label: Intro images
+        name: intro_images
+        widget: list
+        fields:
+        - { label: "Title", name: title, widget: string, required: false }
+        - { label: "Tag", name: tag, widget: string, required: false }
+        - { label: "Class", name: class, widget: select, options: ["gold", "dark", "gray"], default="gold" }
+        - { label: "Image", name: image, widget: image, class: "thumb" }
+      - { label: "Intro", name: intro, widget: markdown, required: false }
+      - { label: "Sections title", name: sections_title, widget: string, required: false }
+      - label: Sections
+        name: sections
+        widget: list
+        fields:
+          - { label: "Title", name: title, widget: string }
+          - { label: "Class", name: class, widget: string, required: false }
+          - { label: "Text", name: content, widget: markdown, required: false }
+          - label: Section images
+            name: images
+            widget: list
+            required: false
+            fields:
+            - { label: "Title", name: title, widget: string, required: false }
+            - { label: "Tag", name: tag, widget: string, required: false }
+            - { label: "Class", name: class, widget: select, options: ["gold", "dark", "gray"] }
+            - { label: "Image", name: image, widget: image, class: "thumb" }
+
+  - name: "rest"
+    label: "Ostale stranice"
+    delete: false # Prevent users from deleting documents in this collection
+    editor:
+      preview: false
+    files:
+      - name: "about_me"
+        label: "O meni"
+        file: "content/about-me.md"
+        description: "O meni"
+        fields:
+          - label: Meta
+            name: meta
+            widget: "object"
+            fields:
+              - { label: "Title", name: title, widget: string }
+              - { label: "Keywords", name: keywords, widget: string, required: false }
+              - { label: "Description", name: description, widget: string, required: false }
+              - { label: "Headline", name: headline, widget: string, required: false }
+          - { label: "Heading", name: "h1", widget: "string" }
+          - { label: "Intro", name: "intro", widget: "markdown" }
+          - label: Statistics
+            name: statistics
+            widget: list
+            fields:
+              - { label: "Title", name: title, widget: string }
+              - { label: "Number", name: number, widget: number }
+
+      - name: "contact"
+        label: "kontakt"
+        file: "content/kontakt.md"
+        description: "kontakt"
+        fields:
+          - label: Meta
+            name: meta
+            widget: "object"
+            fields:
+              - { label: "Title", name: title, widget: string }
+              - { label: "Keywords", name: keywords, widget: string, required: false }
+              - { label: "Description", name: description, widget: string, required: false }
+              - { label: "Headline", name: headline, widget: string, required: false }
+          - { label: "Heading", name: "h1", widget: "string" }
+          - { label: "Content", name: "content", widget: "markdown", required: false }
+          - label: Labels
+            name: labels
+            widget: object
+            fields:
+              - { label: "contact_info", name: contact_info, widget: string }
+              - { label: "address", name: address, widget: string }
+              - { label: "phone", name: phone, widget: string }
+              - { label: "email", name: email, widget: string }
+              - { label: "website", name: website, widget: string }
+              - { label: "form_name", name: form_name, widget: string }
+              - { label: "form_email", name: form_email, widget: string }
+              - { label: "form_subject", name: form_subject, widget: string }
+              - { label: "form_message", name: form_message, widget: string }
+              - { label: "form_submit", name: form_submit, widget: string }
+              - { label: "form_success", name: form_success, widget: string }
+              - { label: "form_error", name: form_error, widget: string }
+
+      - name: "gallery"
+        label: "Galerija"
+        file: "content/gallery.md"
+        description: "Galerija"
+        fields:
+          - label: Meta
+            name: meta
+            widget: "object"
+            fields:
+              - { label: "Title", name: title, widget: string }
+              - { label: "Keywords", name: keywords, widget: string, required: false }
+              - { label: "Description", name: description, widget: string, required: false }
+              - { label: "Headline", name: headline, widget: string, required: false }
+
+          - { label: "Heading", name: "h1", widget: "string" }
+          - { label: "Intro", name: "intro", widget: "markdown", required: false }
+          - label: Field sections
+            name: sections
+            widget: list
+            fields:
+              - { label: "Title", name: title, widget: string }
+              - label: Case sections
+                name: subsections
+                widget: list
+                fields:
+                - { label: "Title", name: title, widget: string }
+                - label: Images
+                  name: images
+                  widget: list
+                  fields:
+                  - { label: "Title", name: title, widget: string }
+                  - { label: "Tag", name: tag, widget: string, required: false }
+                  - { label: "Image", name: image, widget: image, class: "thumb" }
+
+      - name: "glossary"
+        label: "Popis svih zahvata"
+        file: "content/glossary.md"
+        description: "Popis svih zahvata"
+        fields:
+          - label: Meta
+            name: meta
+            widget: "object"
+            fields:
+              - { label: "Title", name: title, widget: string }
+              - { label: "Keywords", name: keywords, widget: string, required: false }
+              - { label: "Description", name: description, widget: string, required: false }
+              - { label: "Headline", name: headline, widget: string, required: false }
+
+          - { label: "Heading", name: "h1", widget: "string" }

@@ -1,0 +1,118 @@
+/* --------------- services style3 --------------- */
+.tc-services-style3 {
+    position: relative;
+    padding: 140px 0;
+    background-color: #ECECEC;
+    overflow: hidden;
+    &::after {
+        position: absolute;
+        content: "";
+        left: 0;
+        bottom: 0;
+        width: calc(((100% - 1320px) / 2) + 1320px);
+        height: 1px;
+        background-color: #0003;
+    }
+
+    .servives-cards {
+        
+        .service-card {
+            padding: 25px;
+            background-color: #fff;
+            display: block;
+            border-inline-end: 1px solid #ECECEC;
+            &.sm-card {
+                border-inline-end: 0;
+                border-bottom: 1px solid #ECECEC;
+                .info {
+                    padding: 0;
+                    h3 {
+                        font-size: 25px !important;
+                    }
+                }
+                .img {
+                    width: 120px;
+                    height: 120px;
+                }
+            }
+            &:hover {
+                .img {
+                    img {
+                        transform: scale(1.2) rotate(5deg);
+                    }
+                }
+                .info {
+                    h3 {
+                        color: var(--color-orange1);
+                    }
+                }
+            }
+            .num {
+                text-align: end;
+                .num-cir {
+                    width: 35px;
+                    height: 35px;
+                    line-height: 35px;
+                    text-align: center;
+                    border: 1px solid #ECECEC;
+                    border-radius: 50%;
+                }
+            }
+            .img {
+                width: 230px;
+                height: 230px;
+                border-radius: 50%;
+                overflow: hidden;
+                margin: 60px auto;
+                img {
+                    transition: all 2s ease;
+                }
+            }
+            .info {
+                padding: 25px;
+                h3 {
+                    transition: all 0.3s ease;
+                }
+            }
+        }
+
+        .all-card {
+            font-size: 20px;
+            line-height: 24px;
+            text-transform: uppercase;
+            color: #000;
+            background-color: #fff;
+            padding: 48px 25px;
+            display: block;
+            clip-path: polygon(0 0, 100% 0, 100% 45%, 45% 100%, 0 100%);
+            i {
+                display: block;
+                margin-top: 15px;
+            }
+        }
+
+    }
+
+}
+
+@media screen and (max-width: 991px) {
+    .tc-services-style3 {
+        .servives-cards {
+            .service-card {
+                border-bottom: 5px solid #9994;
+                &.sm-card {
+                    border-bottom: 5px solid #9994;
+                    .img {
+                        width: 230px;
+                        height: 230px;
+                    }
+                    .info {
+                        h3 {
+                            font-size: 45px !important;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

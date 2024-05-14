@@ -1,0 +1,16 @@
+<!--  start side_menu  -->
+<div class="side_menu4_overlay"></div>
+<div class="side_menu4_overlay2"></div>
+<div class="side_menu_style4">
+    <div class="content">
+        <div class="main_links">
+            <ul>
+                {{ range .Site.Menus.side_menu }}
+                <li><a href="{{ .URL }}" class="main_link">{{ .Name }}</a></li>
+                {{ end }}
+            </ul>
+        </div>
+    </div>
+    <span class="clss"> <i class="las la-times"></i> </span>
+</div>
+<!--  End side_menu  -->

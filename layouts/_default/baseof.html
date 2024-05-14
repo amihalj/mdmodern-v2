@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="{{ .Site.Language }}">
+{{ partial "head" . }}
+
+<body class="home-style3">
+  {{ partial "loading" . }}
+  {{ partial "side-menu" . }}
+  <div id="scrollsmoother-container">
+    {{ block "navbar" . }} {{ end }}
+    {{ block "header" . }} {{ end }}
+    <main>
+      {{ block "main" . }} {{ end }}
+    </main>
+    {{ partial "footer" . }}
+    
+  </div>
+
+  <!--  Start to top button  -->
+  <a href="#" class="to_top">
+      <i class="fal fa-angle-up"></i>
+  </a>
+  {{ partial "js" . }}
+</body>

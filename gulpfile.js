@@ -8,6 +8,8 @@ var imagemin = require('gulp-imagemin');
 var pngquant = require('imagemin-pngquant');
 var imageResize = require('gulp-image-resize');
 
+uglify().on('error', console.error)
+
 var img_size = parseInt(process.env.IMG_SIZE || '220', 10)
 
 var all_img_size = [1200, 900, 720, 670, 440, 320, 220]
@@ -138,4 +140,5 @@ gulp.task('copy', function () {
 })
 
 // Default task
-gulp.task('default', ['sass', 'minify-css', 'minify-js', 'copy']);
+//gulp.task('default', ['sass', 'minify-css', 'minify-js', 'copy']);
+gulp.task('default', ['sass', 'minify-css', 'copy']);

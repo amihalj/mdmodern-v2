@@ -1,20 +1,19 @@
 baseurl: ""
 languageCode: hr-HR
 languageLang: hr
-title: otorina.eu
+title: moderndpc.com
 pluralizelisttitles: false
 sitemap:
   changefreq: monthly
   priority: 0.5
   filename: sitemap.xml
 params:
-  sitename: otorina.eu
-  copyright: otorina.eu
-  author: "dr. Josip Mihalj, orl. spec., plastični kirurg glave i vrata"
-  organization: otorina.eu
-  logo: /img/main/Josip-avatar2.jpg
+  sitename: moderndpc.com
+  copyright: moderndpc.com
+  organization: Modern Engineering
+  logo: /img/logos/logo_splash_400.png
+  intro_video: /video/modern_design_intro.mp4
   powerBy: powered by [We bring apps](webringapps.com)
-  photoBy: photo by Sandra&Sandra
   googleVerification:
   googleTrackingId: G-VXPBR64C6K
   maxNews: 5
@@ -24,7 +23,7 @@ params:
     instagram: https://www.instagram.com/dr.josip_mihalj/
   contact:
     name: Dr. Josip Mihalj
-    email: josip.mihalj@gmail.com
+    email: info@moderndpc.com
     phone: +385 919871942
     title: orl. spec., plastični kirurg glave i vrata
     about: > 

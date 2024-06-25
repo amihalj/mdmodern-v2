@@ -1,6 +1,6 @@
 backend:
   name: github
-  repo: amihalj/otorina
+  repo: superpheebs/MD-Modern
   branch: master
 
 site_url: https://www.md-design.com

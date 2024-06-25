@@ -12,7 +12,7 @@ params:
   copyright: moderndpc.com
   organization: Modern Engineering
   logo: /img/logos/logo_splash_400.png
-  intro_video: /video/modern_design_intro.mp4
+  intro_video: https://drive.google.com/file/d/1XLDkbp90lhPgMwQcAvy3TMs41cvSAe-8/view
   powerBy: powered by [We bring apps](webringapps.com)
   googleVerification:
   googleTrackingId: G-VXPBR64C6K

@@ -7,7 +7,6 @@
 public
 public.zip
 dist
-static/css/main.min.css
 static/js/main.min.js
 assets/img/*
 node_modules

@@ -168,7 +168,13 @@
     }
 
     .header-video {
+        position: relative;
+        .logo-wrapper {
+            position: absolute;
+            top: 10%;
+        }
         .video-wrapper {
+            background-color: #000;
             .video {
                 width: 100%;
             }

@@ -13,26 +13,40 @@ meta:
 h1: M&D Design
 
 about_us:
-  title: About us title
+  title: Who we are
   content: >
-    We specialise in a wide range of construction services for private and commercial clients ranging from extensions, to complete renovations and development.
+    MODERN is a boutique civil engineering firm dedicated to delivering high-quality engineering solutions for public infrastructure projects in New York City. 
+    
+
+    We specialize in providing consulting services to public agencies, offering expertise in areas such as transportation, water resources, structural engineering, and environmental sustainability.
 
 
 
-    With the foundations built upon family and an ethos of hard work and integrity, Archin Contractors Co. has become a leading contractor in North Carolina of United States.
   boxes:
     left:
-      title: AWARDS & RECOGNITONS
+      title: B-CORP PENDING
+      img: /img/logos/DBE-Certified-logo.png
       number: 55
     middle:
-      title: COMPLETED PROJECTS IN 26+ CITIES
+      title: DBE-CERTIFIED
+      img: /img/logos/DBE-Certified-logo.png
       number: 154
     right:
-      title: YEARS OF EXPERIENCE
+      title: WOMEN-OWNED AND OPERATED
+      img: /img/logos/DBE-Certified-logo.png
       number: 8
   
 portfolio:
-  title: Latest works in our portfolio
+  title: Project highlites
+  groups:
+  - title: Drainage & utilities
+    group: drainage-and-utilities
+  - title: Transportation
+    group: transportation
+  - title: Aviation
+    group: aviation
+  - title: Sustainability
+    group: sustainability
   projects:
   - title: Small project 1
     tags: construction, project management
@@ -78,5 +92,60 @@ partners:
     logo: /img/partners/lg1.svg
   - title: Partner four
     logo: /img/partners/lg1.svg
+
+services:
+  title: Our services
+  content: >
+    M.D. Modern Engineering, D.P.C. is a newly established firm based in the NYC area, comprised of __experienced design engineers__ with a proven track record in Design-Build projects.
+    
+    
+
+    Our team possesses in-depth knowledge of civil/roadway, drainage, and utilities engineering, making us ideally suited to contribute to the success of your next infrastructure project.
+  list:
+  - title: Civil / Roadway Engineering
+    logo: /img/services/ser1.jpg
+    sum: 12 cases
+    description: We provide comprehensive civil and roadway engineering services, including planning, design, and construction administration for roadways, airports, highways, and other transportation infrastructure.
+  - title: Drainage Engineering
+    logo: /img/services/ser2.jpg
+    sum: 5 open projects
+    description: Our drainage engineers design and implement effective stormwater management solutions that comply with PANYNJ and other regulatory requirements.
+  - title: Utilities Engineering
+    logo: /img/services/ser3.jpg
+    sum: 12 satisfied customers
+    description: Our utilities engineering team specializes in designing water, sewer, gas, electrical, and telecommunication systems, with expertise in 3D modeling to enhance precision and efficiency in our projects.
+  
+  - title: Maintenance of Traffic (MOT)
+    logo: /img/services/ser3.jpg
+    sum: 5
+    description: We develop comprehensive MOT plans to minimize traffic disruption during construction, ensuring safety for workers and the traveling public.
+  - title: Design-Build Management
+    logo: /img/partners/lg1.svg
+    sum: 5
+    description: Our engineers, including DBIA-certified professionals, have extensive Design-Build experience, ensuring a smooth and efficient project execution from concept to completion.
+  - title: Construction Administration
+    logo: /img/partners/lg1.svg
+    sum: 5
+    description: Our construction administration services ensure that the project is constructed according to the plans and specifications. We will provide oversight of the construction process and address any issues that arise.
+  - title: Permitting & Stakeholder Coordination
+    logo: /img/partners/lg1.svg
+    sum: 5
+    description: We prioritize early stakeholder engagement and will proactively obtain required permits and approvals. A comprehensive stakeholder management plan will ensure project adherence and address potential challenges.
+
+
+certifications:
+  title: Our certifications
+  content: >
+    M.D. Modern Engineering, D.P.C. is currently DBE and WBE certified. By partnering with us, you can help achieve the project's DBE and WBE participation requirements. We are committed to providing __high-quality engineering services__ while promoting diversity and inclusion in the construction industry.
+  list:
+  - title: WBE certified
+    logo: /img/logos/nycWBE.png
+  - title: DBE certified
+    logo: /img/logos/DBE-Certified-logo.png
+  - title: ENVISION SUSTAINABILITY PROFESSIONALS
+    logo: /img/partners/lg1.svg
+  - title: WATER FRONT EDGE GUIDELINE certified
+    logo: /img/logos/WEDG-opt.png
+
 
 ---

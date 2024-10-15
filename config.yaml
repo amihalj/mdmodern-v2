@@ -1,6 +1,6 @@
 baseurl: ""
-languageCode: hr-HR
-languageLang: hr
+languageCode: en-US
+languageLang: en
 title: moderndpc.com
 pluralizelisttitles: false
 sitemap:
@@ -18,61 +18,26 @@ params:
   googleTrackingId: G-VXPBR64C6K
   maxNews: 5
   social:
-    facebook: https://www.facebook.com/profile.php?id=61554597597118
-    linkedin: https://www.linkedin.com/in/josip-mihalj-26a015138
-    instagram: https://www.instagram.com/dr.josip_mihalj/
+    facebook: https://www.facebook.com/profile.php?id=md-modern-engineering
+    linkedin: https://www.linkedin.com/in/md-modern-engineering
+    instagram: https://www.instagram.com/md-modern-engineering/
   contact:
-    name: Dr. Josip Mihalj
-    email: info@moderndpc.com
-    phone: +385 919871942
-    title: orl. spec., plastični kirurg glave i vrata
-    about: > 
-      Otorinolaringolog, subspecijalist plastične kirurgije glave i vrata sa dugogodišnjim iskustvom u liječenju bolesti i tegoba u području uha, grla, nosa, i plastične kirurgije glave i vrata
-    web: www.otorina.eu
-    base_email: am9zaXAubWloYWxqQG90b3JpbmEuZXU=
+    base_email: aW5mb0Btb2Rlcm5kcGMuY29tCg==
     base_phone: KzM4NSA5MSA5ODcxOTQyCg==
-    apikey: 8085abdb-5ecf-4be2-bea9-1f2a7ac73a37
-    subject: Web upit sa otorina.eu
-  
-    labels:
-      hr:
-        form_email: Vaš email
-        form_name: Ime i prezime
-        form_success: Upit je uspješno poslan! Hvala vam na javljanju, javit ćemo vam se
-          u najkraćem mogućem roku.
-        form_message: Poruka
-        contact_info: Informacije za kontakt
-        form_error: Upit nije poslan, probajte ponovno ili pošaljite e-mail direktno.
-        phone: Telefon
-        form_subject: Naslov
-        form_submit: Pošalji upit
-        address: Adresa
-        website: Web stranica
-        email: E-mail
+    address: 295 Madison Avenue, 12th floor, New York, NY 10017
+    city: New York, NY
 
-  
-
-  slideshow:
-  - /img/main/jm-bw-relax-2.jpg
-  - /img/main/jm-head-side.jpg
-  - /img/main/jm-gray_shirt_big.jpg
-  - /img/main/jm-uniform-front.jpg
-  
-
+  footer:
+    title: Where Modern Design Meets Timeless Engineering
+    copyright: M.D. Modern Engineering
 
 menu:
-  hr:
-  - {Name: Galerija zahvata, Identifier: galery, Url: "/galerija/", Weight: 20}
-  - {Name: Kirurgija nosa i sinusa, Identifier: nos, Url: "/kirurgija-nosa-i-sinusa/", Weight: 21}
-  - {Name: Plastična kirurgija glave i vrata, Identifier: vrat, Url: "/plasticna-kirurgija-glave-i-vrata/", Weight: 22}
-  - {Name: Estetski zahvati, Identifier: estetika, Url: "/estetski-zahvati/", Weight: 23}
-  - {Name: Kontakt, Identifier: contact, Url: "/kontakt/", Weight: 24}
-  - {Name: Popis svih zahvata, Identifier: glossary, Url: "/popis-svih-zahvata/", Weight: 26}
+  main:
+  - {Name: "Home", Identifier: home, Url: "/", Weight: 10}
 
-  en:
-  - {Name: "Home", Identifier: home, Url: "/en/", Weight: 10}
-  - {Name: Gallery, Identifier: galery, Url: "/en/gallery/", Weight: 20}
-  - {Name: Estetic procedures, Identifier: estetika, Url: "/en/estetic-procedures/", Weight: 23}
-  - {Name: News, Identifier: news, Url: "/en/news/", Weight: 24}
-  - {Name: Contact, Identifier: contact, Url: "/en/contact/", Weight: 25}
-  - {Name: Hrvatski, Identifier: hr, Url: "/", Weight: 26}
+  projects:
+  - {Name: "Drainage & utilities", Identifier: utilities, Url: "/projects/drainage-and-utilities", Weight: 10}
+  - {Name: "Transportation", Identifier: transportation, Url: "/projects/transportation", Weight: 20}
+  - {Name: "Aviation", Identifier: aviation, Url: "/projects/aviation", Weight: 30}
+  - {Name: "Sustainability", Identifier: sustainability, Url: "/projects/sustainability", Weight: 40}
+

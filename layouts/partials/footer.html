@@ -1,5 +1,6 @@
     <!--  Start footer  -->
     <footer class="tc-footer-style3">
+    <div id="ktk-eml-inf" data-inf="{{ .Site.Params.contact.base_email }}"></div>
     <div class="container">
         <div class="top-info">
             <div class="row gx-0 align-items-end">
@@ -9,7 +10,7 @@
                     </a>
                 </div>
                 <div class="col-lg-4">
-                    <a href="#" class="text-uppercase mb-5 mb-lg-0"> <span> private client </span> <i class="ti-arrow-top-right ms-2"></i> </a>
+                    <!--<a href="#" class="text-uppercase mb-5 mb-lg-0"> <span> private client </span> <i class="ti-arrow-top-right ms-2"></i> </a>-->
                 </div>
                 <div class="col-lg-4">
                     <div class="top-links text-lg-end mb-5 mb-lg-0">
@@ -25,29 +26,20 @@
         <div class="main-content">
             <div class="row">
                 <div class="col-lg-2 mb-5 mb-lg-0">
-                    <h5 class="fsz-24 text-uppercase fw-500 lh-5"> timeless, <br> sustainable & <br> stable </h5>
+                    <h5 class="fsz-24 text-uppercase fw-500 lh-5"> {{ .Site.Params.footer.title | markdownify }} </h5>
                 </div>
-                <div class="col-lg-3 offset-lg-2 mb-5 mb-lg-0">
+                <div class="col-lg-5 offset-lg-2 mb-5 mb-lg-0">
                     <div class="adresses">
                         <div class="adress-card mb-70">
-                            <h5 class="fsz-24 text-uppercase fw-500 lh-5 mb-4"> Boston, MA </h5>
+                            <h5 class="fsz-24 text-uppercase fw-500 lh-5 mb-4">{{ .Site.Params.contact.city }}</h5>
                             <ul class="color-999 lh-5">
-                                <li> <a href="#"> 49 Brimmer St, Boston, MA 02108 </a> </li>
-                                <li> <a href="#"> hello@archinconstruction.com </a> </li>
-                                <li> <a href="#"> (054) 3256 78 87 </a> </li>
-                            </ul>
-                        </div>
-                        <div class="adress-card">
-                            <h5 class="fsz-24 text-uppercase fw-500 lh-5 mb-4"> Portland, OR </h5>
-                            <ul class="color-999 lh-5">
-                                <li> <a href="#"> 2221 Sw Broadway Dr, Portland, OR 97201 </a> </li>
-                                <li> <a href="#"> contact@archinconstruction.com </a> </li>
-                                <li> <a href="#"> (021) 4246 63 68 </a> </li>
+                                <li> <a href="#"> {{ .Site.Params.contact.address }} </a> </li>
+                                <li> <a href="#" class="ktk-eml-inf ktk-eml-inf-link"> info@domain.com </a> </li>
                             </ul>
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-2 offset-lg-1 mb-5 mb-lg-0">
+                <!--<div class="col-lg-2 offset-lg-1 mb-5 mb-lg-0">
                     <div class="links">
                         <h5 class="fsz-24 text-uppercase fw-500 lh-5 mb-4"> works </h5>
                         <ul class="color-999 lh-7">
@@ -60,33 +52,40 @@
                             <li> <a href="#"> Dallas Museum </a> </li>
                         </ul>
                     </div>
-                </div>
+                </div>-->
                 <div class="col-lg-2">
+                    {{ with .Site.Params.social }}
                     <div class="social">
                         <h5 class="fsz-24 text-uppercase fw-500 lh-5 mb-4"> Social </h5>
                         <div class="social-links">
-                            <a href="#"> <i class="lab la-twitter"></i> </a>
-                            <a href="#"> <i class="lab la-facebook-f"></i> </a>
-                            <a href="#"> <i class="lab la-instagram"></i> </a>
-                            <a href="#"> <i class="lab la-linkedin-in"></i> </a>
-                            <a href="#"> <i class="lab la-youtube"></i> </a>
+                            {{ with .twitter }}
+                            <a href="{{ .}}"> <i class="lab la-twitter"></i> </a>
+                            {{ end }}
+                            {{ with .linkedin }}
+                            <a href="{{ .}}"> <i class="lab la-linkedin"></i> </a>
+                            {{ end }}
+                            {{ with .instagram }}
+                            <a href="{{ .}}"> <i class="lab la-instagram"></i> </a>
+                            {{ end }}
                         </div>
                     </div>
+                    {{ end }}
                 </div>
             </div>
         </div>
         <div class="foot">
             <div class="row align-items-center">
-                <div class="col-lg-4">
+                <!--<div class="col-lg-4">
                     <div class="btn-select">
                         <select name="" id="" class="form-select">
                             <option value="">English</option>
                             <option value="">Arabic</option>
                         </select>
                     </div>
-                </div>
+                </div>-->
+                <div class="col-lg-4"></div>
                 <div class="col-lg-4 mt-4 mt-lg-0">
-                    <p class="color-999"> © 2023 Archin Construction. All Right Reserved </p>
+                    <p class="color-999 text-center"> © <script>document.write(new Date().getFullYear());</script> {{ .Site.Params.footer.copyright }} </p>
                 </div>
             </div>
         </div>

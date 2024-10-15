@@ -101,6 +101,14 @@ $( function() {
             toTop.removeClass("show");
         }
     });
+
+    (function(emailFrom){
+        const emailTo = $(".ktk-eml-inf");
+        const emailToLink = $(".ktk-eml-inf-link");
+        const val = atob(emailFrom.attr('data-inf'));
+        emailToLink.attr('href', `mailto:${val}`);
+        emailTo.html(val);
+      })($("#ktk-eml-inf"));
         
 });
 

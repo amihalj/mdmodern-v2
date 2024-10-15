@@ -4,29 +4,76 @@
     {{ partial "header-video" . }}
 {{ end }}
 {{ define "main"}}
+
+
+{{ with .Params.about_us }}
+<!--  Start about  -->
+<section class="tc-about-style3">
+    <div class="top-info">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3">
+                    <div class="info">
+                        <h5 class="fsz-30 text-uppercase mb-80"> {{ .title }} </h5>
+                        <div class="text paraf-bottom fsz-18 mb-15">
+                            {{ .content | markdownify }}
+                        </div>
+                        <!--<a href="#" class="butn borderd mt-70 bg-white py-2 px-3 text-uppercase ltspc-1 hover-bg-yellow1">
+                            <span> About us <i class="small ms-1 ti-arrow-top-right"></i> </span>
+                        </a>-->
+                    </div>
+                </div>
+                <div class="col-lg-8 offset-lg-1">
+                    <div class="numbers-boxes">
+                        <div class="sm-card js-splittext-lines" data-speed="1" data-lag="0.4">
+                            <img src="{{ .boxes.left.img }}" alt="{{ .boxes.left.title }}"/>
+                            <p class="p text-uppercase"> {{ .boxes.left.title }} </p>
+                        </div>
+                        <div class="md-card js-splittext-lines" data-speed="1" data-lag="0.8">
+                            <img src="{{ .boxes.middle.img }}" alt="{{ .boxes.middle.title }}"/>
+                            <p class="p text-uppercase"> {{ .boxes.middle.title }} </p>
+                        </div>
+                        <div class="lg-card js-splittext-lines" data-speed="1" data-lag="0.2">
+                            <img src="{{ .boxes.right.img }}" alt="{{ .boxes.right.title }}"/>
+                            <h6 class="text-uppercase text-end fsz-18 lh-4"> {{ .boxes.right.title }} </h6>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <img src="/img/about_pat.png" alt="" class="pattern">
+    </div>
+    <div class="img-content wow">
+        <img src="/img/about.jpg" alt="" class="img-cover main-img">
+    </div>
+</section>
+<!--  End about  -->
+{{ end }}
+
+{{ with .Params.services }}
 <!--  Start services  -->
 <section class="tc-services-style3">
     <div class="container">
         <div class="top-inf mb-80">
             <div class="row">
                 <div class="col-lg-4">
-                    <h5 class="fsz-30 text-uppercase wow fadeInUp slow" data-wow-delay="0.2s"> our services </h5>
+                    <h5 class="fsz-30 text-uppercase wow fadeInUp slow" data-wow-delay="0.2s">{{ .title }}</h5>
                 </div>
-                <div class="col-lg-4">
+                <div class="col-lg-8">
                     <div class="text fsz-18 mt-4 mt-lg-0 pe-lg-5 wow fadeInUp slow" data-wow-delay="0.4s">
-                        ARCHIN Constructions has a passion for perfection. We see great value in focusing on the finer details that can make a big difference to the end result
+                        {{ .content | markdownify }}
                     </div>
                 </div>
-                <div class="col-lg-4">
+                <!--<div class="col-lg-4">
                     <div class="text fsz-18 mt-4 mt-lg-0 wow fadeInUp slow" data-wow-delay="0.6s">
                         We commitment to quality design & projects are always delivered to an exceptional standard.
                     </div>
-                </div>
+                </div>-->
             </div>
         </div>
         <div class="servives-cards">
             <div class="row gx-0">
-                <div class="col-lg-4">
+                <!--<div class="col-lg-4">
                     <a href="#" class="service-card wow fadeInLeft" data-wow-delay="0.6s">
                         <div class="num">
                             <span class="num-cir"> 1 </span>
@@ -70,56 +117,48 @@
                     <a href="#" class="all-card wow fadeInUp" data-wow-delay="0.4s">
                         <span> Full <br> Services <i class="ti-arrow-top-right"></i> </span>
                     </a>
-                </div>
+                </div>-->
+                {{ range $k, $v := .list }}
+                    {{ if lt $k 3}}
+                    {{ if eq (mod $k 3) 0}}
+                    <div class="col-lg-4">
+                        <a href="#" class="service-card wow fadeInLeft" data-wow-delay="0.6s">
+                    {{ end }}
+                    {{ if eq (mod $k 3) 1}}
+                    <div class="col-lg-6">
+                        <a href="#" class="service-card wow zoomIn" data-wow-delay="0.2s">
+                    {{ end }}
+                    {{ if eq (mod $k 3) 2}}
+                    <div class="col-lg-2">
+                        <a href="#" class="service-card sm-card wow fadeInRight" data-wow-delay="0.8s">
+                    {{ end }}
+                    
+                            <div class="num">
+                                <span class="num-cir"> {{ add $k 1 }} </span>
+                            </div>
+                            <div class="img">
+                                <img src="{{ $v.logo }}" alt="" class="img-cover">
+                            </div>
+                            <div class="info">
+                                <p class="fsz-14 color-666"> {{ $v.sum }} </p>
+                                <h3 class="fsz-45 text-uppercase fw-500 mt-15"> {{ $v.title }} </h3>
+                            </div>
+                        </a>
+                        {{ if eq (mod $k 3) 2}}
+                        <a href="#" class="all-card wow fadeInUp" data-wow-delay="0.4s">
+                            <span> Full <br> Services <i class="ti-arrow-top-right"></i> </span>
+                        </a>
+                        {{ end }}
+                    </div>
+                    {{ end }}
+                {{ end }}
             </div>
         </div>
     </div>
 </section>
 <!--  End services  -->
-
-{{ with .Params.about_us }}
-<!--  Start about  -->
-<section class="tc-about-style3">
-    <div class="top-info">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-3">
-                    <div class="info">
-                        <h5 class="fsz-30 text-uppercase mb-80"> {{ .title }} </h5>
-                        <div class="text paraf-bottom fsz-18 mb-15">
-                            {{ .content | markdownify }}
-                        </div>
-                        <a href="#" class="butn borderd mt-70 bg-white py-2 px-3 text-uppercase ltspc-1 hover-bg-yellow1">
-                            <span> About us <i class="small ms-1 ti-arrow-top-right"></i> </span>
-                        </a>
-                    </div>
-                </div>
-                <div class="col-lg-8 offset-lg-1">
-                    <div class="numbers-boxes">
-                        <div class="sm-card js-splittext-lines" data-speed="1" data-lag="0.4">
-                            <h4 class="fsz-70 mb-30"> {{ .boxes.left.number }} </h4>
-                            <p class="p text-uppercase"> {{ .boxes.left.title }} </p>
-                        </div>
-                        <div class="md-card js-splittext-lines" data-speed="1" data-lag="0.8">
-                            <h3 class="fsz-90 mb-90 fw-500"> {{ .boxes.middle.number }} </h3>
-                            <p class="p text-uppercase"> {{ .boxes.middle.title }} </p>
-                        </div>
-                        <div class="lg-card js-splittext-lines" data-speed="1" data-lag="0.2">
-                            <h2 class="fw-500"> {{ .boxes.right.number }} </h2>
-                            <h6 class="text-uppercase text-end fsz-18 lh-4"> {{ .boxes.right.title }} </h6>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <img src="/img/about_pat.png" alt="" class="pattern">
-    </div>
-    <div class="img-content wow">
-        <img src="/img/about.jpg" alt="" class="img-cover main-img">
-    </div>
-</section>
-<!--  End about  -->
 {{ end }}
+
 
 {{ with .Params.portfolio }}
 <!--  Start portfolio  -->
@@ -132,10 +171,10 @@
                 </div>
                 <div class="col-lg-6 mt-4 mt-lg-0">
                     <div class="links wow fadeInUp slow" data-wow-delay="0.4s">
-                        <a href="#"> all </a>
-                        <a href="#"> Construct </a>
-                        <a href="#"> interior </a>
-                        <a href="#"> renovation </a>
+                        {{ range .groups }}
+                            <!--<li><a href="{{ .URL }}">{{ .Name }}</a></li>-->
+                            <a href="#" class="project group-link" data-group="{{ .group }}">{{ .title }}</a>
+                        {{ end }}
                     </div>
                 </div>
                 <div class="col-lg-2 text-lg-end mt-4 mt-lg-0">
@@ -146,7 +185,7 @@
         <div class="projects-slider">
             <div class="swiper-wrapper">
                 {{ range .projects }}
-                <div class="swiper-slide">
+                <div class="swiper-slide group-target" data-group="{{ .group }}">
                     <div class="project-card">
                         <div class="row">
                             <div class="col-lg-3">
@@ -178,8 +217,8 @@
 <!--  End portfolio  -->
 {{ end }}
 
-{{ with .Params.partners }}
-<!--  Start partners  -->
+{{ with .Params.certifications }}
+<!--  Start certifications  -->
 <section class="tc-partners-style3">
     <div class="container">
         <div class="title mb-80">
@@ -193,18 +232,18 @@
             </div>
         </div>
         <div class="logos">
-            {{ range .list }}
-            <a href="#" class="logo-card wow fadeInUp slow" data-wow-delay="0.2s">
-                <span class="num">1</span>
-                <img src="{{ .logo }}" alt="" class="logo">
-                <p> {{ .title }} </p>
-            </a>
+            {{ range $k, $v := .list }}
+            <span class="logo-card wow fadeInUp slow" data-wow-delay="0.2s">
+                <span class="num">{{ add $k 1 }}</span>
+                <img src="{{ $v.logo }}" alt="" class="cert logo">
+                <p class="title"> {{ $v.title }} </p>
+            </span>
             {{ end }}
         </div>
     </div>
     <img src="/img/background/bg_pattern.png" alt="" class="bg" data-speed="0.8">
 </section>
-<!--  End partners  -->
+<!--  End certifications  -->
 
 {{ end }}
 

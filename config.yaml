@@ -11,7 +11,8 @@ params:
   sitename: moderndpc.com
   copyright: moderndpc.com
   organization: Modern Engineering
-  logo: /img/logos/logo_splash_400.png
+  logo: /img/logos/logo_menu.png
+  logo_splash: /img/logos/logo_splash_400.png
   intro_video: https://res.cloudinary.com/dceernr67/video/upload/v1719520642/modern-engineering-web/ppvxfcadlupusor1ora7.mp4
   powerBy: powered by [We bring apps](webringapps.com)
   googleVerification:

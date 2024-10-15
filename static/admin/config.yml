@@ -260,6 +260,127 @@ collections: # A list of collections the CMS should be able to edit
     editor:
       preview: false
     files:
+      - name: "home"
+        label: "Home"
+        file: "content/_index.md"
+        description: "Home page"
+        fields:
+          - label: Meta
+            name: meta
+            widget: "object"
+            fields:
+              - { label: "Title", name: title, widget: string }
+              - { label: "Keywords", name: keywords, widget: string, required: false }
+              - { label: "Description", name: description, widget: string, required: false }
+              - { label: "Headline", name: headline, widget: string, required: false }
+          - { label: "Heading", name: "h1", widget: "string" }
+
+          - label: About us
+            name: about_us
+            widget: object
+            fields:
+              - { label: "Title", name: title, widget: string }
+              - { label: "Text", name: content, widget: markdown, required: false }
+              - label: Boxes
+                name: boxes
+                widget: object
+                required: true
+                fields:
+                - label: Left box
+                  name: left
+                  widget: object
+                  required: true
+                  fields:
+                  - { label: "Title", name: title, widget: string, required: false }
+                  - { label: "Logo", name: logo, widget: string, required: false }
+                - label: Middle box
+                  name: middle
+                  widget: object
+                  required: true
+                  fields:
+                  - { label: "Title", name: title, widget: string, required: false }
+                  - { label: "Logo", name: logo, widget: string, required: false }
+                - label: Right box
+                  name: right
+                  widget: object
+                  required: true
+                  fields:
+                  - { label: "Title", name: title, widget: string, required: false }
+                  - { label: "Logo", name: logo, widget: string, required: false }
+
+          - label: Portfolio
+            name: portfolio
+            widget: object
+            fields:
+              - { label: "Title", name: title, widget: string }
+              - { label: "Text", name: content, widget: markdown, required: false }
+              - label: Groups
+                name: groups
+                widget: list
+                required: true
+                fields:
+                - { label: "Title", name: title, widget: string, required: true }
+                - { label: "Group", name: group, widget: string, required: true }
+              - label: Projects
+                name: projects
+                widget: list
+                required: true
+                fields:
+                - { label: "Title", name: title, widget: string, required: false }
+                - { label: "Tags", name: tags, widget: string, required: false }
+                - { label: "Text", name: content, widget: markdown, required: false }
+                - label: Project image
+                  name: img
+                  widget: object
+                  fields:
+                    - { label: "Image link", name: src, widget: string }
+                    - { label: "Alt", name: alt, widget: string, required: false }
+
+          - label: Services
+            name: services
+            widget: object
+            fields:
+              - { label: "Title", name: title, widget: string }
+              - { label: "Text", name: content, widget: markdown, required: false }
+              - label: List of services
+                name: list
+                widget: list
+                required: true
+                fields:
+                - { label: "Title", name: title, widget: string, required: false }
+                - { label: "Image", name: logo, widget: string, required: false }
+                - { label: "Intro", name: intro, widget: string, required: false }
+                - { label: "Text", name: content, widget: markdown, required: false }
+
+          - label: Partners
+            name: partners
+            widget: object
+            fields:
+              - { label: "Title", name: title, widget: string }
+              - { label: "Text", name: content, widget: markdown, required: false }
+              - label: List of Partners
+                name: list
+                widget: list
+                required: true
+                fields:
+                - { label: "Title", name: title, widget: string, required: false }
+                - { label: "Image", name: logo, widget: string, required: false }
+
+          - label: Certifications
+            name: certifications
+            widget: object
+            fields:
+              - { label: "Title", name: title, widget: string }
+              - { label: "Text", name: content, widget: markdown, required: false }
+              - label: List of certificates
+                name: list
+                widget: list
+                required: true
+                fields:
+                - { label: "Title", name: title, widget: string, required: false }
+                - { label: "Logo", name: logo, widget: string, required: false }
+
+
       - name: "about_me"
         label: "O meni"
         file: "content/about-me.md"

@@ -20,20 +20,18 @@ about_us:
 
     We specialize in providing consulting services to public agencies, offering expertise in areas such as transportation, water resources, structural engineering, and environmental sustainability.
 
-
-
   boxes:
     left:
       title: B-CORP PENDING
-      img: /img/logos/DBE-Certified-logo.png
+      logo: /img/assets/logos/DBE-Certified-logo.png
       number: 55
     middle:
       title: DBE-CERTIFIED
-      img: /img/logos/DBE-Certified-logo.png
+      logo: /img/assets/logos/DBE-Certified-logo.png
       number: 154
     right:
       title: WOMEN-OWNED AND OPERATED
-      img: /img/logos/DBE-Certified-logo.png
+      logo: /img/assets/logos/DBE-Certified-logo.png
       number: 8
   
 portfolio:
@@ -56,7 +54,7 @@ portfolio:
 
       and still do!
     image:
-      src: /img/projects/proj1.jpg
+      src: /img/assets/projects/proj1.jpg
       alt: small project 1
   - title: Small project 2
     tags: construction, project management
@@ -66,7 +64,7 @@ portfolio:
 
       and still do!
     image:
-      src: /img/projects/proj2.jpg
+      src: /img/assets/projects/proj2.jpg
       alt: small project 2
   - title: Small project 3
     tags: construction, project management
@@ -76,7 +74,7 @@ portfolio:
 
       and still do!
     image:
-      src: /img/projects/proj3.jpg
+      src: /img/assets/projects/proj3.jpg
       alt: small project 3
 
 partners:
@@ -103,34 +101,34 @@ services:
     Our team possesses in-depth knowledge of civil/roadway, drainage, and utilities engineering, making us ideally suited to contribute to the success of your next infrastructure project.
   list:
   - title: Civil / Roadway Engineering
-    logo: /img/services/ser1.jpg
-    sum: 12 cases
-    description: We provide comprehensive civil and roadway engineering services, including planning, design, and construction administration for roadways, airports, highways, and other transportation infrastructure.
+    logo: /img/assets/services/ser1.jpg
+    intro: 12 cases
+    content: We provide comprehensive civil and roadway engineering services, including planning, design, and construction administration for roadways, airports, highways, and other transportation infrastructure.
   - title: Drainage Engineering
-    logo: /img/services/ser2.jpg
-    sum: 5 open projects
-    description: Our drainage engineers design and implement effective stormwater management solutions that comply with PANYNJ and other regulatory requirements.
+    logo: /img/assets/services/ser2.jpg
+    intro: 5 open projects
+    content: Our drainage engineers design and implement effective stormwater management solutions that comply with PANYNJ and other regulatory requirements.
   - title: Utilities Engineering
-    logo: /img/services/ser3.jpg
-    sum: 12 satisfied customers
-    description: Our utilities engineering team specializes in designing water, sewer, gas, electrical, and telecommunication systems, with expertise in 3D modeling to enhance precision and efficiency in our projects.
+    logo: /img/assets/services/ser3.jpg
+    intro: 12 satisfied customers
+    content: Our utilities engineering team specializes in designing water, sewer, gas, electrical, and telecommunication systems, with expertise in 3D modeling to enhance precision and efficiency in our projects.
   
   - title: Maintenance of Traffic (MOT)
-    logo: /img/services/ser3.jpg
-    sum: 5
-    description: We develop comprehensive MOT plans to minimize traffic disruption during construction, ensuring safety for workers and the traveling public.
+    logo: /img/assets/services/ser3.jpg
+    intro: 5
+    content: We develop comprehensive MOT plans to minimize traffic disruption during construction, ensuring safety for workers and the traveling public.
   - title: Design-Build Management
     logo: /img/partners/lg1.svg
-    sum: 5
-    description: Our engineers, including DBIA-certified professionals, have extensive Design-Build experience, ensuring a smooth and efficient project execution from concept to completion.
+    intro: 5
+    content: Our engineers, including DBIA-certified professionals, have extensive Design-Build experience, ensuring a smooth and efficient project execution from concept to completion.
   - title: Construction Administration
     logo: /img/partners/lg1.svg
-    sum: 5
-    description: Our construction administration services ensure that the project is constructed according to the plans and specifications. We will provide oversight of the construction process and address any issues that arise.
+    intro: 5
+    content: Our construction administration services ensure that the project is constructed according to the plans and specifications. We will provide oversight of the construction process and address any issues that arise.
   - title: Permitting & Stakeholder Coordination
     logo: /img/partners/lg1.svg
-    sum: 5
-    description: We prioritize early stakeholder engagement and will proactively obtain required permits and approvals. A comprehensive stakeholder management plan will ensure project adherence and address potential challenges.
+    intro: 5
+    content: We prioritize early stakeholder engagement and will proactively obtain required permits and approvals. A comprehensive stakeholder management plan will ensure project adherence and address potential challenges.
 
 
 certifications:
@@ -139,13 +137,13 @@ certifications:
     M.D. Modern Engineering, D.P.C. is currently DBE and WBE certified. By partnering with us, you can help achieve the project's DBE and WBE participation requirements. We are committed to providing __high-quality engineering services__ while promoting diversity and inclusion in the construction industry.
   list:
   - title: WBE certified
-    logo: /img/logos/nycWBE.png
+    logo: /img/assets/logos/nycWBE.png
   - title: DBE certified
-    logo: /img/logos/DBE-Certified-logo.png
+    logo: /img/assets/logos/DBE-Certified-logo.png
   - title: ENVISION SUSTAINABILITY PROFESSIONALS
     logo: /img/partners/lg1.svg
   - title: WATER FRONT EDGE GUIDELINE certified
-    logo: /img/logos/WEDG-opt.png
+    logo: /img/assets/logos/WEDG-opt.png
 
 
 ---

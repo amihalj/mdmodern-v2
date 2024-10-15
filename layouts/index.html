@@ -26,15 +26,15 @@
                 <div class="col-lg-8 offset-lg-1">
                     <div class="numbers-boxes">
                         <div class="sm-card js-splittext-lines" data-speed="1" data-lag="0.4">
-                            <img src="{{ .boxes.left.img }}" alt="{{ .boxes.left.title }}"/>
+                            <img src="{{ .boxes.left.logo }}" alt="{{ .boxes.left.title }}"/>
                             <p class="p text-uppercase"> {{ .boxes.left.title }} </p>
                         </div>
                         <div class="md-card js-splittext-lines" data-speed="1" data-lag="0.8">
-                            <img src="{{ .boxes.middle.img }}" alt="{{ .boxes.middle.title }}"/>
+                            <img src="{{ .boxes.middle.logo }}" alt="{{ .boxes.middle.title }}"/>
                             <p class="p text-uppercase"> {{ .boxes.middle.title }} </p>
                         </div>
                         <div class="lg-card js-splittext-lines" data-speed="1" data-lag="0.2">
-                            <img src="{{ .boxes.right.img }}" alt="{{ .boxes.right.title }}"/>
+                            <img src="{{ .boxes.right.logo }}" alt="{{ .boxes.right.title }}"/>
                             <h6 class="text-uppercase text-end fsz-18 lh-4"> {{ .boxes.right.title }} </h6>
                         </div>
                     </div>
@@ -64,60 +64,10 @@
                         {{ .content | markdownify }}
                     </div>
                 </div>
-                <!--<div class="col-lg-4">
-                    <div class="text fsz-18 mt-4 mt-lg-0 wow fadeInUp slow" data-wow-delay="0.6s">
-                        We commitment to quality design & projects are always delivered to an exceptional standard.
-                    </div>
-                </div>-->
             </div>
         </div>
         <div class="servives-cards">
             <div class="row gx-0">
-                <!--<div class="col-lg-4">
-                    <a href="#" class="service-card wow fadeInLeft" data-wow-delay="0.6s">
-                        <div class="num">
-                            <span class="num-cir"> 1 </span>
-                        </div>
-                        <div class="img">
-                            <img src="/img/services/ser1.jpg" alt="" class="img-cover">
-                        </div>
-                        <div class="info">
-                            <p class="fsz-14 color-666"> 24 Cases </p>
-                            <h3 class="fsz-45 text-uppercase fw-500 mt-15"> interior </h3>
-                        </div>
-                    </a>
-                </div>
-                <div class="col-lg-6">
-                    <a href="#" class="service-card wow zoomIn" data-wow-delay="0.2s">
-                        <div class="num">
-                            <span class="num-cir"> 2 </span>
-                        </div>
-                        <div class="img">
-                            <img src="/img/services/ser2.jpg" alt="" class="img-cover">
-                        </div>
-                        <div class="info">
-                            <p class="fsz-14 color-666"> 52 Cases </p>
-                            <h3 class="fsz-45 text-uppercase fw-500 mt-15"> construct </h3>
-                        </div>
-                    </a>
-                </div>
-                <div class="col-lg-2">
-                    <a href="#" class="service-card sm-card wow fadeInRight" data-wow-delay="0.8s">
-                        <div class="num">
-                            <span class="num-cir"> 3 </span>
-                        </div>
-                        <div class="img">
-                            <img src="/img/services/ser3.jpg" alt="" class="img-cover">
-                        </div>
-                        <div class="info">
-                            <p class="fsz-14 color-666"> 52 Cases </p>
-                            <h3 class="fsz-45 text-uppercase fw-500 mt-15"> revamp </h3>
-                        </div>
-                    </a>
-                    <a href="#" class="all-card wow fadeInUp" data-wow-delay="0.4s">
-                        <span> Full <br> Services <i class="ti-arrow-top-right"></i> </span>
-                    </a>
-                </div>-->
                 {{ range $k, $v := .list }}
                     {{ if lt $k 3}}
                     {{ if eq (mod $k 3) 0}}
@@ -140,7 +90,7 @@
                                 <img src="{{ $v.logo }}" alt="" class="img-cover">
                             </div>
                             <div class="info">
-                                <p class="fsz-14 color-666"> {{ $v.sum }} </p>
+                                <p class="fsz-14 color-666"> {{ $v.intro }} </p>
                                 <h3 class="fsz-45 text-uppercase fw-500 mt-15"> {{ $v.title }} </h3>
                             </div>
                         </a>

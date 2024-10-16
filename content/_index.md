@@ -23,15 +23,15 @@ about_us:
   boxes:
     left:
       title: B-CORP PENDING
-      logo: /img/assets/logos/DBE-Certified-logo.png
+      logo: /img/logos/DBE-Certified-logo.png
       number: 55
     middle:
       title: DBE-CERTIFIED
-      logo: /img/assets/logos/DBE-Certified-logo.png
+      logo: /img/logos/DBE-Certified-logo.png
       number: 154
     right:
       title: WOMEN-OWNED AND OPERATED
-      logo: /img/assets/logos/DBE-Certified-logo.png
+      logo: /img/logos/DBE-Certified-logo.png
       number: 8
   
 portfolio:
@@ -54,7 +54,7 @@ portfolio:
 
       and still do!
     image:
-      src: /img/assets/projects/proj1.jpg
+      src: /img/assets/proj1.jpg
       alt: small project 1
   - title: Small project 2
     tags: construction, project management
@@ -64,7 +64,7 @@ portfolio:
 
       and still do!
     image:
-      src: /img/assets/projects/proj2.jpg
+      src: /img/assets/proj2.jpg
       alt: small project 2
   - title: Small project 3
     tags: construction, project management
@@ -74,7 +74,7 @@ portfolio:
 
       and still do!
     image:
-      src: /img/assets/projects/proj3.jpg
+      src: /img/assets/proj3.jpg
       alt: small project 3
 
 partners:
@@ -101,20 +101,20 @@ services:
     Our team possesses in-depth knowledge of civil/roadway, drainage, and utilities engineering, making us ideally suited to contribute to the success of your next infrastructure project.
   list:
   - title: Civil / Roadway Engineering
-    logo: /img/assets/services/ser1.jpg
+    logo: /img/assets/ser1.jpg
     intro: 12 cases
     content: We provide comprehensive civil and roadway engineering services, including planning, design, and construction administration for roadways, airports, highways, and other transportation infrastructure.
   - title: Drainage Engineering
-    logo: /img/assets/services/ser2.jpg
+    logo: /img/assets/ser2.jpg
     intro: 5 open projects
     content: Our drainage engineers design and implement effective stormwater management solutions that comply with PANYNJ and other regulatory requirements.
   - title: Utilities Engineering
-    logo: /img/assets/services/ser3.jpg
+    logo: /img/assets/ser3.jpg
     intro: 12 satisfied customers
     content: Our utilities engineering team specializes in designing water, sewer, gas, electrical, and telecommunication systems, with expertise in 3D modeling to enhance precision and efficiency in our projects.
   
   - title: Maintenance of Traffic (MOT)
-    logo: /img/assets/services/ser3.jpg
+    logo: /img/assets/ser3.jpg
     intro: 5
     content: We develop comprehensive MOT plans to minimize traffic disruption during construction, ensuring safety for workers and the traveling public.
   - title: Design-Build Management
@@ -137,13 +137,13 @@ certifications:
     M.D. Modern Engineering, D.P.C. is currently DBE and WBE certified. By partnering with us, you can help achieve the project's DBE and WBE participation requirements. We are committed to providing __high-quality engineering services__ while promoting diversity and inclusion in the construction industry.
   list:
   - title: WBE certified
-    logo: /img/assets/logos/nycWBE.png
+    logo: /img/logos/nycWBE.png
   - title: DBE certified
-    logo: /img/assets/logos/DBE-Certified-logo.png
+    logo: /img/logos/DBE-Certified-logo.png
   - title: ENVISION SUSTAINABILITY PROFESSIONALS
     logo: /img/partners/lg1.svg
   - title: WATER FRONT EDGE GUIDELINE certified
-    logo: /img/assets/logos/WEDG-opt.png
+    logo: /img/logos/WEDG-opt.png
 
 
 ---

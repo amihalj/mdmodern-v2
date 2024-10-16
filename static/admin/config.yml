@@ -1,9 +1,9 @@
 backend:
   name: github
   repo: superpheebs/MD-Modern
-  branch: master
+  branch: main
 
-site_url: https://www.md-design.com
+site_url: https://modern-engineering-web.netlify.app
 
 publish_mode: editorial_workflow
 media_folder: static/img/assets
@@ -151,7 +151,7 @@ collections: # A list of collections the CMS should be able to edit
         name: intro_images
         widget: list
         fields:
-        - { label: "Title", name: title, widget: string, required: false }
+        - { label: "Title", name: title, widget: string }
         - { label: "Tag", name: tag, widget: string, required: false }
         - { label: "Class", name: class, widget: select, options: ["gold", "dark", "gray"] }
         - { label: "Image", name: image, widget: image, class: "thumb" }
@@ -161,7 +161,7 @@ collections: # A list of collections the CMS should be able to edit
         name: sections
         widget: list
         fields:
-          - { label: "Title", name: title, widget: string, required: false }
+          - { label: "Title", name: title, widget: string }
           - { label: "Class", name: class, widget: string, required: false }
           - { label: "Text", name: content, widget: markdown, required: false }
           - label: Section images
@@ -212,22 +212,22 @@ collections: # A list of collections the CMS should be able to edit
                   widget: object
                   required: true
                   fields:
-                  - { label: "Title", name: title, widget: string, required: false }
-                  - { label: "Logo", name: logo, widget: string, required: false }
+                  - { label: "Title", name: title, widget: string }
+                  - { label: "Logo", name: logo, widget: image, required: false }
                 - label: Middle box
                   name: middle
                   widget: object
                   required: true
                   fields:
-                  - { label: "Title", name: title, widget: string, required: false }
-                  - { label: "Logo", name: logo, widget: string, required: false }
+                  - { label: "Title", name: title, widget: string }
+                  - { label: "Logo", name: logo, widget: image, required: false }
                 - label: Right box
                   name: right
                   widget: object
                   required: true
                   fields:
-                  - { label: "Title", name: title, widget: string, required: false }
-                  - { label: "Logo", name: logo, widget: string, required: false }
+                  - { label: "Title", name: title, widget: string }
+                  - { label: "Logo", name: logo, widget: image, required: false }
 
           - label: Portfolio
             name: portfolio
@@ -240,21 +240,21 @@ collections: # A list of collections the CMS should be able to edit
                 widget: list
                 required: true
                 fields:
-                - { label: "Title", name: title, widget: string, required: true }
-                - { label: "Group", name: group, widget: string, required: true }
+                - { label: "Title", name: title, widget: string }
+                - { label: "Group", name: group, widget: string }
               - label: Projects
                 name: projects
                 widget: list
                 required: true
                 fields:
-                - { label: "Title", name: title, widget: string, required: false }
+                - { label: "Title", name: title, widget: string }
                 - { label: "Tags", name: tags, widget: string, required: false }
                 - { label: "Text", name: content, widget: markdown, required: false }
                 - label: Project image
                   name: img
                   widget: object
                   fields:
-                    - { label: "Image link", name: src, widget: string }
+                    - { label: "Image link", name: src, widget: image }
                     - { label: "Alt", name: alt, widget: string, required: false }
 
           - label: Services
@@ -268,8 +268,8 @@ collections: # A list of collections the CMS should be able to edit
                 widget: list
                 required: true
                 fields:
-                - { label: "Title", name: title, widget: string, required: false }
-                - { label: "Image", name: logo, widget: string, required: false }
+                - { label: "Title", name: title, widget: string }
+                - { label: "Image", name: logo, widget: image, required: false }
                 - { label: "Intro", name: intro, widget: string, required: false }
                 - { label: "Text", name: content, widget: markdown, required: false }
 
@@ -284,8 +284,8 @@ collections: # A list of collections the CMS should be able to edit
                 widget: list
                 required: true
                 fields:
-                - { label: "Title", name: title, widget: string, required: false }
-                - { label: "Image", name: logo, widget: string, required: false }
+                - { label: "Title", name: title, widget: string }
+                - { label: "Logo", name: logo, widget: image }
 
           - label: Certifications
             name: certifications
@@ -298,5 +298,5 @@ collections: # A list of collections the CMS should be able to edit
                 widget: list
                 required: true
                 fields:
-                - { label: "Title", name: title, widget: string, required: false }
-                - { label: "Logo", name: logo, widget: string, required: false }
+                - { label: "Title", name: title, widget: string }
+                - { label: "Logo", name: logo, widget: image }

@@ -1,13 +1,13 @@
 ---
 draft: false
 meta:
-  title: M&D Design
+  title: "M.D. Modern Engineering "
   keywords: civil engineering,roadway design,highway design,drainage analysis
   description: "We are a woman-owned New York City based civil engineering firm
     dedicated to delivering high-quality engineering solutions for public
     infrastructure projects in New York City. "
   headline: null
-h1: M&D Design
+h1: "M.D. Modern Engineering "
 about_us:
   title: Who we are
   content: >
@@ -30,12 +30,6 @@ about_us:
       title: WOMEN-OWNED AND OPERATED
       logo: /img/logos/DBE-Certified-logo.png
       number: 8
-  big_image:
-    img: /img/manhattan.jpg
-    cls: img-cover main-img
-    image_l: /img/manhattan.jpg
-    image_m: /img/manhattan.jpg
-    image_s: /img/manhattan.jpg 
 portfolio:
   title: Project highlites
   groups:
@@ -57,6 +51,8 @@ portfolio:
       image:
         src: /img/assets/proj1.jpg
         alt: small project 1
+      img:
+        src: /img/assets/proj1.jpg
     - title: Small project 2
       tags: construction, project management
       content: |
@@ -66,6 +62,8 @@ portfolio:
       image:
         src: /img/assets/proj2.jpg
         alt: small project 2
+      img:
+        src: /img/assets/proj2.jpg
     - title: Small project 3
       tags: construction, project management
       content: |
@@ -75,6 +73,8 @@ portfolio:
       image:
         src: /img/assets/proj3.jpg
         alt: small project 3
+      img:
+        src: /img/assets/proj3.jpg
 services:
   title: Our services
   content: >
@@ -141,18 +141,7 @@ partners:
       logo: /img/partners/lg1.svg
     - title: Partner four
       logo: /img/partners/lg1.svg
-team:
-  title: Meet our team
-  list:
-    - name: Lindsay Maguire
-      title: PE, DBIA
-      position: President
-      img: /img/people/maguire.jpg
-    - name: Phoebe Douglas
-      title: ENV SP, EIT
-      position: Vice President
-      img: /img/people/douglas.jpg
-date: 2024-05-21T16:47:17+02:00
+date: 2022-05-21T16:47:17+02:00
 title: Home
 certifications:
   title: Our certifications
@@ -168,7 +157,7 @@ certifications:
     - title: DBE certified
       logo: /img/logos/DBE-Certified-logo.png
     - title: ENVISION SUSTAINABILITY PROFESSIONALS
-      logo: /img/logos/envision_noname.png
+      logo: /img/logos/envision.png
     - title: WATER FRONT EDGE GUIDELINE certified
       logo: /img/logos/WEDG-opt.png
 type: home

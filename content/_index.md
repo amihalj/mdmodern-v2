@@ -51,8 +51,6 @@ portfolio:
       image:
         src: /img/assets/proj1.jpg
         alt: small project 1
-      img:
-        src: /img/assets/proj1.jpg
     - title: Small project 2
       tags: construction, project management
       content: |
@@ -62,8 +60,6 @@ portfolio:
       image:
         src: /img/assets/proj2.jpg
         alt: small project 2
-      img:
-        src: /img/assets/proj2.jpg
     - title: Small project 3
       tags: construction, project management
       content: |
@@ -73,8 +69,6 @@ portfolio:
       image:
         src: /img/assets/proj3.jpg
         alt: small project 3
-      img:
-        src: /img/assets/proj3.jpg
 services:
   title: Our services
   content: >
@@ -141,7 +135,18 @@ partners:
       logo: /img/partners/lg1.svg
     - title: Partner four
       logo: /img/partners/lg1.svg
-date: 2022-05-21T16:47:17+02:00
+team:
+  title: Meet our team
+  list:
+    - name: Lindsay Maguire
+      title: PE, DBIA
+      position: President
+      img: /img/assets/ser1.jpg
+    - name: Phoebe Douglas
+      title: ENV SP, EIT
+      position: Vice President
+      img: /img/assets/ser1.jpg
+date: 2024-05-21T16:47:17+02:00
 title: Home
 certifications:
   title: Our certifications

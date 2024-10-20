@@ -41,3 +41,35 @@
         height: 120px;
     }
 }
+
+.tc-team-style3 {
+    position: relative;
+    padding: 140px 0;
+    background-color: #ececec;
+    overflow: hidden;
+
+    .team-members {
+        .team-member {
+            text-align: center;
+
+            .name {
+                font-size: 2rem;
+            }
+
+            .title {
+                font-size: 1rem;
+                font-style: italic;
+            }
+
+            .position{
+                font-size: 1rem;
+            }
+
+            img.person{
+                border-radius: 50%;
+                width: 300px;
+                height: 300px;
+            }
+        }
+    }
+}

@@ -273,13 +273,13 @@ collections: # A list of collections the CMS should be able to edit
                 - { label: "Intro", name: intro, widget: string, required: false }
                 - { label: "Text", name: content, widget: markdown, required: false }
 
-          - label: Partners
-            name: partners
+          - label: Clients
+            name: clients
             widget: object
             fields:
               - { label: "Title", name: title, widget: string }
               - { label: "Text", name: content, widget: markdown, required: false }
-              - label: List of Partners
+              - label: List of clients
                 name: list
                 widget: list
                 required: true
@@ -300,3 +300,19 @@ collections: # A list of collections the CMS should be able to edit
                 fields:
                 - { label: "Title", name: title, widget: string }
                 - { label: "Logo", name: logo, widget: image }
+
+          - label: Our team
+            name: team
+            widget: object
+            fields:
+              - { label: "Title", name: title, widget: string }
+              - { label: "Text", name: content, widget: markdown, required: false }
+              - label: List of team members
+                name: list
+                widget: list
+                required: true
+                fields:
+                - { label: "Name", name: name, widget: string }
+                - { label: "Position", name: position, widget: string }
+                - { label: "Image", name: img, widget: image }
+                - { label: "Text", name: content, widget: markdown, required: false }

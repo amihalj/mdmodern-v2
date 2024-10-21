@@ -162,7 +162,7 @@ certifications:
     - title: DBE certified
       logo: /img/logos/DBE-Certified-logo.png
     - title: ENVISION SUSTAINABILITY PROFESSIONALS
-      logo: /img/logos/envision.png
+      logo: /img/logos/envision_noname.png
     - title: WATER FRONT EDGE GUIDELINE certified
       logo: /img/logos/WEDG-opt.png
 type: home

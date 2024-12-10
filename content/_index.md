@@ -19,19 +19,19 @@ about_us:
     We specialize in providing consulting services to public agencies, offering expertise in areas such as transportation, water resources, structural engineering, and environmental sustainability.
   boxes:
     left:
-      title: B-CORP PENDING
+      title: DBE CERTIFIED
       logo: /img/logos/DBE-Certified-logo.png
       number: 55
     middle:
-      title: DBE-CERTIFIED
+      title: WOMEN-OWNED AND OPERATED
       logo: /img/logos/DBE-Certified-logo.png
       number: 154
     right:
-      title: WOMEN-OWNED AND OPERATED
+      title: "DBIA CERTIFIED "
       logo: /img/logos/DBE-Certified-logo.png
       number: 8
 portfolio:
-  title: Project highlites
+  title: Project Highlights
   groups:
     - title: Drainage & utilities
       group: drainage-and-utilities
@@ -75,6 +75,23 @@ portfolio:
         alt: small project 3
       img:
         src: /img/assets/proj3.jpg
+clients:
+  title: Who We Serve
+partners:
+  title: Our partners
+  content: |
+    Our parthers bla bla
+  list:
+    - title: Partner one
+      logo: /img/partners/lg1.svg
+    - title: Partner two
+      logo: /img/partners/lg1.svg
+    - title: Partner three
+      logo: /img/partners/lg1.svg
+    - title: Partner four
+      logo: /img/partners/lg1.svg
+date: 2022-05-21T16:47:17+02:00
+title: Home
 services:
   title: Our services
   content: >
@@ -128,21 +145,6 @@ services:
       content: We prioritize early stakeholder engagement and will proactively obtain
         required permits and approvals. A comprehensive stakeholder management
         plan will ensure project adherence and address potential challenges.
-partners:
-  title: Our partners
-  content: |
-    Our parthers bla bla
-  list:
-    - title: Partner one
-      logo: /img/partners/lg1.svg
-    - title: Partner two
-      logo: /img/partners/lg1.svg
-    - title: Partner three
-      logo: /img/partners/lg1.svg
-    - title: Partner four
-      logo: /img/partners/lg1.svg
-date: 2022-05-21T16:47:17+02:00
-title: Home
 certifications:
   title: Our certifications
   content: >
@@ -161,4 +163,6 @@ certifications:
     - title: WATER FRONT EDGE GUIDELINE certified
       logo: /img/logos/WEDG-opt.png
 type: home
+team:
+  title: Who We Are
 ---

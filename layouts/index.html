@@ -43,9 +43,11 @@
         </div>
         <img src="/img/about_pat.png" alt="" class="pattern">
     </div>
+    {{ with .big_image}}
     <div class="img-content wow">
-        <img src="/img/about.jpg" alt="" class="img-cover main-img">
+        <img src="{{ .img }}" alt="{{ .alt }}" class="img-cover main-img">
     </div>
+    {{ end }}
 </section>
 <!--  End about  -->
 {{ end }}

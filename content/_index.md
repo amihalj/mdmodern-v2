@@ -30,6 +30,12 @@ about_us:
       title: WOMEN-OWNED AND OPERATED
       logo: /img/logos/DBE-Certified-logo.png
       number: 8
+  big_image:
+    img: /img/manhattan.jpg
+    cls: img-cover main-img
+    image_l: /img/manhattan.jpg
+    image_m: /img/manhattan.jpg
+    image_s: /img/manhattan.jpg 
 portfolio:
   title: Project highlites
   groups:
@@ -141,11 +147,11 @@ team:
     - name: Lindsay Maguire
       title: PE, DBIA
       position: President
-      img: /img/assets/ser1.jpg
+      img: /img/people/maguire.jpg
     - name: Phoebe Douglas
       title: ENV SP, EIT
       position: Vice President
-      img: /img/assets/ser1.jpg
+      img: /img/people/douglas.jpg
 date: 2024-05-21T16:47:17+02:00
 title: Home
 certifications:

@@ -20,5 +20,5 @@
     {{ with .image_micro}}
     <source media="(min-width: 0px)" sizes="90vw" data-srcset="{{ . }}">
     {{ end }}
-    <img data-src="{{ .img }}" alt="{{ .alt }}" class="lazyload" >
+    <img data-src="{{ .img }}" alt="{{ .alt }}" class="lazyload {{ with .cls }}{{ . }}{{ end }}" >
   </picture>

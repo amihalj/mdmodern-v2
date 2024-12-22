@@ -21,16 +21,16 @@ about_us:
     We specialize in providing consulting services to public agencies, offering expertise in areas such as transportation, water resources, structural engineering, and environmental sustainability.
   boxes:
     left:
-      title: "CERTIFIED DBE "
+      title: .
       logo: /img/logos/DBE-Certified-logo.png
       number: 55
     middle:
-      title: WOMEN-OWNED AND OPERATED
-      logo: /img/logos/DBE-Certified-logo.png
+      title: .
+      logo: /img/assets/caio-silva-jolwqyfvvtw-unsplash.jpg
       number: 154
     right:
-      title: "DBIA CERTIFIED "
-      logo: /img/logos/DBE-Certified-logo.png
+      title: .
+      logo: /img/assets/michael-qmggkvgr5mc-unsplash.jpg
       number: 8
 portfolio:
   title: PROJECT HIGHLIGHTS
@@ -150,7 +150,7 @@ services:
         Design-Build experience, ensuring a smooth and efficient project
         execution from concept to completion.
     - title: Construction Administration
-      logo: /img/assets/kevin-bosc-qpcf90iz6ju-unsplash.jpg
+      logo: /img/assets/proj1.jpg
       intro: 5
       content: Our construction administration services ensure that the project is
         constructed according to the plans and specifications. We will provide
@@ -187,4 +187,11 @@ certifications:
 type: home
 team:
   title: Who We Are
+  list:
+    - name: Lindsay Maguire, PE, ENV SP, DBIA, WEDG
+      position: President
+      img: /img/assets/maguire_headshot.png
+    - name: Phoebe Douglas, EIT, ENV SP, WEDG
+      position: Vice President
+      img: /img/assets/douglas_headshot.png
 ---

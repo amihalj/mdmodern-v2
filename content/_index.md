@@ -203,7 +203,7 @@ services:
         required permits and approvals. A comprehensive stakeholder management
         plan will ensure project adherence and address potential challenges.
 certifications:
-  title: Our certifications
+  title: OUR CERTIFICATIONS
   content: >-
     **M.D. Modern Engineering, D.P.C.** is a certified **Women-Owned Business
     Enterprise** **(WBE)** by New York State, New York City, and the Port

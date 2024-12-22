@@ -12,8 +12,8 @@ meta:
 h1: "M.D. Modern Engineering "
 about_us:
   title: WHO WE ARE
-  content: >
-    MODERN is a boutique civil engineering firm dedicated to delivering
+  content: >-
+    **MODERN** is a boutique civil engineering firm dedicated to delivering
     high-quality engineering solutions for public infrastructure projects in New
     York City. 
 
@@ -22,7 +22,7 @@ about_us:
   boxes:
     left:
       title: .
-      logo: ""
+      logo: /img/assets/karen-uppal-fdhl_myady8-unsplash.jpg
       number: 55
     middle:
       title: .
@@ -30,7 +30,7 @@ about_us:
       number: 154
     right:
       title: .
-      logo: /img/assets/michael-qmggkvgr5mc-unsplash.jpg
+      logo: /img/assets/nellie-adamyan-fk-8vg7k6bs-unsplash.jpg
       number: 8
 portfolio:
   title: PROJECT HIGHLIGHTS
@@ -44,39 +44,99 @@ portfolio:
     - title: Sustainability
       group: sustainability
   projects:
-    - title: Small project 1
-      tags: construction, project management
-      content: |
-        We keep it simple 1
+    - title: "Moreish Restaurant: Phase 1 Concept Design: Glen Spey, NY"
+      tags: project management, parking lot design, drainage design, grading,
+        permitting, stormwater management
+      content: >-
+        **M.D. Modern** was engaged to provide comprehensive civil engineering
+        services for the Phase 1 concept of the Moreish Restaurant, located in
+        Glen Spey, NY. Our scope of work focused on designing and implementing
+        critical site infrastructure while ensuring compliance with local and
+        state regulations, including:
 
-        and still do!
+
+        * **Erosion and Sediment Control (E&SC):**
+
+           Design and implementation of E&SC measures to protect the on-site freshwater pond and stream, adhering to NYSDEC and local code requirements.
+        * **Parking Solutions:**
+
+           Planning additional parking spaces, including code-compliant ADA-accessible spaces, with the final number to be determined during the design phase.
+        * **Civil Site Plan Development:**
+
+           Creation of a comprehensive site plan featuring paved walkways, curb ramps, interfaces between driveways and adjacent county roads, and retaining or garden walls up to 4 feet in height.
+        * **Permit Acquisition:**
+
+           Coordination and procurement of an NYSDEC Article 15 Protection of Waters Permit for minor work, if required.
+        * **Driveway Design:**
+
+           Evaluation and redesign of the existing south and west driveways to ensure safe and efficient access for delivery trucks, fire trucks, and turnaround areas.
+        * **Grading and Drainage Design:**
+
+           Development of grading plans and drainage storage designs with calculations, meeting all local and state code requirements for township approval.
+
+        **Project Deliverables** included:
+
+
+        * NYS-licensed, professionally engineered, signed, and sealed civil contract drawings.
+
+        * Contract specifications and NYSDEC permit documentation.
+
+        * Responses to planning and zoning board comments with revised, clouded drawings, as required.
+
+
+        **Client Engagement and Meetings:**
+
+
+        * Conducted one site visit, attended one Planning Board meeting, and one Zoning Board meeting.
+
+
+        Through this comprehensive scope of work, M.D. Modern ensured the seamless integration of regulatory compliance, functional design, and aesthetic considerations, setting the foundation for successful project execution.
       image:
         src: /img/assets/proj1.jpg
         alt: small project 1
       img:
-        src: /img/assets/proj1.jpg
-    - title: Small project 2
-      tags: construction, project management
-      content: |
-        We keep it simple 2
+        src: /img/assets/screenshot-2024-12-21-205304.png
+    - title: "Morgan's Florist & Nursery Parking lot Design: Poughkeepsie, New York"
+      tags: project management, parking lot design, drainage design, grading,
+        permitting
+      content: >-
+        **M.D. Modern** provided expert civil engineering services for Morgan's
+        Florist & Nursery, located in Poughkeepsie, NY. Our scope of work
+        focused on optimizing the site’s parking and landscaping while ensuring
+        full compliance with local regulations, including Poughkeepsie’s zoning
+        and building codes, the Americans with Disabilities Act (ADA) standards,
+        and other applicable requirements.
 
-        and still do!
+
+        Key highlights of the project included:
+
+
+        * **Parking Lot Design:**
+
+           Transforming the existing backyard area into a functional parking lot with five additional spaces, designed to meet Poughkeepsie’s standards for safety, accessibility, and zoning compliance.
+        * **ADA Accessibility:**
+
+           Adding two ADA-compliant parking spaces adjacent to the existing shop, complete with proper signage, dimensions, and pathways, in accordance with ADA regulations.
+        * **Landscaped Vegetative Area:**
+
+           Incorporating a landscaped vegetative area to enhance aesthetics and support environmental sustainability while complying with local green space and stormwater management requirements.
+
+        **Deliverables:**
+
+
+        * Professionally engineered, NYS-licensed, signed, and sealed civil contract drawings.
+
+        * Documentation and specifications to meet Poughkeepsie’s municipal standards and ADA compliance requirements.
+
+        * Consultation and coordination with relevant boards and departments to secure necessary approvals.
+
+
+        Through this project, M.D. Modern combined functionality and design with adherence to all applicable standards, delivering a parking and landscaping solution that aligns with Morgan’s vision and operational needs.
       image:
         src: /img/assets/proj2.jpg
         alt: small project 2
       img:
-        src: /img/assets/proj2.jpg
-    - title: Small project 3
-      tags: construction, project management
-      content: |
-        We keep it simple 3
-
-        and still do!
-      image:
-        src: /img/assets/proj3.jpg
-        alt: small project 3
-      img:
-        src: /img/assets/proj3.jpg
+        src: /img/assets/screenshot-2024-12-21-210046.png
 clients:
   title: Who We Serve
   list:

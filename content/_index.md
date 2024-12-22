@@ -100,7 +100,7 @@ portfolio:
       img:
         src: /img/assets/screenshot-2024-12-21-210046.png
 clients:
-  title: Who We Work With
+  title: OUR CLIENTS
   list:
     - title: NYCDOT
       logo: /img/assets/nycdot.svg.png
@@ -115,7 +115,7 @@ clients:
     - title: MTA
       logo: /img/assets/mta_nyc_logo_black.png
   content: >-
-    **M.D. Modern Engineering, D.P.C.**, we collaborate with public agencies,
+    At **M.D. Modern Engineering, D.P.C.**, we collaborate with public agencies,
     utility providers, and private businesses to deliver innovative, sustainable
     infrastructure solutions. Our clients include:
 
@@ -125,13 +125,13 @@ clients:
        NYSDOT, NYCDEP, MTA, PANYNJ, and others.
     * **Utility Providers:**
 
-       Con Edison and similar organizations.
+       Con Edison, National Grid, ECS, and similar organizations.
     * **Municipal Boards:**
 
        Local planning and zoning boards for permitting and compliance.
     * **Private Sector:**
 
-       Commercial and institutional clients seeking tailored engineering services.
+       Commercial, residential, and institutional clients seeking tailored engineering services.
 
     Our expertise ensures seamless project execution, from concept to completion, while meeting diverse client needs.
 partners:
@@ -152,13 +152,12 @@ title: Home
 services:
   title: OUR SERVICES
   content: >-
-    M.D. Modern Engineering, D.P.C. is a newly established firm based in the NYC
-    area, comprised of **experienced design engineers** with a proven track
-    record in Design-Build projects.
+    **M.D. Modern Engineering, D.P.C.** is a newly established firm based in the
+    NYC area, led by a team of **experienced design engineers** with decades of
+    personal experience and a proven track record in Design-Build projects. 
 
 
-
-    M.D. Modern Engineering, D.P.C. is a newly established firm based in the NYC area, led by a team of experienced design engineers with decades of personal experience and a proven track record in Design-Build projects. Our expertise spans highway design, drainage and stormwater analysis, traffic engineering, and more. We have successfully managed complex public infrastructure projects, with a strong focus on seamless coordination with agencies and third parties to ensure smooth project progression and regulatory compliance. From parking lot redesigns to large-scale urban developments, we deliver sustainable, efficient, and compliant solutions that meet the unique needs of our clients and positively impact the communities we serve.
+    Our expertise spans highway design, drainage and stormwater analysis, traffic engineering, and more. We have successfully managed complex public infrastructure projects, with a strong focus on seamless coordination with agencies and third parties to ensure smooth project progression and regulatory compliance. From parking lot redesigns to large-scale urban developments, we deliver sustainable, efficient, and compliant solutions that meet the unique needs of our clients and positively impact the communities we serve.
   list:
     - title: Geometric Roadway and Pavement Design
       logo: /img/assets/steven-lewis-dmhnxj-5ilq-unsplash.jpg

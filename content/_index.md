@@ -22,7 +22,7 @@ about_us:
   boxes:
     left:
       title: .
-      logo: /img/logos/DBE-Certified-logo.png
+      logo: ""
       number: 55
     middle:
       title: .

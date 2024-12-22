@@ -1,7 +1,7 @@
 ---
 draft: false
 meta:
-  title: "M.D. Modern Engineering "
+  title: M.D. Modern Engineering
   keywords: civil engineering, roadway design, highway design, drainage analysis,
     envision, sustainability, site development, grading, permitting,
     coordination, resiliency

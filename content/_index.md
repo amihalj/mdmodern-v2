@@ -229,10 +229,12 @@ type: home
 team:
   title: "OUR LEADERSHIP TEAM: EMPOWERING EMPLOYEES AND SHAPING A STRONG FUTURE"
   list:
-    - name: Lindsay Maguire, PE, ENV SP, DBIA, WEDG
+    - name: Lindsay Maguire
+      title: PE, ENV SP, DBIA, WEDG
       position: President
       img: /img/assets/maguire_headshot.png
-    - name: Phoebe Douglas, EIT, ENV SP, WEDG
+    - name: Phoebe Douglas
+      title: EIT, ENV SP, WEDG
       position: Vice President
       img: /img/assets/douglas_headshot.png
   content: At **M.D. Modern**, our leadership is driven by a vision to build a

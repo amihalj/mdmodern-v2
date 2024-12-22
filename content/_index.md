@@ -158,7 +158,7 @@ services:
 
 
 
-    While we are a new firm, our team brings decades of combined experience in the New York City metropolitan area. We are highly skilled in highway design, drainage and stormwater analysis, traffic engineering, and more, with a proven track record of managing complex public infrastructure projects. Our expertise extends to seamless coordination with agencies and third parties, ensuring that every project moves forward smoothly and meets all regulatory requirements. From parking lot redesigns to large-scale urban developments, we deliver sustainable, efficient, and compliant solutions that address the unique needs of our clients and make a lasting impact on the communities we serve.
+    M.D. Modern Engineering, D.P.C. is a newly established firm based in the NYC area, led by a team of experienced design engineers with decades of personal experience and a proven track record in Design-Build projects. Our expertise spans highway design, drainage and stormwater analysis, traffic engineering, and more. We have successfully managed complex public infrastructure projects, with a strong focus on seamless coordination with agencies and third parties to ensure smooth project progression and regulatory compliance. From parking lot redesigns to large-scale urban developments, we deliver sustainable, efficient, and compliant solutions that meet the unique needs of our clients and positively impact the communities we serve.
   list:
     - title: Geometric Roadway and Pavement Design
       logo: /img/assets/steven-lewis-dmhnxj-5ilq-unsplash.jpg

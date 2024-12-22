@@ -1,13 +1,13 @@
 ---
 draft: false
 meta:
-  title: M&D Design
+  title: "M.D. Modern Engineering "
   keywords: civil engineering,roadway design,highway design,drainage analysis
   description: "We are a woman-owned New York City based civil engineering firm
     dedicated to delivering high-quality engineering solutions for public
     infrastructure projects in New York City. "
   headline: null
-h1: M&D Design
+h1: "M.D. Modern Engineering "
 about_us:
   title: Who we are
   content: >
@@ -19,25 +19,19 @@ about_us:
     We specialize in providing consulting services to public agencies, offering expertise in areas such as transportation, water resources, structural engineering, and environmental sustainability.
   boxes:
     left:
-      title: B-CORP PENDING
+      title: "CERTIFIED DBE "
       logo: /img/logos/DBE-Certified-logo.png
       number: 55
     middle:
-      title: DBE-CERTIFIED
+      title: WOMEN-OWNED AND OPERATED
       logo: /img/logos/DBE-Certified-logo.png
       number: 154
     right:
-      title: WOMEN-OWNED AND OPERATED
+      title: "DBIA CERTIFIED "
       logo: /img/logos/DBE-Certified-logo.png
       number: 8
-  big_image:
-    img: /img/manhattan.jpg
-    cls: img-cover main-img
-    image_l: /img/manhattan.jpg
-    image_m: /img/manhattan.jpg
-    image_s: /img/manhattan.jpg 
 portfolio:
-  title: Project highlites
+  title: Project Highlights
   groups:
     - title: Drainage & utilities
       group: drainage-and-utilities
@@ -57,6 +51,8 @@ portfolio:
       image:
         src: /img/assets/proj1.jpg
         alt: small project 1
+      img:
+        src: /img/assets/proj1.jpg
     - title: Small project 2
       tags: construction, project management
       content: |
@@ -66,6 +62,8 @@ portfolio:
       image:
         src: /img/assets/proj2.jpg
         alt: small project 2
+      img:
+        src: /img/assets/proj2.jpg
     - title: Small project 3
       tags: construction, project management
       content: |
@@ -75,6 +73,38 @@ portfolio:
       image:
         src: /img/assets/proj3.jpg
         alt: small project 3
+      img:
+        src: /img/assets/proj3.jpg
+clients:
+  title: Who We Serve
+  list:
+    - title: NYCDOT
+      logo: /img/assets/nycdot.svg.png
+    - title: NYSDOT
+      logo: /img/assets/nysdot.png
+    - title: PANYNJ
+      logo: /img/assets/pa_logo_alrs_black_rgb.png
+    - title: NYCDDC
+      logo: /img/assets/nycddc.png
+    - title: NYCDEP
+      logo: /img/assets/new_york_city_department_of_environmental_protection_logo.png
+    - title: MTA
+      logo: /img/assets/mta_nyc_logo_black.png
+partners:
+  title: Our partners
+  content: |
+    Our parthers bla bla
+  list:
+    - title: Partner one
+      logo: /img/partners/lg1.svg
+    - title: Partner two
+      logo: /img/partners/lg1.svg
+    - title: Partner three
+      logo: /img/partners/lg1.svg
+    - title: Partner four
+      logo: /img/partners/lg1.svg
+date: 2022-05-21T16:47:17+02:00
+title: Home
 services:
   title: Our services
   content: >
@@ -128,32 +158,6 @@ services:
       content: We prioritize early stakeholder engagement and will proactively obtain
         required permits and approvals. A comprehensive stakeholder management
         plan will ensure project adherence and address potential challenges.
-partners:
-  title: Our partners
-  content: |
-    Our parthers bla bla
-  list:
-    - title: Partner one
-      logo: /img/partners/lg1.svg
-    - title: Partner two
-      logo: /img/partners/lg1.svg
-    - title: Partner three
-      logo: /img/partners/lg1.svg
-    - title: Partner four
-      logo: /img/partners/lg1.svg
-team:
-  title: Meet our team
-  list:
-    - name: Lindsay Maguire
-      title: PE, DBIA
-      position: President
-      img: /img/people/maguire.jpg
-    - name: Phoebe Douglas
-      title: ENV SP, EIT
-      position: Vice President
-      img: /img/people/douglas.jpg
-date: 2024-05-21T16:47:17+02:00
-title: Home
 certifications:
   title: Our certifications
   content: >
@@ -163,13 +167,19 @@ certifications:
     engineering services__ while promoting diversity and inclusion in the
     construction industry.
   list:
-    - title: WBE certified
+    - title: Certified NYC WBE
       logo: /img/logos/nycWBE.png
-    - title: DBE certified
+    - title: "Certified PANYNJ WBE  "
+      logo: /img/assets/port-authority.png
+    - title: Certified NYSDOT DBE
       logo: /img/logos/DBE-Certified-logo.png
-    - title: ENVISION SUSTAINABILITY PROFESSIONALS
-      logo: /img/logos/envision_noname.png
-    - title: WATER FRONT EDGE GUIDELINE certified
+    - title: "Certified Envision Sustainability Professionals "
+      logo: /img/logos/envision.png
+    - title: "Certified WATER FRONT EDGE GUIDELINE "
       logo: /img/logos/WEDG-opt.png
+    - title: Certified NY State WBE
+      logo: /img/assets/nys-wbe.avif
 type: home
+team:
+  title: Who We Are
 ---

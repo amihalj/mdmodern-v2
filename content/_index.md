@@ -173,12 +173,14 @@ certifications:
       logo: /img/assets/port-authority.png
     - title: Certified NYSDOT DBE
       logo: /img/logos/DBE-Certified-logo.png
-    - title: "Certified Envision Sustainability Professionals "
+    - title: "Envision Sustainability Professionals "
       logo: /img/logos/envision.png
     - title: "Certified WATER FRONT EDGE GUIDELINE "
       logo: /img/logos/WEDG-opt.png
     - title: Certified NY State WBE
       logo: /img/assets/nys-wbe.avif
+    - title: DBIA Professionals
+      logo: /img/assets/dbia-logos-certification-dbia_registered.png
 type: home
 team:
   title: Who We Are

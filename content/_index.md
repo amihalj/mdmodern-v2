@@ -168,7 +168,7 @@ partners:
 date: 2022-05-21T16:47:17+02:00
 title: Home
 services:
-  title: Our services
+  title: OUR SERVICES
   content: >
     M.D. Modern Engineering, D.P.C. is a newly established firm based in the NYC
     area, comprised of __experienced design engineers__ with a proven track

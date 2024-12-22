@@ -77,6 +77,19 @@ portfolio:
         src: /img/assets/proj3.jpg
 clients:
   title: Who We Serve
+  list:
+    - title: NYCDOT
+      logo: /img/assets/nycdot.svg.png
+    - title: NYSDOT
+      logo: /img/assets/nysdot.png
+    - title: PANYNJ
+      logo: /img/assets/pa_logo_alrs_black_rgb.png
+    - title: NYCDDC
+      logo: /img/assets/nycddc.png
+    - title: NYCDEP
+      logo: /img/assets/new_york_city_department_of_environmental_protection_logo.png
+    - title: MTA
+      logo: /img/assets/mta_nyc_logo_black.png
 partners:
   title: Our partners
   content: |

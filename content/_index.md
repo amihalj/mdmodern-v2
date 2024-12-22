@@ -154,14 +154,18 @@ certifications:
     engineering services__ while promoting diversity and inclusion in the
     construction industry.
   list:
-    - title: WBE certified
+    - title: NYC WBE certified
       logo: /img/logos/nycWBE.png
-    - title: DBE certified
+    - title: "Certified PANYNJ WBE  "
+      logo: /img/assets/port-authority.png
+    - title: NYSDOT DBE certified
       logo: /img/logos/DBE-Certified-logo.png
-    - title: ENVISION SUSTAINABILITY PROFESSIONALS
+    - title: "Certified Envision Sustainability Professionals "
       logo: /img/logos/envision.png
     - title: WATER FRONT EDGE GUIDELINE certified
       logo: /img/logos/WEDG-opt.png
+    - title: NY State WBE certified
+      logo: /img/assets/nys-wbe.avif
 type: home
 team:
   title: Who We Are

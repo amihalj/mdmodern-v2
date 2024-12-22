@@ -19,7 +19,7 @@ about_us:
     We specialize in providing consulting services to public agencies, offering expertise in areas such as transportation, water resources, structural engineering, and environmental sustainability.
   boxes:
     left:
-      title: DBE CERTIFIED
+      title: "CERTIFIED DBE "
       logo: /img/logos/DBE-Certified-logo.png
       number: 55
     middle:
@@ -167,17 +167,17 @@ certifications:
     engineering services__ while promoting diversity and inclusion in the
     construction industry.
   list:
-    - title: NYC WBE certified
+    - title: Certified NYC WBE
       logo: /img/logos/nycWBE.png
     - title: "Certified PANYNJ WBE  "
       logo: /img/assets/port-authority.png
-    - title: NYSDOT DBE certified
+    - title: Certified NYSDOT DBE
       logo: /img/logos/DBE-Certified-logo.png
     - title: "Certified Envision Sustainability Professionals "
       logo: /img/logos/envision.png
-    - title: WATER FRONT EDGE GUIDELINE certified
+    - title: "Certified WATER FRONT EDGE GUIDELINE "
       logo: /img/logos/WEDG-opt.png
-    - title: NY State WBE certified
+    - title: Certified NY State WBE
       logo: /img/assets/nys-wbe.avif
 type: home
 team:

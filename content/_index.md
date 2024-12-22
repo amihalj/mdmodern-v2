@@ -100,7 +100,7 @@ portfolio:
       img:
         src: /img/assets/screenshot-2024-12-21-210046.png
 clients:
-  title: Who We Work With
+  title: OUR CLIENTS
   list:
     - title: NYCDOT
       logo: /img/assets/nycdot.svg.png
@@ -115,7 +115,7 @@ clients:
     - title: MTA
       logo: /img/assets/mta_nyc_logo_black.png
   content: >-
-    **M.D. Modern Engineering, D.P.C.**, we collaborate with public agencies,
+    At **M.D. Modern Engineering, D.P.C.**, we collaborate with public agencies,
     utility providers, and private businesses to deliver innovative, sustainable
     infrastructure solutions. Our clients include:
 
@@ -125,13 +125,13 @@ clients:
        NYSDOT, NYCDEP, MTA, PANYNJ, and others.
     * **Utility Providers:**
 
-       Con Edison and similar organizations.
+       Con Edison, National Grid, ECS, and similar organizations.
     * **Municipal Boards:**
 
        Local planning and zoning boards for permitting and compliance.
     * **Private Sector:**
 
-       Commercial and institutional clients seeking tailored engineering services.
+       Commercial, residential, and institutional clients seeking tailored engineering services.
 
     Our expertise ensures seamless project execution, from concept to completion, while meeting diverse client needs.
 partners:
@@ -152,13 +152,12 @@ title: Home
 services:
   title: OUR SERVICES
   content: >-
-    M.D. Modern Engineering, D.P.C. is a newly established firm based in the NYC
-    area, comprised of **experienced design engineers** with a proven track
-    record in Design-Build projects.
+    **M.D. Modern Engineering, D.P.C.** is a newly established firm based in the
+    NYC area, led by a team of **experienced design engineers** with decades of
+    personal experience and a proven track record in Design-Build projects. 
 
 
-
-    While we are a new firm, our team brings decades of combined experience in the New York City metropolitan area. We are highly skilled in highway design, drainage and stormwater analysis, traffic engineering, and more, with a proven track record of managing complex public infrastructure projects. Our expertise extends to seamless coordination with agencies and third parties, ensuring that every project moves forward smoothly and meets all regulatory requirements. From parking lot redesigns to large-scale urban developments, we deliver sustainable, efficient, and compliant solutions that address the unique needs of our clients and make a lasting impact on the communities we serve.
+    Our expertise spans highway design, drainage and stormwater analysis, traffic engineering, and more. We have successfully managed complex public infrastructure projects, with a strong focus on seamless coordination with agencies and third parties to ensure smooth project progression and regulatory compliance. From parking lot redesigns to large-scale urban developments, we deliver sustainable, efficient, and compliant solutions that meet the unique needs of our clients and positively impact the communities we serve.
   list:
     - title: Geometric Roadway and Pavement Design
       logo: /img/assets/steven-lewis-dmhnxj-5ilq-unsplash.jpg
@@ -204,17 +203,16 @@ services:
         required permits and approvals. A comprehensive stakeholder management
         plan will ensure project adherence and address potential challenges.
 certifications:
-  title: Our certifications
-  content: "**M.D. Modern Engineering, D.P.C.** is a certified **Women-Owned
-    Business Enterprise** **(WBE)** by New York State, New York City, and the
-    Port Authority of New York and New Jersey (PANYNJ), and is also a certified
+  title: OUR CERTIFICATIONS
+  content: >-
+    **M.D. Modern Engineering, D.P.C.** is a certified **Women-Owned Business
+    Enterprise** **(WBE)** by New York State, New York City, and the Port
+    Authority of New York and New Jersey (PANYNJ), and is also a certified
     **Disadvantaged Business Enterprise (DBE)**. By partnering with us, you can
-    help achieve your project’s DBE and WBE participation goals. Our team
-    includes **DBIA-certified, WEDG-certified, and Envision Sustainability
-    Professionals**, ensuring a high level of expertise in delivering
-    sustainable and innovative engineering solutions. We are dedicated to
-    providing top-quality services while fostering diversity and inclusion
-    within the construction industry."
+    help achieve your project’s DBE and WBE participation goals. 
+
+
+    Our team includes **DBIA-certified, WEDG-certified, and Envision Sustainability Professionals**, ensuring a high level of expertise in delivering sustainable and innovative engineering solutions. We are dedicated to providing top-quality services while fostering diversity and inclusion within the construction industry.
   list:
     - title: Certified NYC WBE
       logo: /img/logos/nycWBE.png

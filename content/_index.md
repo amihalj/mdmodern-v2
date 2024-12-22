@@ -5,11 +5,14 @@ meta:
   keywords: civil engineering, roadway design, highway design, drainage analysis,
     envision, sustainability, site development, grading, permitting,
     coordination, resiliency
-  description: "We are a woman-owned, New York City based civil engineering firm
-    dedicated to delivering high-quality engineering solutions for public
-    infrastructure projects in New York City Metropolitan area. "
+  description: We are a dynamic, woman-owned civil engineering firm based in New
+    York City, specializing in delivering exceptional engineering solutions for
+    public infrastructure projects across the vibrant New York City metropolitan
+    area. With a commitment to excellence and innovation, we turn challenges
+    into opportunities, ensuring every project stands as a testament to our
+    expertise and dedication.
   headline: null
-h1: "M.D. Modern Engineering "
+h1: M.D. Modern Engineering, D.P.C.
 about_us:
   title: WHO WE ARE
   content: >-
@@ -112,7 +115,7 @@ clients:
     - title: MTA
       logo: /img/assets/mta_nyc_logo_black.png
   content: >-
-    At **M.D. Modern Engineering, D.P.C.**, we collaborate with public agencies,
+    **M.D. Modern Engineering, D.P.C.**, we collaborate with public agencies,
     utility providers, and private businesses to deliver innovative, sustainable
     infrastructure solutions. Our clients include:
 
@@ -148,14 +151,14 @@ date: 2022-05-21T16:47:17+02:00
 title: Home
 services:
   title: OUR SERVICES
-  content: >
+  content: >-
     M.D. Modern Engineering, D.P.C. is a newly established firm based in the NYC
-    area, comprised of __experienced design engineers__ with a proven track
+    area, comprised of **experienced design engineers** with a proven track
     record in Design-Build projects.
 
 
 
-    Our team possesses in-depth knowledge of civil/roadway, drainage, and utilities engineering, making us ideally suited to contribute to the success of your next infrastructure project.
+    While we are a new firm, our team brings decades of combined experience in the New York City metropolitan area. We are highly skilled in highway design, drainage and stormwater analysis, traffic engineering, and more, with a proven track record of managing complex public infrastructure projects. Our expertise extends to seamless coordination with agencies and third parties, ensuring that every project moves forward smoothly and meets all regulatory requirements. From parking lot redesigns to large-scale urban developments, we deliver sustainable, efficient, and compliant solutions that address the unique needs of our clients and make a lasting impact on the communities we serve.
   list:
     - title: Geometric Roadway and Pavement Design
       logo: /img/assets/steven-lewis-dmhnxj-5ilq-unsplash.jpg
@@ -169,6 +172,12 @@ services:
       content: Our drainage engineers design and implement effective stormwater
         management solutions that comply with PANYNJ and other regulatory
         requirements.
+    - title: Maintenance of Traffic (MOT)
+      logo: /img/assets/wei-hunag-f-x-3gx-gn4-unsplash.jpg
+      intro: 5
+      content: We develop comprehensive MOT plans to minimize traffic disruption
+        during construction, ensuring safety for workers and the traveling
+        public.
     - title: Design-Build Management
       logo: /img/assets/kevin-bosc-qpcf90iz6ju-unsplash.jpg
       intro: ""
@@ -182,12 +191,6 @@ services:
         gas, electrical, and telecommunication systems, with expertise in 3D
         modeling to enhance precision and efficiency in our projects. Our team
         also has extensive experience with third-party utililty coordination.
-    - title: Maintenance of Traffic (MOT)
-      logo: /img/assets/wei-hunag-f-x-3gx-gn4-unsplash.jpg
-      intro: 5
-      content: We develop comprehensive MOT plans to minimize traffic disruption
-        during construction, ensuring safety for workers and the traveling
-        public.
     - title: Construction Administration
       logo: /img/assets/proj1.jpg
       intro: ""
@@ -202,12 +205,16 @@ services:
         plan will ensure project adherence and address potential challenges.
 certifications:
   title: Our certifications
-  content: >
-    M.D. Modern Engineering, D.P.C. is currently DBE and WBE certified. By
-    partnering with us, you can help achieve the project's DBE and WBE
-    participation requirements. We are committed to providing __high-quality
-    engineering services__ while promoting diversity and inclusion in the
-    construction industry.
+  content: "**M.D. Modern Engineering, D.P.C.** is a certified **Women-Owned
+    Business Enterprise** **(WBE)** by New York State, New York City, and the
+    Port Authority of New York and New Jersey (PANYNJ), and is also a certified
+    **Disadvantaged Business Enterprise (DBE)**. By partnering with us, you can
+    help achieve your project’s DBE and WBE participation goals. Our team
+    includes **DBIA-certified, WEDG-certified, and Envision Sustainability
+    Professionals**, ensuring a high level of expertise in delivering
+    sustainable and innovative engineering solutions. We are dedicated to
+    providing top-quality services while fostering diversity and inclusion
+    within the construction industry."
   list:
     - title: Certified NYC WBE
       logo: /img/logos/nycWBE.png
@@ -233,4 +240,14 @@ team:
     - name: Phoebe Douglas, EIT, ENV SP, WEDG
       position: Vice President
       img: /img/assets/douglas_headshot.png
+  content: At **M.D. Modern**, our leadership is driven by a vision to build a
+    company that prioritizes its employees. Inspired by a deep commitment to
+    fostering a sustainable and inclusive work environment, our President and
+    Vice President have cultivated a culture where every individual feels valued
+    and empowered. They believe in creating a workplace where employees have a
+    real stake in the company's success and are encouraged to contribute to the
+    growth and direction of the business. With a focus on innovation,
+    excellence, and collaboration, our leadership is dedicated to delivering
+    high-quality projects while ensuring that those who help run the company are
+    recognized and supported.
 ---

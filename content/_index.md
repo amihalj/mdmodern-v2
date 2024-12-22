@@ -28,7 +28,7 @@ about_us:
       logo: /img/assets/karen-uppal-fdhl_myady8-unsplash.jpg
       number: 55
     middle:
-      title: .
+      title: ....
       logo: /img/assets/caio-silva-jolwqyfvvtw-unsplash.jpg
       number: 154
     right:

@@ -21,16 +21,16 @@ about_us:
     We specialize in providing consulting services to public agencies, offering expertise in areas such as transportation, water resources, structural engineering, and environmental sustainability.
   boxes:
     left:
-      title: "CERTIFIED DBE "
+      title: .
       logo: /img/logos/DBE-Certified-logo.png
       number: 55
     middle:
-      title: WOMEN-OWNED AND OPERATED
-      logo: /img/logos/DBE-Certified-logo.png
+      title: .
+      logo: /img/assets/caio-silva-jolwqyfvvtw-unsplash.jpg
       number: 154
     right:
-      title: "DBIA CERTIFIED "
-      logo: /img/logos/DBE-Certified-logo.png
+      title: .
+      logo: /img/assets/michael-qmggkvgr5mc-unsplash.jpg
       number: 8
 portfolio:
   title: PROJECT HIGHLIGHTS

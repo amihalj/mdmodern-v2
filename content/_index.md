@@ -150,7 +150,7 @@ services:
         Design-Build experience, ensuring a smooth and efficient project
         execution from concept to completion.
     - title: Construction Administration
-      logo: /img/assets/kevin-bosc-qpcf90iz6ju-unsplash.jpg
+      logo: /img/assets/proj1.jpg
       intro: 5
       content: Our construction administration services ensure that the project is
         constructed according to the plans and specifications. We will provide
@@ -187,4 +187,11 @@ certifications:
 type: home
 team:
   title: Who We Are
+  list:
+    - name: Lindsay Maguire, PE, ENV SP, DBIA, WEDG
+      position: President
+      img: /img/assets/maguire_headshot.png
+    - name: Phoebe Douglas, EIT, ENV SP, WEDG
+      position: Vice President
+      img: /img/assets/douglas_headshot.png
 ---

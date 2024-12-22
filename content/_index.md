@@ -178,18 +178,24 @@ services:
 
     Our team possesses in-depth knowledge of civil/roadway, drainage, and utilities engineering, making us ideally suited to contribute to the success of your next infrastructure project.
   list:
-    - title: Civil / Roadway Engineering
+    - title: Geometric Roadway and Pavement Design
       logo: /img/assets/steven-lewis-dmhnxj-5ilq-unsplash.jpg
-      intro: 12 cases
+      intro: ""
       content: We provide comprehensive civil and roadway engineering services,
         including planning, design, and construction administration for
         roadways, airports, highways, and other transportation infrastructure.
-    - title: Drainage Engineering
+    - title: Drainage and Utility Design
       logo: /img/assets/evangelos-mpikakis-9hvz3httome-unsplash.jpg
-      intro: 5 open projects
+      intro: ""
       content: Our drainage engineers design and implement effective stormwater
         management solutions that comply with PANYNJ and other regulatory
         requirements.
+    - title: Design-Build Management
+      logo: /img/assets/kevin-bosc-qpcf90iz6ju-unsplash.jpg
+      intro: ""
+      content: Our engineers, including DBIA-certified professionals, have extensive
+        Design-Build experience, ensuring a smooth and efficient project
+        execution from concept to completion.
     - title: Utilities Engineering
       logo: /img/assets/doris-morgan-mxufj1u2aea-unsplash.jpg
       intro: "Design and Third-Party agency coordination "
@@ -203,21 +209,15 @@ services:
       content: We develop comprehensive MOT plans to minimize traffic disruption
         during construction, ensuring safety for workers and the traveling
         public.
-    - title: Design-Build Management
-      logo: /img/assets/kevin-bosc-qpcf90iz6ju-unsplash.jpg
-      intro: 5
-      content: Our engineers, including DBIA-certified professionals, have extensive
-        Design-Build experience, ensuring a smooth and efficient project
-        execution from concept to completion.
     - title: Construction Administration
       logo: /img/assets/proj1.jpg
-      intro: 5
+      intro: ""
       content: Our construction administration services ensure that the project is
         constructed according to the plans and specifications. We will provide
         oversight of the construction process and address any issues that arise.
     - title: Permitting & Stakeholder Coordination
       logo: /img/assets/mapbox-yeit9w-rwua-unsplash.jpg
-      intro: 5
+      intro: ""
       content: We prioritize early stakeholder engagement and will proactively obtain
         required permits and approvals. A comprehensive stakeholder management
         plan will ensure project adherence and address potential challenges.

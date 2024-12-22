@@ -171,12 +171,13 @@
         position: relative;
         .logo-wrapper {
             position: absolute;
-            top: 10%;
+            top: 3%;
         }
         .video-wrapper {
             background-color: #000;
             .video {
                 width: 100%;
+                margin-top: -5%;
             }
         }
     }

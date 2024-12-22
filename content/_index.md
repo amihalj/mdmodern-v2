@@ -2,14 +2,16 @@
 draft: false
 meta:
   title: "M.D. Modern Engineering "
-  keywords: civil engineering,roadway design,highway design,drainage analysis
-  description: "We are a woman-owned New York City based civil engineering firm
+  keywords: civil engineering, roadway design, highway design, drainage analysis,
+    envision, sustainability, site development, grading, permitting,
+    coordination, resiliency
+  description: "We are a woman-owned, New York City based civil engineering firm
     dedicated to delivering high-quality engineering solutions for public
-    infrastructure projects in New York City. "
+    infrastructure projects in New York City Metropolitan area. "
   headline: null
 h1: "M.D. Modern Engineering "
 about_us:
-  title: Who we are
+  title: WHO WE ARE
   content: >
     MODERN is a boutique civil engineering firm dedicated to delivering
     high-quality engineering solutions for public infrastructure projects in New
@@ -31,9 +33,9 @@ about_us:
       logo: /img/logos/DBE-Certified-logo.png
       number: 8
 portfolio:
-  title: Project Highlights
+  title: PROJECT HIGHLIGHTS
   groups:
-    - title: Drainage & utilities
+    - title: Drainage & Utility Design and Relocation
       group: drainage-and-utilities
     - title: Transportation
       group: transportation
@@ -117,43 +119,44 @@ services:
     Our team possesses in-depth knowledge of civil/roadway, drainage, and utilities engineering, making us ideally suited to contribute to the success of your next infrastructure project.
   list:
     - title: Civil / Roadway Engineering
-      logo: /img/assets/ser1.jpg
+      logo: /img/assets/steven-lewis-dmhnxj-5ilq-unsplash.jpg
       intro: 12 cases
       content: We provide comprehensive civil and roadway engineering services,
         including planning, design, and construction administration for
         roadways, airports, highways, and other transportation infrastructure.
     - title: Drainage Engineering
-      logo: /img/assets/ser2.jpg
+      logo: /img/assets/evangelos-mpikakis-9hvz3httome-unsplash.jpg
       intro: 5 open projects
       content: Our drainage engineers design and implement effective stormwater
         management solutions that comply with PANYNJ and other regulatory
         requirements.
     - title: Utilities Engineering
-      logo: /img/assets/ser3.jpg
-      intro: 12 satisfied customers
+      logo: /img/assets/doris-morgan-mxufj1u2aea-unsplash.jpg
+      intro: "Design and Third-Party agency coordination "
       content: Our utilities engineering team specializes in designing water, sewer,
         gas, electrical, and telecommunication systems, with expertise in 3D
-        modeling to enhance precision and efficiency in our projects.
+        modeling to enhance precision and efficiency in our projects. Our team
+        also has extensive experience with third-party utililty coordination.
     - title: Maintenance of Traffic (MOT)
-      logo: /img/assets/ser3.jpg
+      logo: /img/assets/wei-hunag-f-x-3gx-gn4-unsplash.jpg
       intro: 5
       content: We develop comprehensive MOT plans to minimize traffic disruption
         during construction, ensuring safety for workers and the traveling
         public.
     - title: Design-Build Management
-      logo: /img/partners/lg1.svg
+      logo: /img/assets/kevin-bosc-qpcf90iz6ju-unsplash.jpg
       intro: 5
       content: Our engineers, including DBIA-certified professionals, have extensive
         Design-Build experience, ensuring a smooth and efficient project
         execution from concept to completion.
     - title: Construction Administration
-      logo: /img/partners/lg1.svg
+      logo: /img/assets/kevin-bosc-qpcf90iz6ju-unsplash.jpg
       intro: 5
       content: Our construction administration services ensure that the project is
         constructed according to the plans and specifications. We will provide
         oversight of the construction process and address any issues that arise.
     - title: Permitting & Stakeholder Coordination
-      logo: /img/partners/lg1.svg
+      logo: /img/assets/mapbox-yeit9w-rwua-unsplash.jpg
       intro: 5
       content: We prioritize early stakeholder engagement and will proactively obtain
         required permits and approvals. A comprehensive stakeholder management

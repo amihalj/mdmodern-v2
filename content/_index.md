@@ -204,16 +204,15 @@ services:
         plan will ensure project adherence and address potential challenges.
 certifications:
   title: Our certifications
-  content: "**M.D. Modern Engineering, D.P.C.** is a certified **Women-Owned
-    Business Enterprise** **(WBE)** by New York State, New York City, and the
-    Port Authority of New York and New Jersey (PANYNJ), and is also a certified
+  content: >-
+    **M.D. Modern Engineering, D.P.C.** is a certified **Women-Owned Business
+    Enterprise** **(WBE)** by New York State, New York City, and the Port
+    Authority of New York and New Jersey (PANYNJ), and is also a certified
     **Disadvantaged Business Enterprise (DBE)**. By partnering with us, you can
-    help achieve your project’s DBE and WBE participation goals. Our team
-    includes **DBIA-certified, WEDG-certified, and Envision Sustainability
-    Professionals**, ensuring a high level of expertise in delivering
-    sustainable and innovative engineering solutions. We are dedicated to
-    providing top-quality services while fostering diversity and inclusion
-    within the construction industry."
+    help achieve your project’s DBE and WBE participation goals. 
+
+
+    Our team includes **DBIA-certified, WEDG-certified, and Envision Sustainability Professionals**, ensuring a high level of expertise in delivering sustainable and innovative engineering solutions. We are dedicated to providing top-quality services while fostering diversity and inclusion within the construction industry.
   list:
     - title: Certified NYC WBE
       logo: /img/logos/nycWBE.png

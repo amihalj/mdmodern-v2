@@ -66,11 +66,9 @@ portfolio:
 
 
         By focusing on economical yet practical solutions, M.D. Modern delivered a design that met the client’s needs while ensuring long-term viability.
-      image:
-        src: /img/assets/proj1.jpg
-        alt: small project 1
       img:
         src: /img/assets/screenshot-2024-12-21-205304.png
+        alt: Moreish Restaurant
     - title: "Morgan's Florist & Nursery Parking lot Design: Poughkeepsie, New York"
       tags: project management, parking lot design, drainage design, grading,
         permitting
@@ -94,11 +92,9 @@ portfolio:
            Installed two ADA-compliant parking spaces with proper signage and pathways, addressing both compliance and customer convenience.
 
         M.D. Modern delivered cost-effective, practical solutions that met Morgan’s specific needs while ensuring full regulatory compliance and enhancing overall functionality.
-      image:
-        src: /img/assets/proj2.jpg
-        alt: small project 2
       img:
         src: /img/assets/screenshot-2024-12-21-210046.png
+        alt: Morgan's Florist & Nursery Parking lot
 clients:
   title: OUR CLIENTS
   list:

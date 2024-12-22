@@ -145,11 +145,11 @@ team:
   title: Meet our team
   list:
     - name: Lindsay Maguire
-      title: PE, DBIA
+      title: PE, ENV SP, DBIA
       position: President
       img: /img/people/maguire.jpg
     - name: Phoebe Douglas
-      title: ENV SP, EIT
+      title: EIT, ENV SP
       position: Vice President
       img: /img/people/douglas.jpg
 date: 2024-05-21T16:47:17+02:00

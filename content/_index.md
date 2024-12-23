@@ -231,7 +231,7 @@ certifications:
       logo: /img/assets/dbia-logos-certification-dbia_registered.png
 type: home
 team:
-  title: "OUR LEADERSHIP TEAM: EMPOWERING EMPLOYEES AND SHAPING A STRONG FUTURE"
+  title: "OUR LEADERSHIP TEAM: EMPOWERING EMPLOYEES AND SHAPING A STRONG FUTURE."
   list:
     - name: Lindsay Maguire, PE, ENV SP, DBIA, WEDG
       position: President

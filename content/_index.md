@@ -11,7 +11,7 @@ meta:
     area. With a commitment to excellence and innovation, we turn challenges
     into opportunities, ensuring every project stands as a testament to our
     expertise and dedication.
-  headline: .
+  headline: null
 h1: M.D. Modern Engineering, D.P.C.
 about_us:
   title: WHO WE ARE
@@ -231,7 +231,7 @@ certifications:
       logo: /img/assets/dbia-logos-certification-dbia_registered.png
 type: home
 team:
-  title: "OUR LEADERSHIP TEAM: EMPOWERING EMPLOYEES AND SHAPING A STRONG FUTURE"
+  title: "OUR LEADERSHIP TEAM: EMPOWERING EMPLOYEES AND SHAPING A STRONG FUTURE."
   list:
     - name: Lindsay Maguire, PE, ENV SP, DBIA, WEDG
       position: President

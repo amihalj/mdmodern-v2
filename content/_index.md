@@ -29,11 +29,11 @@ about_us:
       number: 55
     middle:
       title: ....
-      logo: /img/assets/caio-silva-jolwqyfvvtw-unsplash.jpg
+      logo: /img/assets/michael-qmggkvgr5mc-unsplash.jpg
       number: 154
     right:
       title: .
-      logo: /img/assets/nellie-adamyan-fk-8vg7k6bs-unsplash.jpg
+      logo: /img/assets/valou-_c-lg5jh54zalg-unsplash.jpg
       number: 8
 portfolio:
   title: PROJECT HIGHLIGHTS
@@ -66,9 +66,11 @@ portfolio:
 
 
         By focusing on economical yet practical solutions, M.D. Modern delivered a design that met the client’s needs while ensuring long-term viability.
+      image:
+        src: /img/assets/proj1.jpg
+        alt: small project 1
       img:
         src: /img/assets/screenshot-2024-12-21-205304.png
-        alt: Moreish Restaurant
     - title: "Morgan's Florist & Nursery Parking lot Design: Poughkeepsie, New York"
       tags: project management, parking lot design, drainage design, grading,
         permitting
@@ -92,9 +94,11 @@ portfolio:
            Installed two ADA-compliant parking spaces with proper signage and pathways, addressing both compliance and customer convenience.
 
         M.D. Modern delivered cost-effective, practical solutions that met Morgan’s specific needs while ensuring full regulatory compliance and enhancing overall functionality.
+      image:
+        src: /img/assets/proj2.jpg
+        alt: small project 2
       img:
         src: /img/assets/screenshot-2024-12-21-210046.png
-        alt: Morgan's Florist & Nursery Parking lot
 clients:
   title: OUR CLIENTS
   list:
@@ -168,9 +172,9 @@ services:
       content: Our drainage engineers design and implement effective stormwater
         management solutions that comply with PANYNJ and other regulatory
         requirements.
-    - title: Maintenance of Traffic (MOT)
+    - title: "Maintenance and Protection of Traffic (MPT) design "
       logo: /img/assets/wei-hunag-f-x-3gx-gn4-unsplash.jpg
-      intro: 5
+      intro: ...
       content: We develop comprehensive MOT plans to minimize traffic disruption
         during construction, ensuring safety for workers and the traveling
         public.
@@ -229,12 +233,10 @@ type: home
 team:
   title: "OUR LEADERSHIP TEAM: EMPOWERING EMPLOYEES AND SHAPING A STRONG FUTURE"
   list:
-    - name: Lindsay Maguire
-      title: PE, ENV SP, DBIA, WEDG
+    - name: Lindsay Maguire, PE, ENV SP, DBIA, WEDG
       position: President
       img: /img/assets/maguire_headshot.png
-    - name: Phoebe Douglas
-      title: EIT, ENV SP, WEDG
+    - name: Phoebe Douglas, EIT, ENV SP, WEDG
       position: Vice President
       img: /img/assets/douglas_headshot.png
   content: At **M.D. Modern**, our leadership is driven by a vision to build a

@@ -29,7 +29,7 @@ about_us:
       number: 55
     middle:
       title: ....
-      logo: /img/assets/michael-qmggkvgr5mc-unsplash.jpg
+      logo: /img/assets/artem-militonian-7vamd-roium-unsplash.jpg
       number: 154
     right:
       title: .

@@ -4,6 +4,8 @@
     {{ partial "header-video" . }}
 {{ end }}
 {{ define "main"}}
+{{ $smallBox := "small" }}
+
 
 
 {{ with .Params.about_us }}
@@ -68,6 +70,7 @@
                 </div>
             </div>
         </div>
+        <!--
         <div class="servives-cards">
             <div class="row gx-0">
                 {{ range $k, $v := .list }}
@@ -106,12 +109,45 @@
                 {{ end }}
             </div>
         </div>
+        -->
+        <div class="servives-cards">
+            <div class="row gx-0">
+                {{ range $k, $v := .list }}
+                    {{ $boxType := ""}}
+                    {{ if eq $v.size "small" }}
+                        {{ $boxType = "sm-card"}}
+                    {{ end }}
+                    <div class="{{ $v.cls }}"> 
+                    {{ if eq (mod $k 3) 0}}
+                        <a href="#" class="service-card {{ $boxType }} wow fadeInLeft" data-wow-delay="0.6s">
+                    {{ end }}
+                    {{ if eq (mod $k 3) 1}}
+                        <a href="#" class="service-card {{ $boxType }} wow zoomIn" data-wow-delay="0.2s">
+                    {{ end }}
+                    {{ if eq (mod $k 3) 2}}
+                        <a href="#" class="service-card {{ $boxType }} wow fadeInRight" data-wow-delay="0.8s">
+                    {{ end }}
+                            <div class="num">
+                                <span class="num-cir"> {{ add $k 1 }} </span>
+                            </div>
+                            <div class="img">
+                                <img src="{{ $v.logo }}" alt="" class="img-cover">
+                            </div>
+                            <div class="info">
+                                <p class="fsz-14 color-666"> {{ $v.intro }} </p>
+                                <h3 class="fsz-45 text-uppercase fw-500 mt-15"> {{ $v.title }} </h3>
+                            </div>
+                        </a>
+                    </div>
+                {{ end }}
+            </div>
+        </div>
     </div>
 </section>
 <!--  End services  -->
 {{ end }}
 
-
+{{if false }}
 {{ with .Params.portfolio }}
 <!--  Start portfolio  -->
 <section class="tc-portfolio-style3">
@@ -168,6 +204,39 @@
 </section>
 <!--  End portfolio  -->
 {{ end }}
+{{ end }}
+
+{{ with .Params.clients }}
+<!--  Start certifications  -->
+<section class="tc-partners-style3 clients">
+    <div class="container">
+        <div class="title mb-80">
+            <div class="row">
+                <div class="col-lg-4">
+                    <h5 class="fsz-30 text-uppercase wow fadeInUp slow" data-wow-delay="0.2s"> {{ .title }} </h5>
+                </div>
+                <div class="col-lg-8 mt-4 mt-lg-0">
+                    <div class="text fsz-18 wow fadeInUp slow" data-wow-delay="0.4s"> {{ .content | markdownify }} </div>
+                </div>  
+            </div>
+        </div>
+        <div class="logos">
+            <div class="row">
+            {{ range $k, $v := .list }}
+            <span class="logo-card wow fadeInUp slow" data-wow-delay="0.2s">
+                <span class="num">{{ add $k 1 }}</span>
+                <img src="{{ $v.logo }}" alt="" class="cert logo">
+                <p class="title"> {{ $v.title }} </p>
+            </span>
+            {{ end }}
+            </div>
+        </div>
+    </div>
+    <img src="/img/background/bg_pattern.png" alt="" class="bg" data-speed="0.8">
+</section>
+<!--  End certifications  -->
+
+{{ end }}
 
 {{ with .Params.certifications }}
 <!--  Start certifications  -->
@@ -220,7 +289,9 @@
                 <span class="wow fadeInUp slow team-member col-lg-4 col-md-6 mb-40" data-wow-delay="0.2s">
                     <img src="{{ $v.img }}" alt="{{ $v.name }}" class="person mb-20">
                     <p class="name"> {{ $v.name }}</p>
-                    <span class="title">({{ $v.title }})</span> 
+                    {{ if ne $v.title ""}}
+                    <span class="title">({{ $v.title }})</span>
+                    {{ end }}
                     <p class="position"> {{ $v.position }} </p>
                 </span>
                 {{ end }}

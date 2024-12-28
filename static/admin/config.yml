@@ -269,6 +269,8 @@ collections: # A list of collections the CMS should be able to edit
                 required: true
                 fields:
                 - { label: "Title", name: title, widget: string }
+                - { label: "Box class", name: cls, widget: string }
+                - { label: "Size", name: size, widget: select, options: ["big", "small"] }
                 - { label: "Image", name: logo, widget: image, required: false }
                 - { label: "Intro", name: intro, widget: string, required: false }
                 - { label: "Text", name: content, widget: markdown, required: false }

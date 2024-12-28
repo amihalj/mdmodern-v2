@@ -161,30 +161,40 @@ services:
     Our expertise spans highway design, drainage and stormwater analysis, traffic engineering, and more. We have successfully managed complex public infrastructure projects, with a strong focus on seamless coordination with agencies and third parties to ensure smooth project progression and regulatory compliance. From parking lot redesigns to large-scale urban developments, we deliver sustainable, efficient, and compliant solutions that meet the unique needs of our clients and positively impact the communities we serve.
   list:
     - title: Geometric Roadway and Pavement Design
+      cls: col-lg-4 col-md-6 col-sm-12
+      size: big
       logo: /img/assets/steven-lewis-dmhnxj-5ilq-unsplash.jpg
       intro: ""
       content: We provide comprehensive civil and roadway engineering services,
         including planning, design, and construction administration for
         roadways, airports, highways, and other transportation infrastructure.
+    - title: "Maintenance and Protection of Traffic (MPT) design "
+      cls: col-lg-6 col-md-6 col-sm-12
+      size: big
+      logo: /img/assets/wei-hunag-f-x-3gx-gn4-unsplash.jpg
+      intro: ""
+      content: We develop comprehensive MOT plans to minimize traffic disruption
+        during construction, ensuring safety for workers and the traveling
+        public.
     - title: Drainage and Utility Design
+      cls: col-lg-2 col-md-6 col-sm-12
+      size: small
       logo: /img/assets/evangelos-mpikakis-9hvz3httome-unsplash.jpg
       intro: ""
       content: Our drainage engineers design and implement effective stormwater
         management solutions that comply with PANYNJ and other regulatory
         requirements.
-    - title: "Maintenance and Protection of Traffic (MPT) design "
-      logo: /img/assets/wei-hunag-f-x-3gx-gn4-unsplash.jpg
-      intro: ...
-      content: We develop comprehensive MOT plans to minimize traffic disruption
-        during construction, ensuring safety for workers and the traveling
-        public.
     - title: Design-Build Management
+      cls: col-lg-4 col-md-6 col-sm-12
+      size: big
       logo: /img/assets/kevin-bosc-qpcf90iz6ju-unsplash.jpg
       intro: ""
       content: Our engineers, including DBIA-certified professionals, have extensive
         Design-Build experience, ensuring a smooth and efficient project
         execution from concept to completion.
     - title: Utilities Engineering
+      cls: col-lg-4 col-md-6 col-sm-12
+      size: big
       logo: /img/assets/doris-morgan-mxufj1u2aea-unsplash.jpg
       intro: "Design and Third-Party agency coordination "
       content: Our utilities engineering team specializes in designing water, sewer,
@@ -192,12 +202,16 @@ services:
         modeling to enhance precision and efficiency in our projects. Our team
         also has extensive experience with third-party utililty coordination.
     - title: Construction Administration
+      cls: col-lg-4 col-md-6 col-sm-12
+      size: small
       logo: /img/assets/proj1.jpg
       intro: ""
       content: Our construction administration services ensure that the project is
         constructed according to the plans and specifications. We will provide
         oversight of the construction process and address any issues that arise.
     - title: Permitting & Stakeholder Coordination
+      cls: col-lg-4 col-md-6 col-sm-12
+      size: big
       logo: /img/assets/mapbox-yeit9w-rwua-unsplash.jpg
       intro: ""
       content: We prioritize early stakeholder engagement and will proactively obtain
@@ -233,10 +247,12 @@ type: home
 team:
   title: "OUR LEADERSHIP TEAM: EMPOWERING EMPLOYEES AND SHAPING A STRONG FUTURE."
   list:
-    - name: Lindsay Maguire, PE, ENV SP, DBIA, WEDG
+    - name: Lindsay Maguire
+      title: PE, ENV SP, DBIA, WEDG
       position: President
       img: /img/assets/maguire_headshot.png
-    - name: Phoebe Douglas, EIT, ENV SP, WEDG
+    - name: Phoebe Douglas
+      title: EIT, ENV SP, WEDG
       position: Vice President
       img: /img/assets/douglas_headshot.png
   content: At **M.D. Modern**, our leadership is driven by a vision to build a

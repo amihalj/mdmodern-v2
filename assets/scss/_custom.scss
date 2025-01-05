@@ -35,6 +35,24 @@
     }
 }
 
+.tc-partners-style3 .logos .logo-card.grayscale{ 
+    .cert.logo {
+        filter: grayscale(1);
+    }
+    p.title {
+        font-weight: bold;
+    }
+
+    &:hover{
+        .cert.logo {
+            filter: grayscale(0)
+        }
+        p.title {
+            color: var(--color-yellow1);
+        }
+    }
+}
+
 .tc-partners-style3.clients {
     background-color: #ECECEC;
 }
@@ -85,6 +103,16 @@
                 object-fit: cover;
             }
         }
+    }
+
+    .intro {
+        font-style: italic;
+        font-size: 18px;
+        padding: 8px;
+        text-align: center;
+        font-family: inherit;
+        font-weight: bold;
+        color:#666;
     }
 }
 

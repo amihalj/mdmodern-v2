@@ -16,7 +16,7 @@
             <div class="row">
                 <div class="col-lg-3">
                     <div class="info">
-                        <h5 class="fsz-30 text-uppercase mb-80"> {{ .title }} </h5>
+                        <h5 class="fsz-30 text-uppercase mb-80 color-yellow1"> {{ .title }} </h5>
                         <div class="text paraf-bottom fsz-18 mb-15">
                             {{ .content | markdownify }}
                         </div>
@@ -61,7 +61,7 @@
         <div class="top-inf mb-80">
             <div class="row">
                 <div class="col-lg-4">
-                    <h5 class="fsz-30 text-uppercase wow fadeInUp slow" data-wow-delay="0.2s">{{ .title }}</h5>
+                    <h5 class="fsz-30 text-uppercase wow fadeInUp slow color-yellow1" data-wow-delay="0.2s">{{ .title }}</h5>
                 </div>
                 <div class="col-lg-8">
                     <div class="text fsz-18 mt-4 mt-lg-0 pe-lg-5 wow fadeInUp slow" data-wow-delay="0.4s">
@@ -122,7 +122,7 @@
         <div class="title">
             <div class="row">
                 <div class="col-lg-4">
-                    <h5 class="fsz-30 text-uppercase wow fadeInUp slow" data-wow-delay="0.2s"> {{ .title }} </h5>
+                    <h5 class="fsz-30 text-uppercase wow fadeInUp slow color-yellow1" data-wow-delay="0.2s"> {{ .title }} </h5>
                 </div>
                 <div class="col-lg-6 mt-4 mt-lg-0">
                     <div class="links wow fadeInUp slow" data-wow-delay="0.4s">
@@ -180,7 +180,7 @@
         <div class="title mb-80">
             <div class="row">
                 <div class="col-lg-4">
-                    <h5 class="fsz-30 text-uppercase wow fadeInUp slow" data-wow-delay="0.2s"> {{ .title }} </h5>
+                    <h5 class="fsz-30 text-uppercase wow fadeInUp slow color-yellow1" data-wow-delay="0.2s"> {{ .title }} </h5>
                 </div>
                 <div class="col-lg-8 mt-4 mt-lg-0">
                     <div class="text fsz-18 wow fadeInUp slow" data-wow-delay="0.4s"> {{ .content | markdownify }} </div>
@@ -190,8 +190,7 @@
         <div class="logos">
             <div class="row">
                     {{ range $k, $v := .list }}
-                    <span class="logo-card wow fadeInUp slow" data-wow-delay="0.2s">
-                        <span class="num">{{ add $k 1 }}</span>
+                    <span class="logo-card grayscale wow fadeInUp slow" data-wow-delay="0.2s">
                         <img src="{{ $v.logo }}" alt="" class="cert logo">
                         <p class="title"> {{ $v.title }} </p>
                     </span>
@@ -213,7 +212,7 @@
         <div class="title mb-80">
             <div class="row">
                 <div class="col-lg-4">
-                    <h5 class="fsz-30 text-uppercase wow fadeInUp slow" data-wow-delay="0.2s"> {{ .title }} </h5>
+                    <h5 class="fsz-30 text-uppercase wow fadeInUp slow color-yellow1" data-wow-delay="0.2s"> {{ .title }} </h5>
                 </div>
                 <div class="col-lg-8 mt-4 mt-lg-0">
                     <div class="text fsz-18 wow fadeInUp slow" data-wow-delay="0.4s"> {{ .content | markdownify }} </div>
@@ -223,7 +222,7 @@
         <div class="logos">
             <div class="row">
             {{ range $k, $v := .list }}
-            <span class="logo-card wow fadeInUp slow" data-wow-delay="0.2s">
+            <span class="logo-card grayscale wow fadeInUp slow" data-wow-delay="0.2s">
                 <img src="{{ $v.logo }}" alt="" class="cert logo">
                 <p class="title"> {{ $v.title }} </p>
             </span>
@@ -243,7 +242,8 @@
         <div class="title mb-80">
             <div class="row">
                 <div class="col-lg-6 col-md-12">
-                    <h5 class="fsz-50 text-uppercase wow fadeInUp slow text-center" data-wow-delay="0.2s"> {{ .title }} </h5>
+                    <h5 class="fsz-50 text-uppercase wow fadeInUp slow text-center color-yellow1" data-wow-delay="0.2s"> {{ .title }} </h5>
+                    <p class="intro">{{ .intro }}</p>
                 </div>
                 <div class="col-lg-6 col-md-12 mt-4 mt-lg-0">
                     <div class="text fsz-18 wow fadeInUp slow" data-wow-delay="0.4s"> {{ .content | markdownify }} </div>

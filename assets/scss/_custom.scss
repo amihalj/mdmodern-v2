@@ -11,12 +11,20 @@
     }
 }
 
+.tc-partners-style3 .logos .row {
+    margin: 0 auto !important;
+}
+
 .tc-partners-style3 .logos .logo-card{ 
-    /*width: 25%;*/
+    width: 205px;
+    aspect-ratio: 1;
+    height: 205px;
     
     .cert.logo {
         max-width: 235px;
-        max-height: 145px;    
+        max-height: 145px;
+
+        width: 105px;
     }
     p.title {
         position: absolute;
@@ -76,6 +84,32 @@
                 height: 300px;
                 object-fit: cover;
             }
+        }
+    }
+}
+
+.tc-services-style3 .servives-cards .service-card {
+    position: relative;
+    bottom: 0px;
+    height: 100%;
+    border: 1px solid #ececec;
+
+    &.sm-card {
+        .img {
+            width: 230px;
+            height: 230px;
+        }
+    }
+}
+
+
+.all-card, .tc-contact-style3  {
+
+    .ktk-eml-inf{
+        color: var(--color-orange1);
+
+        &:hover{
+            text-decoration: underline;
         }
     }
 }

@@ -263,6 +263,7 @@ collections: # A list of collections the CMS should be able to edit
             fields:
               - { label: "Title", name: title, widget: string }
               - { label: "Text", name: content, widget: markdown, required: false }
+              - { label: "Contact us", name: contact, widget: markdown, required: false}
               - label: List of services
                 name: list
                 widget: list

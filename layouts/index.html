@@ -70,46 +70,6 @@
                 </div>
             </div>
         </div>
-        <!--
-        <div class="servives-cards">
-            <div class="row gx-0">
-                {{ range $k, $v := .list }}
-                    {{ if lt $k 3}}
-                    {{ if eq (mod $k 3) 0}}
-                    <div class="col-lg-4">
-                        <a href="#" class="service-card wow fadeInLeft" data-wow-delay="0.6s">
-                    {{ end }}
-                    {{ if eq (mod $k 3) 1}}
-                    <div class="col-lg-6">
-                        <a href="#" class="service-card wow zoomIn" data-wow-delay="0.2s">
-                    {{ end }}
-                    {{ if eq (mod $k 3) 2}}
-                    <div class="col-lg-2">
-                        <a href="#" class="service-card sm-card wow fadeInRight" data-wow-delay="0.8s">
-                    {{ end }}
-                    
-                            <div class="num">
-                                <span class="num-cir"> {{ add $k 1 }} </span>
-                            </div>
-                            <div class="img">
-                                <img src="{{ $v.logo }}" alt="" class="img-cover">
-                            </div>
-                            <div class="info">
-                                <p class="fsz-14 color-666"> {{ $v.intro }} </p>
-                                <h3 class="fsz-45 text-uppercase fw-500 mt-15"> {{ $v.title }} </h3>
-                            </div>
-                        </a>
-                        {{ if eq (mod $k 3) 2}}
-                        <a href="#" class="all-card wow fadeInUp" data-wow-delay="0.4s">
-                            <span> Full <br> Services <i class="ti-arrow-top-right"></i> </span>
-                        </a>
-                        {{ end }}
-                    </div>
-                    {{ end }}
-                {{ end }}
-            </div>
-        </div>
-        -->
         <div class="servives-cards">
             <div class="row gx-0">
                 {{ range $k, $v := .list }}
@@ -117,29 +77,36 @@
                     {{ if eq $v.size "small" }}
                         {{ $boxType = "sm-card"}}
                     {{ end }}
-                    <div class="{{ $v.cls }}"> 
+                    <div class="col-lg-4 col-md-6 col-sm-12"> 
                     {{ if eq (mod $k 3) 0}}
-                        <a href="#" class="service-card {{ $boxType }} wow fadeInLeft" data-wow-delay="0.6s">
+                        <a href="#" class="service-card sm-card {{ $boxType }} wow fadeInLeft" data-wow-delay="0.6s">
                     {{ end }}
                     {{ if eq (mod $k 3) 1}}
-                        <a href="#" class="service-card {{ $boxType }} wow zoomIn" data-wow-delay="0.2s">
+                        <a href="#" class="service-card sm-card {{ $boxType }} wow zoomIn" data-wow-delay="0.2s">
                     {{ end }}
                     {{ if eq (mod $k 3) 2}}
-                        <a href="#" class="service-card {{ $boxType }} wow fadeInRight" data-wow-delay="0.8s">
+                        <a href="#" class="service-card sm-card {{ $boxType }} wow fadeInRight" data-wow-delay="0.8s">
                     {{ end }}
-                            <div class="num">
+                            <!--<div class="num">
                                 <span class="num-cir"> {{ add $k 1 }} </span>
-                            </div>
+                            </div>-->
                             <div class="img">
                                 <img src="{{ $v.logo }}" alt="" class="img-cover">
                             </div>
                             <div class="info">
                                 <p class="fsz-14 color-666"> {{ $v.intro }} </p>
-                                <h3 class="fsz-45 text-uppercase fw-500 mt-15"> {{ $v.title }} </h3>
+                                <h3 class="fsz-35 text-uppercase text-center fw-500 mt-15"> {{ $v.title }} </h3>
                             </div>
                         </a>
                     </div>
                 {{ end }}
+                <div class="col-lg-6 col-md-6 col-sm-12">
+                    <a href="#" class="all-card wow fadeInUp ktk-eml-inf-link" data-wow-delay="0.4s">
+                        <p> {{ .contact | markdownify }}  <span class="ktk-eml-inf"></span><i class="ti-email"></i></p>
+                        
+                    </a>
+                </div>
+                
             </div>
         </div>
     </div>
@@ -222,17 +189,18 @@
         </div>
         <div class="logos">
             <div class="row">
-            {{ range $k, $v := .list }}
-            <span class="logo-card wow fadeInUp slow" data-wow-delay="0.2s">
-                <span class="num">{{ add $k 1 }}</span>
-                <img src="{{ $v.logo }}" alt="" class="cert logo">
-                <p class="title"> {{ $v.title }} </p>
-            </span>
-            {{ end }}
+                    {{ range $k, $v := .list }}
+                    <span class="logo-card wow fadeInUp slow" data-wow-delay="0.2s">
+                        <span class="num">{{ add $k 1 }}</span>
+                        <img src="{{ $v.logo }}" alt="" class="cert logo">
+                        <p class="title"> {{ $v.title }} </p>
+                    </span>
+                    {{ end }}
             </div>
         </div>
     </div>
     <img src="/img/background/bg_pattern.png" alt="" class="bg" data-speed="0.8">
+    
 </section>
 <!--  End certifications  -->
 
@@ -256,7 +224,6 @@
             <div class="row">
             {{ range $k, $v := .list }}
             <span class="logo-card wow fadeInUp slow" data-wow-delay="0.2s">
-                <span class="num">{{ add $k 1 }}</span>
                 <img src="{{ $v.logo }}" alt="" class="cert logo">
                 <p class="title"> {{ $v.title }} </p>
             </span>
@@ -301,5 +268,109 @@
 </section>
 
 {{ end }}
+
+
+            <!--  Start contact  -->
+            <section class="tc-contact-style3">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-3">
+                            <div class="map-side">
+                                <h5 class="fsz-30 text-uppercase mb-90"> {{ .Params.contact.title }} </h5>
+                                <div class="map">
+                                    <img src="assets/img/map.png" alt="" class="map-img">
+                                </div>
+                                {{ with .Params.contact.content }}
+                                    {{ . | markdownify }}
+                                {{ end }}
+                                
+                            </div>
+                        </div>
+                        <div class="col-lg-8 offset-lg-1">
+                            <div class="contact-info">
+                                <div class="row">
+                                    <div class="col-lg-6">
+                                        <div class="info-card mb-30">
+                                            <h4 class="fsz-45 text-uppercase mb-30"> {{ .Site.Params.contact.city }} </h4>
+                                            <ul class="color-666 lh-6">
+                                                <li> <a href="#"> {{ .Site.Params.contact.address }} </a> </li>
+                                                <li> <a href="#" class="ktk-eml-inf ktk-eml-inf-link">info@domain.com </a> </li>
+                                                <!--<li> <a href="#"> (054) 3256 78 87 </a> </li>-->
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    {{ with .Params.contact.content }}
+                                        <div class="col-lg-6">
+                                            <div class="info-card mb-30">
+                                                {{ . | markdownify }}
+                                            </div>
+                                        </div>
+                                    {{ end }}
+                                </div>
+                            </div>
+                            <!--<form action="" class="form d-block mt-100">
+                                <div class="title mb-40 js-splittext-lines">
+                                    <h4 class="fsz-45 text-uppercase mb-30"> Hire us now </h4>
+                                    <p class="text-danger"> *  Marked fields are required to fill </p>
+                                </div>
+                                <div class="form-body wow fadeInUp slow" data-wow-delay="0.3s">
+                                    <div class="row">
+                                        <div class="col-lg-6">
+                                            <div class="form-group mb-30">
+                                                <label for="" class="fsz-12 text-uppercase mb-1"> Full name <span class="text-danger"> * </span> </label>
+                                                <input type="text" class="form-control" placeholder="Enter your name">
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-6">
+                                            <div class="form-group mb-30">
+                                                <label for="" class="fsz-12 text-uppercase mb-1"> email address <span class="text-danger"> * </span> </label>
+                                                <input type="text" class="form-control" placeholder="Enter your email address">
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-6">
+                                            <div class="form-group mb-30">
+                                                <label for="" class="fsz-12 text-uppercase mb-1"> phone number <span class="text-danger"> * </span> </label>
+                                                <input type="text" class="form-control" placeholder="Enter your phone number">
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-6">
+                                            <div class="form-group mb-30">
+                                                <label for="" class="fsz-12 text-uppercase mb-1"> subject (optional) </label>
+                                                <input type="text" class="form-control" placeholder="Enter your subject">
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-12">
+                                            <div class="form-group mb-30">
+                                                <label for="" class="fsz-12 text-uppercase mb-1"> Message </label>
+                                                <textarea rows="9" class="form-control" placeholder="Write your message here"></textarea>
+                                            </div>
+                                        </div>
+                                        <div class="upload_img_content">
+                                            <div class="file">
+                                                <div class="file__input" id="file__input">
+                                                    <input class="file__input--file" id="customFile" type="file" multiple="multiple" name="files[]">
+                                                    <label class="file__input--label" for="customFile" data-text-btn="Add an attachment"> <i class="la la-paperclip"></i> Add an attachment </label>
+                                                </div>
+                                                <div class="file__value_content" id="file__value_content"></div>
+                                            </div>
+                                        </div>
+                                        <div class="form-check mt-40">
+                                            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                            <label class="form-check-label fsz-14" for="flexCheckDefault">
+                                                By summiting, i’m agree to the <a href="#" class="text-decoration-underline"> Terms & Conditions </a>
+                                            </label>
+                                        </div>
+                                    </div>
+                                    <a href="#" class="butn borderd bg-white py-2 px-3 text-uppercase ltspc-1 hover-bg-yellow1 mt-60">
+                                        <span> Send message <i class="small ms-1 ti-arrow-top-right"></i> </span>
+                                    </a>
+                                </div>
+                            </form>-->
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!--  End contact  -->
+
 
 {{ end }}

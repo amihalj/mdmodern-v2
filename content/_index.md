@@ -236,17 +236,17 @@ certifications:
   list:
     - title: Certified NYC WBE
       logo: /img/logos/nycWBE.png
-    - title: "Certified PANYNJ WBE  "
+    - title: "CERTIFIED PANYNJ WBE  "
       logo: /img/assets/port-authority.png
-    - title: Certified NYSDOT DBE
+    - title: CERTIFIED NYSDOT DBE
       logo: /img/logos/DBE-Certified-logo.png
-    - title: Envision (ENVSP)
+    - title: CERTIFIED ENVSP
       logo: /img/logos/envision.png
-    - title: "Certified WATER FRONT EDGE GUIDELINE "
+    - title: WATER FRONT EDGE GUIDELINE CERTIFIED
       logo: /img/logos/WEDG-opt.png
-    - title: Certified NY State WBE
+    - title: Certified NY STATE WBE
       logo: /img/assets/nys-wbe.avif
-    - title: DBIA Professionals
+    - title: CERTIFIED DBIA PROFESSIONALS
       logo: /img/assets/dbia-logos-certification-dbia_registered.png
 type: home
 team:

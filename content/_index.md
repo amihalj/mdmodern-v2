@@ -26,7 +26,7 @@ about_us:
     *Our team’s extensive experience in design-build and design-bid-build projects has earned us a reputation for reliability and technical excellence. Serving NYC and NJ, we prioritize community-focused sustainability, inclusivity, and early stakeholder engagement, making us the trusted partner for public agencies and engineering consultants.*
   boxes:
     left:
-      title: .
+      title: ..
       logo: /img/assets/karen-uppal-fdhl_myady8-unsplash.jpg
       number: 55
     middle:

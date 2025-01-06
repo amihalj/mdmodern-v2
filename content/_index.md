@@ -16,12 +16,14 @@ h1: M.D. Modern Engineering, D.P.C.
 about_us:
   title: WHO WE ARE
   content: >-
-    **MODERN** is a boutique civil engineering firm dedicated to delivering
-    high-quality engineering solutions for public infrastructure projects in New
-    York City. 
+    **M.D. Modern Engineering, D.P.C.** is a certified **WBE** and **DBE**
+    engineering firm dedicated to fostering strong, collaborative relationships
+    with clients and partners. Founded to bridge the gap between large-firm
+
+    expertise and small-firm personalization, we focus on delivering dependable results with a commitment to transparency and integrity. 
 
 
-    We specialize in providing consulting services to public agencies, offering expertise in areas such as transportation, water resources, structural engineering, and environmental sustainability.
+    *Our team’s extensive experience in design-build and design-bid-build projects has earned us a reputation for reliability and technical excellence. Serving NYC and NJ, we prioritize community-focused sustainability, inclusivity, and early stakeholder engagement, making us the trusted partner for public agencies and engineering consultants.*
   boxes:
     left:
       title: .
@@ -152,15 +154,16 @@ title: Home
 services:
   title: OUR SERVICES
   content: >-
-    **M.D. Modern Engineering, D.P.C.** is a newly established firm based in the
-    NYC area, led by a team of **experienced design engineers** with decades of
-    personal experience and a proven track record in both Design-Bid-Build and
-    Design-Build projects. 
+    **M.D. Modern Engineering, D.P.C.** provides comprehensive civil engineering
+    solutions that address the multifaceted challenges of urban infrastructure.
+    Our expertise spans geometric roadway and pavement design, drainage and
+    utility engineering, and construction administration, all seamlessly
+    integrated to deliver efficient and effective results. 
 
 
-    Our expertise spans highway design, drainage and stormwater analysis, traffic engineering, and more. We have successfully managed complex public infrastructure projects, with a strong focus on seamless coordination with agencies and third parties to ensure smooth project progression and regulatory compliance. From parking lot redesigns to large-scale urban developments, we deliver sustainable, efficient, and compliant solutions that meet the unique needs of our clients and positively impact the communities we serve.
-  contact: >-
-    Learn more about how we can help—email us at
+     *We specialize in design-build management and excel at navigating complex permitting processes while fostering collaboration with stakeholders to ensure project success. By combining innovative approaches with
+
+    meticulous attention to detail, we deliver tailored solutions that meet client goals and exceed expectations, all while prioritizing efficiency, reliability, and technical excellence from project inception to completion.*
   list:
     - title: Geometric Roadway and Pavement Design
       cls: col-lg-4 col-md-6 col-sm-12
@@ -194,11 +197,11 @@ services:
       content: Our engineers, including DBIA-certified professionals, have extensive
         Design-Build experience, ensuring a smooth and efficient project
         execution from concept to completion.
-    - title: Utilities Engineering
+    - title: "Utilities Engineering Design and Third-Party agency coordination "
       cls: col-lg-4 col-md-6 col-sm-12
       size: big
       logo: /img/assets/doris-morgan-mxufj1u2aea-unsplash.jpg
-      intro: "Design and Third-Party agency coordination "
+      intro: ""
       content: Our utilities engineering team specializes in designing water, sewer,
         gas, electrical, and telecommunication systems, with expertise in 3D
         modeling to enhance precision and efficiency in our projects. Our team
@@ -237,7 +240,7 @@ certifications:
       logo: /img/assets/port-authority.png
     - title: Certified NYSDOT DBE
       logo: /img/logos/DBE-Certified-logo.png
-    - title: "Envision Sustainability Professionals "
+    - title: Envision (ENVSP)
       logo: /img/logos/envision.png
     - title: "Certified WATER FRONT EDGE GUIDELINE "
       logo: /img/logos/WEDG-opt.png
@@ -247,8 +250,7 @@ certifications:
       logo: /img/assets/dbia-logos-certification-dbia_registered.png
 type: home
 team:
-  title: Our leadership team
-  intro: Empowering employees and shaping a strong future
+  title: "OUR LEADERSHIP TEAM: EMPOWERING EMPLOYEES AND SHAPING A STRONG FUTURE."
   list:
     - name: Lindsay Maguire
       title: PE, ENV SP, DBIA, WEDG
@@ -268,8 +270,4 @@ team:
     excellence, and collaboration, our leadership is dedicated to delivering
     high-quality projects while ensuring that those who help run the company are
     recognized and supported.
-contact:
-  title: Our location
-  content: >-
-
 ---

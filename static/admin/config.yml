@@ -330,3 +330,10 @@ collections: # A list of collections the CMS should be able to edit
                 - { label: "Position", name: position, widget: string }
                 - { label: "Image", name: img, widget: image }
                 - { label: "Text", name: content, widget: markdown, required: false }
+          - label: Bottom form contact
+            name: contact
+            widget: object
+            fields:
+              - { label: "Title", name: title, widget: string }
+              - { label: "Text", name: content, widget: markdown, required: false }
+

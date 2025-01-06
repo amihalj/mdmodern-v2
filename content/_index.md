@@ -280,4 +280,7 @@ team:
     high-quality projects while ensuring that those who help run the company are
     recognized and supported.
   intro: Empowering employees and shaping a strong future
+contact:
+  title: Our location
+  content: >-
 ---

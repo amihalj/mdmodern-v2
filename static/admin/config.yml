@@ -228,6 +228,15 @@ collections: # A list of collections the CMS should be able to edit
                   fields:
                   - { label: "Title", name: title, widget: string }
                   - { label: "Logo", name: logo, widget: image, required: false }
+              - label: Big Image
+                name: big_image
+                widget: object
+                fields:
+                  - { label: "Image", name: img, widget: image }
+                  - { label: "Image class", name: cls, widget: string }
+                  - { label: "Image large", name: image_l, widget: image, required: false }
+                  - { label: "Image medium", name: image_m, widget: image, required: false }
+                  - { label: "Image small", name: image_s, widget: image, required: false }
 
           - label: Portfolio
             name: portfolio

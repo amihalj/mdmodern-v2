@@ -37,6 +37,12 @@ about_us:
       title: .
       logo: /img/assets/valou-_c-lg5jh54zalg-unsplash.jpg
       number: 8
+  big_image:
+    img: /img/manhattan.jpg
+    cls: img-cover main-img
+    image_l: /img/manhattan.jpg
+    image_m: /img/manhattan.jpg
+    image_s: /img/manhattan.jpg
 portfolio:
   title: PROJECT HIGHLIGHTS
   groups:

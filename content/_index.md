@@ -158,10 +158,12 @@ services:
     solutions that address the multifaceted challenges of urban infrastructure.
     Our expertise spans geometric roadway and pavement design, drainage and
     utility engineering, and construction administration, all seamlessly
-    integrated to deliver efficient and effective results. 
+    integrated to deliver efficient and effective results.
 
 
-     *We specialize in design-build management and excel at navigating complex permitting processes while fostering collaboration with stakeholders to ensure project success. By combining innovative approaches with
+
+
+    *We specialize in design-build management and excel at navigating complex permitting processes while fostering collaboration with stakeholders to ensure project success. By combining innovative approaches with
 
     meticulous attention to detail, we deliver tailored solutions that meet client goals and exceed expectations, all while prioritizing efficiency, reliability, and technical excellence from project inception to completion.*
   list:
@@ -250,7 +252,7 @@ certifications:
       logo: /img/assets/dbia-logos-certification-dbia_registered.png
 type: home
 team:
-  title: "OUR LEADERSHIP TEAM: EMPOWERING EMPLOYEES AND SHAPING A STRONG FUTURE."
+  title: OUR LEADERSHIP TEAM
   list:
     - name: Lindsay Maguire
       title: PE, ENV SP, DBIA, WEDG
@@ -270,4 +272,5 @@ team:
     excellence, and collaboration, our leadership is dedicated to delivering
     high-quality projects while ensuring that those who help run the company are
     recognized and supported.
+  intro: EMPOWERING EMPLOYEES AND SHAPING A STRONG FUTURE.
 ---

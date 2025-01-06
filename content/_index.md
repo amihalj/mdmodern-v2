@@ -224,6 +224,7 @@ services:
       content: We prioritize early stakeholder engagement and will proactively obtain
         required permits and approvals. A comprehensive stakeholder management
         plan will ensure project adherence and address potential challenges.
+  contact: Learn more about how we can help—email us at
 certifications:
   title: OUR CERTIFICATIONS
   content: >-
@@ -272,5 +273,5 @@ team:
     excellence, and collaboration, our leadership is dedicated to delivering
     high-quality projects while ensuring that those who help run the company are
     recognized and supported.
-  intro: EMPOWERING EMPLOYEES AND SHAPING A STRONG FUTURE.
+  intro: Empowering employees and shaping a strong future
 ---

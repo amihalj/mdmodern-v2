@@ -13,6 +13,10 @@
 
 .tc-partners-style3 .logos .row {
     margin: 0 auto !important;
+
+    &.center-middle-logos{
+        justify-content: center;
+    }
 }
 
 .tc-partners-style3 .logos .logo-card{ 

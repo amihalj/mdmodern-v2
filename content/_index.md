@@ -21,9 +21,9 @@ about_us:
     with clients and partners. Founded to bridge the gap between large-firm
 
     expertise and small-firm personalization, we focus on delivering dependable results with a commitment to transparency and integrity. 
-
-
-    *Our team’s extensive experience in design-build and design-bid-build projects has earned us a reputation for reliability and technical excellence. Serving NYC and NJ, we prioritize community-focused sustainability, inclusivity, and early stakeholder engagement, making us the trusted partner for public agencies and engineering consultants.*
+  intro: >-
+    Our team’s extensive experience in design-build and design-bid-build projects has earned us a reputation for reliability and technical excellence. Serving NYC and NJ, we prioritize community-focused sustainability, inclusivity, and early stakeholder engagement, making us the trusted partner for public agencies and engineering consultants.
+  contact: Have questions? Connect with us at 
   boxes:
     left:
       title: ..

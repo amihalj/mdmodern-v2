@@ -20,6 +20,9 @@
                         <div class="text paraf-bottom fsz-18 mb-15">
                             {{ .content | markdownify }}
                         </div>
+                        <div class="intro text paraf-bottom fsz-16 mb-15">
+                            {{ .intro | markdownify }}
+                        </div>
                         <!--<a href="#" class="butn borderd mt-70 bg-white py-2 px-3 text-uppercase ltspc-1 hover-bg-yellow1">
                             <span> About us <i class="small ms-1 ti-arrow-top-right"></i> </span>
                         </a>-->
@@ -39,6 +42,14 @@
                             <img src="{{ .boxes.right.logo }}" alt="{{ .boxes.right.title }}"/>
                             <h6 class="text-uppercase text-end fsz-18 lh-4"> {{ .boxes.right.title }} </h6>
                         </div>
+                    </div>
+                </div>
+                
+            </div>
+            <div class="row mt-80">
+                <div class="col-md-9 offset-md-3 col-12">
+                    <div class="call-to-action-box">
+                        <p> {{ .contact | markdownify }}  <a href="#" class="ktk-eml-inf ktk-eml-inf-link"></a></p>
                     </div>
                 </div>
             </div>

@@ -92,12 +92,15 @@
             }
 
             .title {
-                font-size: 1rem;
+                font-size: 0.9rem;
                 font-style: italic;
+                font-weight: bold;
+                color: #666;
             }
 
             .position{
                 font-size: 1rem;
+                color: var(--color-orange1);
             }
 
             img.person{

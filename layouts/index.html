@@ -47,7 +47,7 @@
     </div>
     {{ with .big_image}}
     <div class="img-content wow">
-        <img src="{{ .img }}" alt="{{ .alt }}" class="img-cover main-img">
+        {{ partial "responsive-image" . }}
     </div>
     {{ end }}
 </section>

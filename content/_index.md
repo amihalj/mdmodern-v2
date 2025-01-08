@@ -35,14 +35,18 @@ about_us:
       number: 154
     right:
       title: .
-      logo: /img/assets/valou-_c-lg5jh54zalg-unsplash.jpg
+      logo: /img/home/subway-990.jpg
       number: 8
   big_image:
     img: /img/manhattan.jpg
     cls: img-cover main-img
-    image_l: /img/manhattan.jpg
-    image_m: /img/manhattan.jpg
-    image_s: /img/manhattan.jpg
+    image_xxl: /img/manhattan.jpg
+    image_xl: /img/manhattan-1900.jpg
+    image_l: /img/manhattan-1600.jpg
+    image_m: /img/manhattan-1200.jpg
+    image_s: /img/manhattan-990.jpg
+    image_xs: /img/manhattan-760.jpg
+    image_micro: /img/manhattan-570.jpg
 portfolio:
   title: PROJECT HIGHLIGHTS
   groups:

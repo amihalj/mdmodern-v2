@@ -12,7 +12,7 @@ uglify().on('error', console.error)
 
 var img_size = parseInt(process.env.IMG_SIZE || '220', 10)
 
-var all_img_size = [1200, 900, 720, 670, 440, 320, 220]
+var all_img_size = [1900, 1600, 1400, 1200, 990, 760, 570, 440]
 
 // Compiles SCSS files from /scss into /css
 gulp.task('sass', function () {
@@ -101,7 +101,7 @@ gulp.task('img-resize-all', function () {
                 noProfile: true
             }))
             .pipe(rename(function (path) { path.basename += "-" + size; }))
-            .pipe(gulp.dest(`assets/img/crops`))
+            .pipe(gulp.dest(`dist/img/to-crop`))
     );
 });
 

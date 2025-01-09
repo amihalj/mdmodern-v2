@@ -121,6 +121,16 @@
         .img-content {
             position: relative;
             padding: 0 15px;
+
+            &.device-screen {
+                -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+                clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+                -webkit-transform: scale(1);
+                -ms-transform: scale(1);
+                transform: scale(1);
+                -webkit-filter: blur(0px);
+                filter: blur(0px);
+            }
             
             .main-img {
                 margin-inline-start: 0;

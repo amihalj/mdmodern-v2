@@ -267,11 +267,11 @@ team:
   list:
     - name: Lindsay Maguire
       title: PE, ENV SP, DBIA, WEDG
-      position: President
+      position: Principal and Co-Founder
       img: /img/assets/maguire_headshot.png
     - name: Phoebe Douglas
       title: EIT, ENV SP, WEDG
-      position: Vice President
+      position: Principal and Co-Founder
       img: /img/assets/douglas_headshot.png
   content: At **M.D. Modern**, our leadership is driven by a vision to build a
     company that prioritizes its employees. Inspired by a deep commitment to

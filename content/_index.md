@@ -1,4 +1,7 @@
 ---
+contact:
+  title: Our location
+  content: ""
 draft: false
 meta:
   title: M.D. Modern Engineering, D.P.C.
@@ -21,9 +24,12 @@ about_us:
     with clients and partners. Founded to bridge the gap between large-firm
 
     expertise and small-firm personalization, we focus on delivering dependable results with a commitment to transparency and integrity. 
-  intro: >-
-    Our team’s extensive experience in design-build and design-bid-build projects has earned us a reputation for reliability and technical excellence. Serving NYC and NJ, we prioritize community-focused sustainability, inclusivity, and early stakeholder engagement, making us the trusted partner for public agencies and engineering consultants.
-  contact: Have questions? Connect with us at 
+  intro: Our team’s extensive experience in design-build and design-bid-build
+    projects has earned us a reputation for reliability and technical
+    excellence. Serving NYC and NJ, we prioritize community-focused
+    sustainability, inclusivity, and early stakeholder engagement, making us the
+    trusted partner for public agencies and engineering consultants.
+  contact: Have questions? Connect with us at
   boxes:
     left:
       title: ..
@@ -38,15 +44,15 @@ about_us:
       logo: /img/home/subway-990.jpg
       number: 8
   big_image:
+    image_micro: /img/manhattan-570.jpg
     img: /img/manhattan.jpg
-    cls: img-cover main-img
     image_xxl: /img/manhattan.jpg
-    image_xl: /img/manhattan-1900.jpg
     image_l: /img/manhattan-1600.jpg
     image_m: /img/manhattan-1200.jpg
+    cls: img-cover main-img
     image_s: /img/manhattan-990.jpg
+    image_xl: /img/manhattan-1900.jpg
     image_xs: /img/manhattan-760.jpg
-    image_micro: /img/manhattan-570.jpg
 portfolio:
   title: PROJECT HIGHLIGHTS
   groups:
@@ -111,56 +117,6 @@ portfolio:
         alt: small project 2
       img:
         src: /img/assets/screenshot-2024-12-21-210046.png
-clients:
-  title: OUR CLIENTS
-  list:
-    - title: NYCDOT
-      logo: /img/assets/nycdot.svg.png
-    - title: NYSDOT
-      logo: /img/assets/nysdot.png
-    - title: PANYNJ
-      logo: /img/assets/pa_logo_alrs_black_rgb.png
-    - title: NYCDDC
-      logo: /img/assets/nycddc.png
-    - title: NYCDEP
-      logo: /img/assets/new_york_city_department_of_environmental_protection_logo.png
-    - title: MTA
-      logo: /img/assets/mta_nyc_logo_black.png
-  content: >-
-    At **M.D. Modern Engineering, D.P.C.**, we collaborate with public agencies,
-    utility providers, and private businesses to deliver innovative, sustainable
-    infrastructure solutions. Our clients include:
-
-
-    * **Public Sector Agencies:**
-
-       NYSDOT, NYCDEP, MTA, PANYNJ, and others.
-    * **Utility Providers:**
-
-       Con Edison, National Grid, ECS, and similar organizations.
-    * **Municipal Boards:**
-
-       Local planning and zoning boards for permitting and compliance.
-    * **Private Sector:**
-
-       Commercial, residential, and institutional clients seeking tailored engineering services.
-
-    Our expertise ensures seamless project execution, from concept to completion, while meeting diverse client needs.
-partners:
-  title: Our partners
-  content: |
-    Our parthers bla bla
-  list:
-    - title: Partner one
-      logo: /img/partners/lg1.svg
-    - title: Partner two
-      logo: /img/partners/lg1.svg
-    - title: Partner three
-      logo: /img/partners/lg1.svg
-    - title: Partner four
-      logo: /img/partners/lg1.svg
-date: 2022-05-21T16:47:17+02:00
-title: Home
 services:
   title: OUR SERVICES
   content: >-
@@ -235,6 +191,56 @@ services:
         required permits and approvals. A comprehensive stakeholder management
         plan will ensure project adherence and address potential challenges.
   contact: Learn more about how we can help—email us at
+clients:
+  title: OUR CLIENTS
+  list:
+    - title: NYCDOT
+      logo: /img/assets/nycdot.svg.png
+    - title: NYSDOT
+      logo: /img/assets/nysdot.png
+    - title: PANYNJ
+      logo: /img/assets/pa_logo_alrs_black_rgb.png
+    - title: NYCDDC
+      logo: /img/assets/nycddc.png
+    - title: NYCDEP
+      logo: /img/assets/new_york_city_department_of_environmental_protection_logo.png
+    - title: MTA
+      logo: /img/assets/mta_nyc_logo_black.png
+  content: >-
+    At **M.D. Modern Engineering, D.P.C.**, we collaborate with public agencies,
+    utility providers, and private businesses to deliver innovative, sustainable
+    infrastructure solutions. Our clients include:
+
+
+    * **Public Sector Agencies:**
+
+       NYSDOT, NYCDEP, MTA, PANYNJ, and others.
+    * **Utility Providers:**
+
+       Con Edison, National Grid, ECS, and similar organizations.
+    * **Municipal Boards:**
+
+       Local planning and zoning boards for permitting and compliance.
+    * **Private Sector:**
+
+       Commercial, residential, and institutional clients seeking tailored engineering services.
+
+    Our expertise ensures seamless project execution, from concept to completion, while meeting diverse client needs.
+partners:
+  title: Our partners
+  content: |
+    Our parthers bla bla
+  list:
+    - title: Partner one
+      logo: /img/partners/lg1.svg
+    - title: Partner two
+      logo: /img/partners/lg1.svg
+    - title: Partner three
+      logo: /img/partners/lg1.svg
+    - title: Partner four
+      logo: /img/partners/lg1.svg
+date: 2022-05-21T16:47:17+02:00
+title: Home
 certifications:
   title: OUR CERTIFICATIONS
   content: >-
@@ -270,7 +276,7 @@ team:
       position: Principal and Co-Founder
       img: /img/assets/maguire_headshot.png
     - name: Phoebe Douglas
-      title: EIT, ENV SP, WEDG
+      title: PE, ENV SP, WEDG
       position: Principal and Co-Founder
       img: /img/assets/douglas_headshot.png
   content: At **M.D. Modern**, our leadership is driven by a vision to build a
@@ -284,7 +290,4 @@ team:
     high-quality projects while ensuring that those who help run the company are
     recognized and supported.
   intro: Empowering employees and shaping a strong future
-contact:
-  title: Our location
-  content: >-
 ---

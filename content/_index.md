@@ -246,7 +246,7 @@ certifications:
   content: >-
     **M.D. Modern Engineering, D.P.C.** is a certified **Women-Owned Business
     Enterprise** **(WBE)** by New York State, New York City, and a certified
-    **Minority-Owned and Women-Owned Business (WMBE)** with the Port Authority
+    **Minority-Owned and Women-Owned Business (MWBE)** with the Port Authority
     of New York and New Jersey (PANYNJ). We are also a certified **Disadvantaged
     Business Enterprise (DBE)**. By partnering with us, you can help achieve
     your project’s DBE and WBE participation goals.

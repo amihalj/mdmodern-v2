@@ -256,7 +256,7 @@ certifications:
   list:
     - title: Certified NYC WBE
       logo: /img/logos/nycWBE.png
-    - title: "CERTIFIED PANYNJ WBE  "
+    - title: "CERTIFIED PANYNJ MWBE  "
       logo: /img/assets/port-authority-mwbe-certified.webp
     - title: CERTIFIED NYSDOT DBE
       logo: /img/logos/DBE-Certified-logo.png

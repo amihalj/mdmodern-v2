@@ -19,11 +19,11 @@ h1: M.D. Modern Engineering, D.P.C.
 about_us:
   title: WHO WE ARE
   content: >-
-    **M.D. Modern Engineering, D.P.C.** is a certified **WBE** and **DBE**
+    **M.D. Modern Engineering, D.P.C.** is a certified **WBE, MBE,** and **DBE**
     engineering firm dedicated to fostering strong, collaborative relationships
     with clients and partners. Founded to bridge the gap between large-firm
 
-    expertise and small-firm personalization, we focus on delivering dependable results with a commitment to transparency and integrity. 
+    expertise and small-firm personalization, we focus on delivering dependable results with a commitment to transparency and integrity.
   intro: Our team’s extensive experience in design-build and design-bid-build
     projects has earned us a reputation for reliability and technical
     excellence. Serving NYC and NJ, we prioritize community-focused
@@ -245,10 +245,11 @@ certifications:
   title: OUR CERTIFICATIONS
   content: >-
     **M.D. Modern Engineering, D.P.C.** is a certified **Women-Owned Business
-    Enterprise** **(WBE)** by New York State, New York City, and the Port
-    Authority of New York and New Jersey (PANYNJ), and is also a certified
-    **Disadvantaged Business Enterprise (DBE)**. By partnering with us, you can
-    help achieve your project’s DBE and WBE participation goals. 
+    Enterprise** **(WBE)** by New York State, New York City, and a certified
+    **Minority-Owned and Women-Owned Business (WMBE)** with the Port Authority
+    of New York and New Jersey (PANYNJ). We are also a certified **Disadvantaged
+    Business Enterprise (DBE)**. By partnering with us, you can help achieve
+    your project’s DBE and WBE participation goals.
 
 
     Our team includes **DBIA-certified, WEDG-certified, and Envision Sustainability Professionals**, ensuring a high level of expertise in delivering sustainable and innovative engineering solutions. We are dedicated to providing top-quality services while fostering diversity and inclusion within the construction industry.
@@ -256,7 +257,7 @@ certifications:
     - title: Certified NYC WBE
       logo: /img/logos/nycWBE.png
     - title: "CERTIFIED PANYNJ WBE  "
-      logo: /img/assets/port-authority.png
+      logo: /img/assets/port-authority-mwbe-certified.webp
     - title: CERTIFIED NYSDOT DBE
       logo: /img/logos/DBE-Certified-logo.png
     - title: CERTIFIED ENVSP

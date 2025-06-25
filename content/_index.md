@@ -244,12 +244,12 @@ title: Home
 certifications:
   title: OUR CERTIFICATIONS
   content: >-
-    **M.D. Modern Engineering, D.P.C.** is a certified **Women-Owned Business
-    Enterprise** **(WBE)** by New York State, New York City, and a certified
-    **Minority-Owned and Women-Owned Business (MWBE)** with the Port Authority
-    of New York and New Jersey (PANYNJ). We are also a certified **Disadvantaged
-    Business Enterprise (DBE)**. By partnering with us, you can help achieve
-    your project’s DBE and WBE participation goals.
+    **M.D. Modern Engineering, D.P.C.** is a certified **Minority and
+    Women-Owned Business Enterprise** **(MWBE)** by New York State, New York
+    City **WBE**, and a certified **MWBE** with the Port Authority of New York
+    and New Jersey (PANYNJ). We are also a certified **Disadvantaged Business
+    Enterprise (DBE)**. By partnering with us, you can help achieve your
+    project’s DBE and WBE participation goals.
 
 
     Our team includes **DBIA-certified, WEDG-certified, and Envision Sustainability Professionals**, ensuring a high level of expertise in delivering sustainable and innovative engineering solutions. We are dedicated to providing top-quality services while fostering diversity and inclusion within the construction industry.
@@ -264,8 +264,8 @@ certifications:
       logo: /img/logos/envision.png
     - title: WATER FRONT EDGE GUIDELINE CERTIFIED
       logo: /img/logos/WEDG-opt.png
-    - title: Certified NY STATE WBE
-      logo: /img/assets/nys-wbe.avif
+    - title: Certified NY STATE MWBE
+      logo: /img/assets/nygov-logo-mwbe.png
     - title: CERTIFIED DBIA PROFESSIONALS
       logo: /img/assets/dbia-logos-certification-dbia_registered.png
 type: home

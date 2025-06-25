@@ -265,7 +265,7 @@ certifications:
     - title: WATER FRONT EDGE GUIDELINE CERTIFIED
       logo: /img/logos/WEDG-opt.png
     - title: Certified NY STATE MWBE
-      logo: /img/assets/nygov-logo-mwbe.png
+      logo: /img/assets/nys-default.png
     - title: CERTIFIED DBIA PROFESSIONALS
       logo: /img/assets/dbia-logos-certification-dbia_registered.png
 type: home

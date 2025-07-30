@@ -272,23 +272,32 @@ type: home
 team:
   title: OUR LEADERSHIP TEAM
   list:
-    - name: Lindsay Maguire
-      title: PE, ENV SP, DBIA, WEDG
-      position: Co-Founder and Co-CEO
-      img: /img/assets/maguire_headshot.png
     - name: Phoebe Douglas
       title: PE, ENV SP, WEDG
       position: Co-Founder and Co-CEO
       img: /img/assets/douglas_headshot.png
-  content: At **M.D. Modern**, our leadership is driven by a vision to build a
-    company that prioritizes its employees. Inspired by a deep commitment to
-    fostering a sustainable and inclusive work environment, our President and
-    Vice President have cultivated a culture where every individual feels valued
-    and empowered. They believe in creating a workplace where employees have a
-    real stake in the company's success and are encouraged to contribute to the
-    growth and direction of the business. With a focus on innovation,
-    excellence, and collaboration, our leadership is dedicated to delivering
-    high-quality projects while ensuring that those who help run the company are
-    recognized and supported.
-  intro: Empowering employees and shaping a strong future
+    - name: Lindsay Maguire
+      title: PE, ENV SP, DBIA, WEDG
+      position: Co-Founder and Co-CEO
+      img: /img/assets/maguire_headshot.png
+  content: >-
+    At **M.D. Modern Engineering**, our leadership is rooted in true partnership
+    and complementary strengths. We draw on different experiences and
+    perspectives that allow us to make smarter decisions, deliver sharper
+    solutions, and stay deeply committed to every client’s success. This
+    collaboration also reflects diversity in race, background, and perspective,
+    which has been shown to directly improve project outcomes.
+
+
+
+    A 2023 McKinsey & Company study found that companies with racially and ethnically diverse executive leadership were 36 percent more likely to develop stronger, more innovative solutions. Research from Harvard Business Review has also shown that companies with women in senior leadership roles are more likely to prioritize collaboration, long-term planning, and innovation. These qualities translate directly into better client outcomes.
+
+
+
+    As co-owners, we see this every day at **MODERN**. Our leadership structure gives the firm greater depth of expertise, continuity, and shared accountability, which strengthens every project. This dynamic helps us uncover better design options, anticipate challenges earlier, and develop cost conscious solutions that consistently meet and often exceed our clients’ goals.
+
+
+
+    Because of the way we lead together, our clients experience a single empowered point of contact backed by a leadership team that is fully invested in delivering infrastructure projects that stand the test of time. This foundation allows us to consistently create work that is sharper, more thoughtful, and more responsive to the communities it serves.
+  intro: " Leadership Model That Creates Better Outcomes"
 ---

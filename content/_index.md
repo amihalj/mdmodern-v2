@@ -289,15 +289,12 @@ team:
     which has been shown to directly improve project outcomes.
 
 
-
-    A 2023 McKinsey & Company study found that companies with racially and ethnically diverse executive leadership were 36 percent more likely to develop stronger, more innovative solutions. Research from Harvard Business Review has also shown that companies with women in senior leadership roles are more likely to prioritize collaboration, long-term planning, and innovation. These qualities translate directly into better client outcomes.
-
+    *A 2023 McKinsey & Company study found that companies with racially and ethnically diverse executive leadership were 36 percent more likely to develop stronger, more innovative solutions. Research from Harvard Business Review has also shown that companies with women in senior leadership roles are more likely to prioritize collaboration, long-term planning, and innovation. These qualities translate directly into better client outcome*s.
 
 
     As co-owners, we see this every day at **MODERN**. Our leadership structure gives the firm greater depth of expertise, continuity, and shared accountability, which strengthens every project. This dynamic helps us uncover better design options, anticipate challenges earlier, and develop cost conscious solutions that consistently meet and often exceed our clients’ goals.
 
 
-
-    Because of the way we lead together, our clients experience a single empowered point of contact backed by a leadership team that is fully invested in delivering infrastructure projects that stand the test of time. This foundation allows us to consistently create work that is sharper, more thoughtful, and more responsive to the communities it serves.
+    *Because of the way we lead together, our clients experience a single empowered point of contact backed by a leadership team that is fully invested in delivering infrastructure projects that stand the test of time. This foundation allows us to consistently create work that is sharper, more thoughtful, and more responsive to the communities it serves.*
   intro: " Leadership Model That Creates Better Outcomes"
 ---

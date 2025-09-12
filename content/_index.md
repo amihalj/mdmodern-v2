@@ -8,12 +8,12 @@ meta:
   keywords: civil engineering, roadway design, highway design, drainage analysis,
     envision, sustainability, site development, grading, permitting,
     coordination, resiliency
-  description: We are a dynamic, woman-owned civil engineering firm based in New
-    York City, specializing in delivering exceptional engineering solutions for
-    public infrastructure projects across the vibrant New York City metropolitan
-    area. With a commitment to excellence and innovation, we turn challenges
-    into opportunities, ensuring every project stands as a testament to our
-    expertise and dedication.
+  description: We are a dynamic, Black and Woman-owned civil engineering firm
+    based in New York City, specializing in delivering exceptional engineering
+    solutions for public infrastructure projects across the vibrant New York
+    City metropolitan area. With a commitment to excellence and innovation, we
+    turn challenges into opportunities, ensuring every project stands as a
+    testament to our expertise and dedication.
   headline: null
 h1: M.D. Modern Engineering, D.P.C.
 about_us:
@@ -246,26 +246,28 @@ certifications:
   content: >-
     **M.D. Modern Engineering, D.P.C.** is a certified **Minority and
     Women-Owned Business Enterprise** **(MWBE)** by New York State, New York
-    City **WBE**, and a certified **MWBE** with the Port Authority of New York
-    and New Jersey (PANYNJ). We are also a certified **Disadvantaged Business
-    Enterprise (DBE)**. By partnering with us, you can help achieve your
-    project’s DBE and WBE participation goals.
+    City, and the Port Authority of New York and New Jersey (PANYNJ). We are
+    also a certified **Disadvantaged Business Enterprise (DBE)**. By partnering
+    with us, you can help achieve your project’s DBE and WBE participation
+    goals.
 
 
     Our team includes **DBIA-certified, WEDG-certified, and Envision Sustainability Professionals**, ensuring a high level of expertise in delivering sustainable and innovative engineering solutions. We are dedicated to providing top-quality services while fostering diversity and inclusion within the construction industry.
   list:
+    - logo: /img/assets/mwbe-cert-sbs.jpg
+      title: Certified NYC MBE
     - title: Certified NYC WBE
       logo: /img/logos/nycWBE.png
     - title: "CERTIFIED PANYNJ MWBE  "
       logo: /img/assets/port-authority-mwbe-certified.webp
+    - title: Certified NY STATE MWBE
+      logo: /img/assets/nys-default.png
     - title: CERTIFIED NYSDOT DBE
       logo: /img/logos/DBE-Certified-logo.png
     - title: CERTIFIED ENVSP
       logo: /img/logos/envision.png
     - title: WATER FRONT EDGE GUIDELINE CERTIFIED
       logo: /img/logos/WEDG-opt.png
-    - title: Certified NY STATE MWBE
-      logo: /img/assets/nys-default.png
     - title: CERTIFIED DBIA PROFESSIONALS
       logo: /img/assets/dbia-logos-certification-dbia_registered.png
 type: home

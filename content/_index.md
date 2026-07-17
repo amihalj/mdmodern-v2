@@ -53,7 +53,7 @@ about_us:
     image_s: /img/manhattan-990.jpg
     image_xl: /img/manhattan-1900.jpg
     image_xs: /img/manhattan-760.jpg
-portfolio:
+portfolio_old:
   title: PROJECT HIGHLIGHTS
   groups:
     - title: Drainage & Utility Design and Relocation
@@ -117,6 +117,23 @@ portfolio:
         alt: small project 2
       img:
         src: /img/assets/screenshot-2024-12-21-210046.png
+portfolio:
+  title: featured works
+  list:
+  - title: Dallas Ecolodge
+    img: /img/assets/proj1.jpg
+    content: >-
+      This area is a short description for the project.
+
+
+      This text paragraph just a sample
+  - title: Torres Villa
+    img: /img/assets/proj2.jpg
+    content: >-
+      Kokolo
+
+
+      This text paragraph just a sample
 services:
   title: OUR SERVICES
   content: >-
@@ -273,14 +290,22 @@ certifications:
 type: home
 team:
   title: OUR LEADERSHIP TEAM
+  subtitle: OTHER TEAM MEMBERS
   list:
     - name: Phoebe Douglas
       title: PE, ENV SP, WEDG
       position: Co-Founder and Co-CEO
+      size: big
       img: /img/assets/douglas_headshot.png
     - name: Lindsay Maguire
       title: PE, ENV SP, DBIA, WEDG
       position: Co-Founder and Co-CEO
+      size: big
+      img: /img/assets/maguire_headshot.png
+    - name: Sgt. Pepper
+      title: PE, ENV SP, DBIA, WEDG
+      position: Tech lead
+      size: small
       img: /img/assets/maguire_headshot.png
   content: >-
     At **M.D. Modern Engineering**, our leadership is rooted in true partnership

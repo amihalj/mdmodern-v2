@@ -110,6 +110,27 @@
                 object-fit: cover;
             }
         }
+        .team-member.small-member {
+            .name {
+                font-size: 1.8rem;
+            }
+
+            .title {
+                font-size: 0.8rem;
+            }
+
+            .position{
+                font-size: 1rem;
+                color: var(--color-yellow1);
+            }
+
+            img.person{
+                border-radius: 50%;
+                width: 160px;
+                height: 160px;
+                object-fit: cover;
+            }
+        }
     }
 
     .intro {
@@ -188,4 +209,53 @@
     }
 
 }
+
+/* --------------- portfolio style8 --------------- */
+.tc-portfolio-style8 {
+    position: relative;
+    color: #fff; }
+    .tc-portfolio-style8 .nav-pills {
+      -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+      justify-content: space-between;
+      margin-top: 50px; }
+      .tc-portfolio-style8 .nav-pills .nav-link {
+        padding: 0;
+        -webkit-margin-end: 30px;
+        margin-inline-end: 30px;
+        color: #fff;
+        background-color: transparent;
+        opacity: 0.6; }
+        .tc-portfolio-style8 .nav-pills .nav-link.active {
+          opacity: 1; }
+    .tc-portfolio-style8 .project-content .title {
+      font-size: 100px;
+      letter-spacing: -0.05em;
+      font-weight: 600;
+      margin-top: 80px; }
+    .tc-portfolio-style8 .imgs .tab-img {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      -o-object-fit: cover;
+      object-fit: cover;
+      opacity: 0;
+      -webkit-transition: all 0.5s ease;
+      -o-transition: all 0.5s ease;
+      transition: all 0.5s ease; }
+      .tc-portfolio-style8 .imgs .tab-img.current {
+        opacity: 1; }
+  
+  @media screen and (max-width: 991px) {
+    .tc-portfolio-style8 .project-content .title {
+      font-size: 40px;
+      margin-top: 50px; }
+    .tc-portfolio-style8 .nav-pills .nav-link {
+      -webkit-margin-end: 0;
+      margin-inline-end: 0;
+      margin-bottom: 15px; } 
+}
+  
 

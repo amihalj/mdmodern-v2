@@ -184,6 +184,8 @@
 {{ end }}
 {{ end }}
 
+{{ partial "project-slider" .Params.portfolio }}
+
 {{ with .Params.clients }}
 <!--  Start certifications  -->
 <section class="tc-partners-style3 clients">
@@ -248,6 +250,8 @@
 {{ end }}
 
 {{ with .Params.team }}
+{{ $bigItems := where .list "size" "big" }}
+{{ $bigsmall := where .list "size" "small" }}
 <section class="tc-team-style3">
     <div class="container">
         <div class="title mb-80">
@@ -263,8 +267,21 @@
         </div>
         <div class="team-members">
             <div class="row justify-content-lg-center">
-                {{ range $k, $v := .list }}
+                {{ range $k, $v := $bigItems }}
                 <span class="wow fadeInUp slow team-member col-lg-4 col-md-6 mb-40" data-wow-delay="0.2s">
+                    <img src="{{ $v.img }}" alt="{{ $v.name }}" class="person mb-20">
+                    <p class="name"> {{ $v.name }}</p>
+                    {{ if ne $v.title ""}}
+                    <span class="title">({{ $v.title }})</span>
+                    {{ end }}
+                    <p class="position"> {{ $v.position }} </p>
+                </span>
+                {{ end }}
+            </div>
+
+            <div class="row justify-content-lg-center">
+                {{ range $k, $v := $bigsmall }}
+                <span class="wow fadeInUp slow team-member small-member col-lg-4 col-md-6 mb-40" data-wow-delay="0.2s">
                     <img src="{{ $v.img }}" alt="{{ $v.name }}" class="person mb-20">
                     <p class="name"> {{ $v.name }}</p>
                     {{ if ne $v.title ""}}

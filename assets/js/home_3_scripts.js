@@ -1,9 +1,3 @@
-$( function() {
-    
-
-});
-
-
 // ------------ swiper sliders -----------
 $(document).ready(function() {
 
@@ -83,6 +77,12 @@ $(document).ready(function() {
     
      $('.tc-portfolio-style8 .nav-link').mouseenter(function(){
       $(this).click();
+     });
+
+     $('.tc-portfolio-style8 .nav-link').click(function(){
+      var tab_id = $(this).attr('data-bs-target');
+      $('.projects .tab-content .tab-pane.active').removeClass('active show');
+      $(tab_id).addClass('active show');
      });
 
     // ------------ fullpage-slider8 -----------

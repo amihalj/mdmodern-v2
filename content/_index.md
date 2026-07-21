@@ -119,21 +119,43 @@ portfolio_old:
         src: /img/assets/screenshot-2024-12-21-210046.png
 portfolio:
   title: featured works
-  list:
-  - title: Dallas Ecolodge
-    img: /img/assets/proj1.jpg
+  projects:
+  - title: Moreish Restaurant
+    image:
+      src: /img/assets/proj1.jpg
+      alt: "Moreish Restaurant: Phase 1 Concept Design: Glen Spey, NY"
     content: >-
-      This area is a short description for the project.
+      **M.D. Modern** provided civil engineering services for the Phase 1
+        concept of the Moreish Restaurant in Glen Spey, NY. Our scope included:
 
 
-      This text paragraph just a sample
-  - title: Torres Villa
+        * Designing erosion and sediment control measures to protect the on-site freshwater pond and stream per NYSDEC and local codes.
+
+        * Adding parking, including ADA-compliant spaces.
+
+        * Developing a civil site plan with walkways, curb ramps, driveway interfaces, and retaining walls.
+
+        * Designing grading, drainage, and access for delivery and emergency vehicles.
+
+
+
+        By focusing on economical yet practical solutions, M.D. Modern delivered a design that met the client’s needs while ensuring long-term viability.
+      
+  - title: Morgan's Florist & Nursery
+    image:
+      src: /img/assets/proj2.jpg
+      alt: "Morgan's Florist & Nursery Parking lot Design: Poughkeepsie, New York"
     img: /img/assets/proj2.jpg
     content: >-
-      Kokolo
+      **M.D. Modern** provided expert civil engineering services for Morgan's
+        Florist & Nursery in Poughkeepsie, NY, focusing on optimizing parking
+        while ensuring full compliance with local regulations, including
+        Poughkeepsie’s zoning codes, building standards, and ADA requirements.
+        Our solutions were tailored to meet the client's operational needs while
+        remaining cost-effective.
 
 
-      This text paragraph just a sample
+      
 services:
   title: OUR SERVICES
   content: >-
@@ -306,7 +328,7 @@ team:
       title: PE, ENV SP, DBIA, WEDG
       position: Tech lead
       size: small
-      img: /img/assets/maguire_headshot.png
+      img: /img/The_Beatles_Abbey_Road_album_cover_small.jpg
   content: >-
     At **M.D. Modern Engineering**, our leadership is rooted in true partnership
     and complementary strengths. We draw on different experiences and

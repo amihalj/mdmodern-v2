@@ -228,11 +228,17 @@
         opacity: 0.6; }
         .tc-portfolio-style8 .nav-pills .nav-link.active {
           opacity: 1; }
+
+    .tc-portfolio-style8 #pills-tabContent{
+        min-height: 440px;
+    }
+
     .tc-portfolio-style8 .project-content .title {
       font-size: 100px;
       letter-spacing: -0.05em;
       font-weight: 600;
       margin-top: 80px; }
+
     .tc-portfolio-style8 .project-content .text {
         color: #fff;
         font-size: 1rem;
@@ -240,6 +246,7 @@
             font-size: 1rem;
         }
     }
+
     .tc-portfolio-style8 .imgs .tab-img {
       position: absolute;
       top: 0;

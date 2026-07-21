@@ -1,6 +1,6 @@
 <main class="fullpage-slider8">
 <div class="swiper-wrapper">
-<div class="swiper-slide swiper-slide-next" role="group" aria-label="3 / 7">
+<div class="swiper-slide swiper-slide-next" style="size: 640px;" role="group" aria-label="3 / 7">
     <section class="section tc-portfolio-style8">
         <div class="container">
             <div class="section-head mb-4 mb-lg-0"> <h3 class="fsz-30 fw-600 text-uppercase"> {{ .title }} </h3> </div>
@@ -9,7 +9,7 @@
                     <div class="col-lg-11">
                         <div class="projects">
                             <div class="tab-content" id="pills-tabContent">
-                                {{ range $k, $v := .list }}
+                                {{ range $k, $v := .projects }}
                                 {{ if eq $k 0 }}
                                 <div class="tab-pane fade active show" id="pills-work-{{ $k }}">
                                 {{ else }}
@@ -26,7 +26,7 @@
                                 {{ end }}
                             </div>
                             <ul class="nav nav-pills" id="pills-tab" role="tablist">
-                                {{ range $k, $v := .list }}
+                                {{ range $k, $v := .projects }}
                                     <li class="nav-item current" role="presentation" data-tab="portfolio-tab-{{ $k }}">
                                         <button class="nav-link active" id="pills-work1-tab" data-bs-toggle="pill" data-bs-target="#pills-work-{{ $k }}" type="button">{{ $v.title }}</button>
                                     </li>
@@ -38,11 +38,11 @@
             </div>
         </div>
         <div class="imgs">
-            {{ range $k, $v := .list }}
+            {{ range $k, $v := .projects }}
                 {{ if eq $k 0 }}
-                <img id="portfolio-tab-{{ $k }}" src="{{ $v.img }}" alt="" class="tab-img current">
+                <img id="portfolio-tab-{{ $k }}" src="{{ $v.image.src }}" alt="{{ $v.image.alt }}" class="tab-img current">
                 {{ else }}
-                <img id="portfolio-tab-{{ $k }}" src="{{ $v.img }}" alt="" class="tab-img">
+                <img id="portfolio-tab-{{ $k }}" src="{{ $v.image.src }}" alt="{{ $v.image.alt }}" class="tab-img">
                 {{ end }}
 
             {{ end }}

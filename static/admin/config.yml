@@ -244,8 +244,8 @@ collections: # A list of collections the CMS should be able to edit
                   - { label: "Image x-small", name: image_xs, widget: image, required: false }
                   - { label: "Image micro", name: image_micro, widget: image, required: false }
 
-          - label: Portfolio
-            name: portfolio
+          - label: Portfolio old - IGNORE
+            name: portfolio_old
             widget: object
             fields:
               - { label: "Title", name: title, widget: string }
@@ -264,6 +264,25 @@ collections: # A list of collections the CMS should be able to edit
                 fields:
                 - { label: "Title", name: title, widget: string }
                 - { label: "Tags", name: tags, widget: string, required: false }
+                - { label: "Text", name: content, widget: markdown, required: false }
+                - label: Project image
+                  name: img
+                  widget: object
+                  fields:
+                    - { label: "Image link", name: src, widget: image }
+                    - { label: "Alt", name: alt, widget: string, required: false }
+          
+          - label: Portfolio
+            name: portfolio
+            widget: object
+            fields:
+              - { label: "Title", name: title, widget: string }
+              - label: Projects
+                name: projects
+                widget: list
+                required: true
+                fields:
+                - { label: "Title", name: title, widget: string }
                 - { label: "Text", name: content, widget: markdown, required: false }
                 - label: Project image
                   name: img

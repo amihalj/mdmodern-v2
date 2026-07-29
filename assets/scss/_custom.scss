@@ -131,6 +131,34 @@
                 object-fit: cover;
             }
         }
+
+        .teams-title {
+            font-weight: 300;
+            color: #000 !important;
+            text-align: start;
+            opacity: 1;
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: flex;
+            -webkit-box-pack: center;
+            -ms-flex-pack: center;
+            justify-content: center;
+            font-size: 18px;
+            text-transform: uppercase;
+            position: absolute;
+            top: 50%;
+            margin-top: -25px;
+            left: 23%;
+        }
+
+        .teams-link {
+            height: 300px;
+            width: 300px;
+            border: 2px solid #aaa;
+            border-radius: 50%;
+            text-align: center;
+            position: relative;
+        }
     }
 
     .intro {
@@ -271,5 +299,23 @@
       margin-inline-end: 0;
       margin-bottom: 15px; } 
 }
+
+
   
 
+.tc-header-style2 {
+    position: relative;
+    padding: 40px 0;
+    .top-info {
+        h1 {
+            font-size: 60px;
+            font-weight: 600; 
+            span, em, i {
+                color: var(--color-yellow1);
+                font-style: italic;
+                font-weight: 400; 
+            }
+        }
+    } 
+   
+}

@@ -28,6 +28,11 @@ params:
     address: 261 Madison Ave, 9th floor, New York, NY 10016
     map_link: https://www.google.com/maps/place/261+Madison+Ave+9th+floor,+New+York,+NY+10016,+USA/@40.747274,-73.9826394,17z/data=!3m2!4b1!5s0x89c2590655a534ef:0x39f1b2582dd61c78!4m6!3m5!1s0x89c2590700000001:0x58a7543b1e1aaca0!8m2!3d40.74727!4d-73.9800645!16s%2Fg%2F11rkld5985?entry=ttu&g_ep=EgoyMDI1MDkxMC4wIKXMDSoASAFQAw%3D%3D
     city: New York, NY
+  labels: 
+    services: See all of our services
+    projects: Check out our projects
+    team: Meet our team
+    contact: Contact Us
 
   footer:
     title: Where Modern Design Meets Timeless Engineering
@@ -36,6 +41,11 @@ params:
 menu:
   main:
   - {Name: "Home", Identifier: home, Url: "/", Weight: 10}
+  - {Name: "About", Identifier: about, Url: "/about-us", Weight: 20}
+  - {Name: "Services", Identifier: services, Url: "/services", Weight: 30}
+  - {Name: "Projects", Identifier: projects, Url: "/projects", Weight: 40}
+  - {Name: "Our team", Identifier: team, Url: "/team", Weight: 50}
+  - {Name: "Contact us", Identifier: contact, Url: "/contact", Weight: 50}
 
   projects:
   - {Name: "Drainage & utilities", Identifier: utilities, Url: "/projects/drainage-and-utilities", Weight: 10}

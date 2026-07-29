@@ -1,0 +1,16 @@
+<div class="content float_box_container">
+    <div class="challenge-slider">
+        <div class="swiper-wrapper">
+            {{ range . }}
+            <div class="swiper-slide">
+                <div class="case-card">
+                    <a href="{{ .src }}" class="img" data-fancybox="cases">
+                        <img src="{{ .src }}" alt="{{ .alt }}" class="img-cover">
+                    </a>
+                </div>
+            </div>
+            {{ end }}
+        </div>
+    </div>
+    <div class="float-cursor float_box"> Hold <br> and Drag </div>
+</div>

@@ -116,6 +116,8 @@ $( function() {
 
 // ------------ Preloader -----------
 $( function() {
+ const $loader = $('.loader-wrap');
+ if ($loader.length) {
     const svg = document.getElementById("svg");
     const tl = gsap.timeline();
     const curve = "M0 502S175 272 500 272s500 230 500 230V0H0Z";
@@ -158,6 +160,7 @@ $( function() {
         },
         "-=1.5"
     );
+   }
 });
 
 

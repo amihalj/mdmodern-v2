@@ -3,7 +3,8 @@
 {{ partial "head" . }}
 
 <body class="home-style3">
-  {{ partial "loading" . }}
+  {{ block "lander-loading" . }} {{ end }}
+  
   {{ partial "side-menu" . }}
   <div id="scrollsmoother-container">
     {{ block "navbar" . }} {{ end }}

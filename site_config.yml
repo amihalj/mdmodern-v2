@@ -28,21 +28,3 @@ params:
     mb: 01418491
     iban: R6823600001500156332, Zagrebačka banka d.d.
     web: www.otorina.eu
-
-
-menu:
-  hr:
-  - {Name: "Naslovna", Identifier: home, Url: "/", Weight: 10}
-  - {Name: Galerija, Identifier: galery, Url: "/galerija/", Weight: 20}
-  - {Name: Edukacije, Identifier: education, Url: "/edukacije/", Weight: 23}
-  - {Name: Objave, Identifier: news, Url: "/objave/", Weight: 24}
-  - {Name: Kontakt, Identifier: contact, Url: "/kontakt/", Weight: 25}
-  - {Name: English, Identifier: en, Url: "/en/", Weight: 26}
-
-  en:
-  - {Name: "Home", Identifier: home, Url: "/en/", Weight: 10}
-  - {Name: Galery, Identifier: galery, Url: "/en/galery/", Weight: 20}
-  - {Name: Education, Identifier: education, Url: "/en/education/", Weight: 23}
-  - {Name: News, Identifier: news, Url: "/en/news/", Weight: 24}
-  - {Name: Contact, Identifier: contact, Url: "/en/contact/", Weight: 25}
-  - {Name: Hrvatski, Identifier: hr, Url: "/", Weight: 26}

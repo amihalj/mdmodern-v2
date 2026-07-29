@@ -89,7 +89,7 @@ $(document).ready(function() {
 
 
 // ----------- side menu -----------
-$(document).ready(function () {
+$(function () {
     $(".side_menu_btn").on("click", function () {
         $(this).toggleClass("active");
         $(".side_menu4_overlay").toggleClass("show");
@@ -107,7 +107,7 @@ $(document).ready(function () {
 
 
 // ------------  File upload BEGIN ------------
-$(document).ready(function() {
+$(function() {
     
     $('.file__input--file').on('change', function(event) {
         var files = event.target.files;
@@ -123,14 +123,6 @@ $(document).ready(function() {
     });
     
 });
-
-
-// ------------ scripts -----------
-$(document).ready(function(){
-
-});
-
-
 
 // ------------ gsap scripts -----------
 $(function () {

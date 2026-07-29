@@ -1,0 +1,19 @@
+{{define "navbar"}} 
+    {{ partial "navbar" . }}
+{{ end }}
+{{define "header"}}
+    {{ partial "header-inner-2" .Params }}
+{{ end }}
+{{ define "main"}}
+    {{ range $k, $v := .Params.sections }}
+    <section class="tc-challenge-style2">
+        <div class="container">
+            <h3 class="fsz-45 text-capitalize mb-60 js-splittext-lines"> {{ $v.title }} </h3>
+            <div class="text fsz-24 mb-100 wow fadeInUp slow" data-wow-delay="0.2s"> {{ .content | markdownify }} </div>
+        </div>
+        {{ with .gallery }}
+            {{ partial "gallery" . }}
+        {{ end }}
+    </section>
+    {{ end }}
+{{ end }}

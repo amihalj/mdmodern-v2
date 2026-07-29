@@ -1,0 +1,29 @@
+<div class="tc-clients-style1">
+    <div class="clients-slider1">
+        <div class="swiper-wrapper">
+            {{ range . }}
+            <div class="swiper-slide">
+                <div class="clients-card">
+                    <div class="text fsz-45 fw-600 lh-2 js-splittext-lines">{{ .content | markdownify }}</div>
+                    <div class="author">
+                        {{ if .img }}
+                        <div class="au-img">
+                            <img src="{{ .img }}" alt="{{ .name }}" class="img-cover">
+                        </div>
+                        {{ end }}
+                        <div class="au-inf">
+                            <h6 class="text-capitalize mb-2 fsz-16 fw-bold"> {{ .name }} </h6>
+                            <p class="text-capitalize fsz-14 color-666">  {{ .company }}</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            {{ end }}
+        </div>
+        <div class="slider-controls">
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-pagination"></div>
+            <div class="swiper-button-next"></div>
+        </div>
+    </div>
+</div>

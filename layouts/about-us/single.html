@@ -1,0 +1,54 @@
+{{define "navbar"}} 
+{{ partial "navbar" . }}
+{{ end }}
+{{define "header"}}
+{{ partial "header-inner-2" .Params }}
+{{ end }}
+{{ define "main"}}
+
+{{ range $k, $v := .Params.sections }}
+<section class="tc-about-style7">
+    <div class="container">
+        <div class="row gx-0 justify-content-between">
+            <div class="col-lg-3">
+                <div class="rotate-box" data-speed="1" data-lag="0.4">
+                    <a href="#" class="rotate-circle fsz-30 rotate-text d-inline-block text-uppercase">
+                        <svg class="textcircle" viewBox="0 0 500 500">
+                            <defs>
+                                <path id="textcircle"
+                                    d="M250,400 a150,150 0 0,1 0,-300a150,150 0 0,1 0,300Z">
+                                </path>
+                            </defs>
+                            <text>
+                                <textPath xlink:href="#textcircle" textLength="900"> {{ $v.title }} </textPath>
+                            </text>
+                        </svg>
+                    </a>
+                    <img src="/img/leafs.png" alt="" class="icon">
+                </div>
+            </div>
+            <div class="col-lg-5">
+                <div class="info wow fadeInUp slow" data-wow-delay="0.2s">
+                    <div class="text fsz-25 fw-500 mb-20">
+                        {{ $v.content | markdownify }}
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-2">
+                <div class="numbers mt-5 mt-lg-0">
+                    <div class="number-card wow zoomIn slow" data-wow-delay="0.4s">
+                        <h2 class="numb"> 95% </h2>
+                        <small> Clients Satisfied and repeating </small>
+                    </div>
+                    <div class="number-card wow zoomIn slow" data-wow-delay="0.6s">
+                        <h2 class="numb"> 125% </h2>
+                        <small> projects done </small>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+{{ end }}
+
+{{ end }}

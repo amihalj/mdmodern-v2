@@ -108,7 +108,7 @@ $(document).ready(function () {
 
 
 // ------------  File upload BEGIN ------------
-$(document).ready(function() {
+$(function() {
     
     $('.file__input--file').on('change', function(event) {
         var files = event.target.files;
@@ -124,14 +124,6 @@ $(document).ready(function() {
     });
     
 });
-
-
-// ------------ scripts -----------
-$(document).ready(function(){
-
-});
-
-
 
 // ------------ gsap scripts -----------
 $(function () {

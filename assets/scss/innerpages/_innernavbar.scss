@@ -3,6 +3,10 @@
     position: relative;
     padding: 50px 4vw;
 
+    &.navbar-dark {
+        background-color: #000;
+    }
+
     .logo {
         width: 100px;
     }

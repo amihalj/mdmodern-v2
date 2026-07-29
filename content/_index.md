@@ -313,22 +313,7 @@ type: home
 team:
   title: OUR LEADERSHIP TEAM
   subtitle: OTHER TEAM MEMBERS
-  list:
-    - name: Phoebe Douglas
-      title: PE, ENV SP, WEDG
-      position: Co-Founder and Co-CEO
-      size: big
-      img: /img/assets/douglas_headshot.png
-    - name: Lindsay Maguire
-      title: PE, ENV SP, DBIA, WEDG
-      position: Co-Founder and Co-CEO
-      size: big
-      img: /img/assets/maguire_headshot.png
-    - name: Sgt. Pepper
-      title: PE, ENV SP, DBIA, WEDG
-      position: Tech lead
-      size: small
-      img: /img/The_Beatles_Abbey_Road_album_cover_small.jpg
+    
   content: >-
     At **M.D. Modern Engineering**, our leadership is rooted in true partnership
     and complementary strengths. We draw on different experiences and

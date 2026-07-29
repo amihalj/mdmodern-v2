@@ -1,0 +1,21 @@
+<header class="tc-header-style2">
+    <div class="container">
+        <div class="top-info">
+            {{ with .tags }}
+            <div class="tags mb-50">
+                {{ range . }}
+                <a href="#"> {{ . }} </a>
+                {{ end }}
+            </div>
+            {{ end  }}
+            {{ with .intro }}
+            <div class="text mt-30"> {{ . }}</div>
+            {{ end }}
+            <h1 class="title">{{ .h1 | markdownify  }}</h1>
+        </div>
+    </div>
+    {{ if .header_image }}
+        <img src="{{ .header_image }}" alt="{{ .h1  }}" class="bg img-cover" data-speed="1.25">
+    {{ end }}
+    
+</header>

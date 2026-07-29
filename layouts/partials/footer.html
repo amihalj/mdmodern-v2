@@ -14,11 +14,9 @@
                 </div>
                 <div class="col-lg-4">
                     <div class="top-links text-lg-end mb-5 mb-lg-0">
-                        <a href="#"> company </a>
-                        <a href="#"> services </a>
-                        <a href="#"> works </a>
-                        <a href="#"> news </a>
-                        <a href="#"> contact </a>
+                        {{ range .Site.Menus.main }}
+                            <a href="{{ .URL }}">{{ .Name }}</a>
+                        {{ end }}
                     </div>
                 </div>
             </div>

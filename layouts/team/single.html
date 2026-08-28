@@ -3,8 +3,57 @@
     {{ partial "navbar" . }}
 {{ end }}
 {{define "header"}}
-    {{ partial "header-inner-2" .Params }}
+{{ partial "header-inner-2" .Params }}
 {{ end }}
 {{ define "main"}}
+{{ $labels := .Params.labels}}
+<section class="tc-team-style4">
+    <div class="container">
+        <div class="title mb-80">
+            <div class="row">
+                <div class="col-md-12 mt-4 mt-lg-0">
+                    <div class="text margin-p fsz-18 wow fadeInUp slow" data-wow-delay="0.4s"> {{ .Params.content | markdownify }} </div>
+                </div> 
+            </div>
+        </div>
+    </div>
+</section>
+<section class="tc-team-style4 slide">
+    <div class="container team-members">
+        <div class="row">
+            {{ range $k, $v := .Params.list }}
+                <div class="col-lg-3 col-md-4 col-xs-6" id="{{ $v.name | urlize }}">
+                    <div class="team-member">
+                        <img src="{{ $v.img }}" alt="{{ $v.name }}" class="person">
+                        <div class="member-info">
+                            <div class="basic">
+                                <p class="name"> {{ $v.name }} </p>
+                                <p class="title"> ({{ $v.title }})</p>
+                                <p class="position"> {{ $v.position }} </p>
 
+                            </div>
+                            <div class="text personal-info">
+                                {{ $v.content | markdownify }}
+                                <!--{{ with $v.linkedin }}
+                                <div class="social-buttons"><a class="social-icon" href="{{.}}"><i class="fab fa-linkedin"></i></a></div>
+                                {{ end }}-->
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+            {{ end }}
+        </div>
+    </div>
+</section>
+{{ end }}
+{{define "script"}}
+    <script lang="javascript">
+        $(function(){
+            $('.toggle-content .more').hide();
+            $('.toggle-content .toggle-link').click(function(){
+                $(this).closest('.toggle-content').find('.less, .more').toggle();
+            });
+        })
+    </script>
 {{ end }}

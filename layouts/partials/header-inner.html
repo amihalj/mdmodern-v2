@@ -1,4 +1,8 @@
-<header class="s-header-style2">
+{{ if .header_image }}
+<header class="s-header-style2 top-header with-image">
+{{ else }}
+<header class="s-header-style2 top-header">
+{{ end }}
     <div class="container">
         <div class="info">
             {{ with .tags }}

@@ -1,4 +1,4 @@
-<header class="tc-header-style2">
+<header class="tc-header-style2 top-header {{ if .header_image }} with-image {{ end }}">
     <div class="container">
         <div class="top-info">
             {{ with .tags }}
@@ -8,10 +8,10 @@
                 {{ end }}
             </div>
             {{ end  }}
-            {{ with .intro }}
-            <div class="text mt-30"> {{ . }}</div>
-            {{ end }}
             <h1 class="title">{{ .h1 | markdownify  }}</h1>
+            {{ with .intro }}
+            <div class="text fsz-18 color-666 text-center"> {{ . | markdownify }} </div>
+            {{ end }}
         </div>
     </div>
     {{ if .header_image }}

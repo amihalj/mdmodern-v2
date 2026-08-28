@@ -14,7 +14,7 @@ meta:
     testament to our expertise and dedication.
   headline: null
 h1: >
- *Contact us* at MD Moderna
+ *Contact us* at MD Modern
 intro: >
     Want to chat further? We’d love to hear from you, let us oppoturnity
 

@@ -2,21 +2,22 @@
 {{ partial "navbar" . }}
 {{ end }}
 {{define "header"}}
-
+    {{ partial "header-inner-2" .Params }}
 {{ end }}
 {{ define "main"}}
 
 
 {{ with .Params }}
+<!--
 <header class="tc-inner-header-style1 pb-100">
     <div class="container">
         <div class="info">
             <h1 class="js-title"> {{ .h1 | markdownify }} </h1>
-            <div class="text fsz-18 color-666"> {{ .intro | markdownify }} </div>
+            <div class="text fsz-18 color-666 text-center"> {{ .intro | markdownify }} </div>
         </div>
     </div>
 </header>
-
+-->
 
 <!--  Start contact-form  -->
 <section class="tc-contact-form-style1">
@@ -29,7 +30,7 @@
                        {{ .labels.required }} <span class="text-danger"> * </span> </p>
                 </div>
             </div>
-            <div class="col-lg-6">
+            <div class="col-lg-8">
                 <form action="" class="form mt-5 mt-lg-0 wow fadeInUp slow" data-wow-delay="0.4s">
                     <div class="row">
                         <div class="col-lg-6">
@@ -63,7 +64,7 @@
                         </div>
                         <div class="col-lg-12">
                             <div class="form-group mb-30">
-                                <label for=""> message </label>
+                                <label for=""> Message </label>
                                 <textarea rows="6" placeholder="Write your message here"
                                     class="form-control"></textarea>
                             </div>
@@ -78,7 +79,8 @@
             </div>
         </div>
     </div>
-    <img src="assets/img/contact_shap.png" alt="" class="shap">
+    <img src="assets/img/contact_shap.png" alt="" class="shap" />
+    <iframe width="640px" height="480px" src="https://forms.cloud.microsoft/Pages/ResponsePage.aspx?id=cTiP_KQ8u0OIayYGNqkFZHhXxsKSjWxHoNeg64dhhPdUM1NHSk1PNFQyRFRVMFFENVZYTjhISVlCVS4u&embed=true" frameborder="0" marginwidth="0" marginheight="0" style="border: none; max-width:100%; max-height:100vh" allowfullscreen webkitallowfullscreen mozallowfullscreen msallowfullscreen> </iframe>
 </section>
 <!--  End contact-form  -->
 

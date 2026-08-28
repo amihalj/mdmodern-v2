@@ -2,18 +2,37 @@
     {{ partial "navbar" . }}
 {{ end }}
 {{define "header"}}
-    {{ partial "header-inner-2" .Params }}
+<div class="s-project-pg-style2 dark-bg projects">
+    {{ partial "header-inner" .Params }}
+</div>
+
 {{ end }}
 {{ define "main"}}
+<div class="s-project-pg-style2">
     {{ range $k, $v := .Params.sections }}
-    <section class="tc-challenge-style2">
+    <section class="tc-challenge-style2 project-info">
         <div class="container">
-            <h3 class="fsz-45 text-capitalize mb-60 js-splittext-lines"> {{ $v.title }} </h3>
-            <div class="text fsz-24 mb-100 wow fadeInUp slow" data-wow-delay="0.2s"> {{ .content | markdownify }} </div>
+            <div class="row">
+                <div class="col-lg-6">
+                    <h3 class="subtitle">{{  $v.title | markdownify  }}</h3>
+                    {{ with $v.notes }}
+                        <ul class="lh-6 mt-50 wow fadeInUp slow" data-wow-delay="0.6s">
+                            {{ range . }}
+                            <li class="note"> <span class="label"> {{ .title }}: </span> {{ .text }} </li>
+                            {{ end }}
+                        </ul>
+                    {{ end }}
+                </div>
+                <div class="col-lg-6 mt-5 mt-lg-0">
+                    <div class="text project-desc mb-100 wow fadeInUp slow" data-wow-delay="0.2s"> {{ .content | markdownify }} </div>
+                </div>
+            </div>
+
         </div>
         {{ with .gallery }}
             {{ partial "gallery" . }}
         {{ end }}
     </section>
     {{ end }}
+</div>
 {{ end }}

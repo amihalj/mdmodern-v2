@@ -5,17 +5,64 @@
     {{ partial "header-inner-2" .Params }}
 {{ end }}
 {{ define "main"}}
-    {{ range $k, $v := .Params.sections }}
-    <section class="tc-challenge-style2">
-        <div class="container">
-            <h3 class="fsz-45 text-capitalize mb-60 js-splittext-lines"> {{ $v.title }} </h3>
-            <div class="text fsz-24 mb-100 wow fadeInUp slow" data-wow-delay="0.2s"> {{ .content | markdownify }} </div>
-        </div>
-        {{ with .image }}
-            <div class="img wow fadeInUp slow" data-wow-delay="0.4s">
-                <img src="{{ .src }}" alt="{{ .alt }}" class="img-cover">
+
+<section class="tc-services-style1">
+    <div class="container">
+        <div class="top-inf mb-80">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="text fsz-18 mt-4 mt-lg-0 pe-lg-5 wow fadeInUp slow margin-p" data-wow-delay="0.4s">
+                        {{ .Params.content | markdownify }}
+                    </div>
+                </div>
             </div>
+        </div>
+    </div>
+</section>
+
+<div class="services-pg-style1">
+    <section class="tc-services-style1">
+        <div class="content section-padding section-padding-x">
+            <div class="container">
+                <div class="title mb-80 text-center">
+                    <p class="color-666 text-uppercase wow"> {{ .Params.title }} </p>
+                </div>
+                <div class="services">
+                    <div class="row">
+                        {{ range $k, $v := .Params.list }}
+                        <div class="col-lg-3">
+                            {{ if eq (mod $k 2) 0}}
+                            <span href="#" class="service-card wow fadeInUp" data-wow-delay="0.2s">
+                            {{ else }}
+                            <span href="#" class="service-card mt-150 wow fadeInUp" data-wow-delay="0.4s">
+                            {{ end }}
+                                <div class="icon">
+                                    <i class="{{ .icon }}"></i>
+                                </div>
+                                <h5 class="fsz-24 mb-20"> {{ .title }} </h5>
+                                <div class="img">
+                                    <img src="{{ .logo }}" alt="" class="img-cover">
+                                </div>
+                                <div class="text color-666 mt-50">
+                                    {{ .content | markdownify}}
+                                </div>
+                            </span>
+                        </div>
+                        {{ end }}
+                    </div>
+                </div>
+                <div class="text-center">
+                    <a href="/contact/" class="butn rounded-pill mt-80 hover-bg-black bg-orange1 text-white">
+                        <span> {{ .Params.call_to_action }} <i class="small ms-1 ti-arrow-top-right"></i> </span>
+                    </a>
+                </div>
+            </div>
+        </div>
+        {{ with .Params.footer_image}}
+        <div class="img-content wow device-screen">
+            {{ partial "responsive-image" . }}
+        </div>
         {{ end }}
     </section>
-    {{ end }}
+</div>
 {{ end }}

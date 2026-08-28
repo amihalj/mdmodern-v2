@@ -1,0 +1,40 @@
+<div class="content section-padding section-padding-x">
+    <div class="container">
+        <div class="title mb-80 text-center">
+            <p class="color-666 text-uppercase wow"> {{ .title }} </p>
+        </div>
+        <div class="services">
+            <div class="row">
+                {{ range $k, $v := .list }}
+                <div class="col-lg-3">
+                    {{ if eq (mod $k 2) 0}}
+                    <span href="#" class="service-card wow fadeInUp" data-wow-delay="0.2s">
+                    {{ else }}
+                    <span href="#" class="service-card mt-150 wow fadeInUp" data-wow-delay="0.4s">
+                    {{ end }}
+                        <div class="icon">
+                            <i class="{{ .icon }}"></i>
+                        </div>
+                        <h5 class="fsz-24 mb-20"> {{ .title }} </h5>
+                        <div class="img">
+                            <img src="{{ .logo }}" alt="" class="img-cover">
+                        </div>
+                        {{ with .content }}
+                        <div class="text color-666 mt-50">
+                            {{ . | markdownify}}
+                        </div>
+                        {{ end }}
+                    </span>
+                </div>
+                {{ end }}
+            </div>
+        </div>
+        {{ with .call_to_action }}
+        <div class="text-center">
+            <a href="/contact/" class="butn rounded-pill mt-80 hover-bg-black bg-orange1 text-white">
+                <span> {{ .call_to_action }} <i class="small ms-1 ti-arrow-top-right"></i> </span>
+            </a>
+        </div>
+        {{ end }}
+    </div>
+</div>

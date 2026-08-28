@@ -1,0 +1,22 @@
+ <section class="tc-awards-style2">
+    <div class="container">
+        <h2 class="fsz-45 fw-500 text-center mb-30"> {{ .title | markdownify}} </span> </h2>
+        <div class="awards">
+            <div class="row">
+                {{ range .list }}
+                <div class="col-lg-3">
+                    <div class="award-card wow fadeInUp slow" data-wow-delay="0.2s">
+                        <div class="logo">
+                            <img src="{{ .logo }}" alt=" {{ .title}}">
+                        </div>
+                        <h5 class="fsz-24 sub-font title"> {{ .title }} </h5>
+                        {{ with .link}}
+                        <a href="{{ .href }}" class="color-666 text-capitalize">{{ .title }} </a>
+                        {{ end}}
+                    </div>
+                </div>
+                {{ end }}
+            </div>
+        </div>
+    </div>
+</section>

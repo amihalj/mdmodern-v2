@@ -10,13 +10,8 @@
 {{ $smallBox := "small" }}
 {{ $labels := .Site.Params.labels }}
 
-{{ partial "process" .Params.introduction }}
-{{ partial "team-2" . }}
 
 
-
-
-{{if false }}
 {{ with .Params.about_us }}
 <!--  Start about  -->
 <section class="tc-about-style3">
@@ -134,8 +129,7 @@
 <!--  End services  -->
 {{ end }}
 
-{{ end }}
-{{ if false }}
+{{if false }}
 {{ with .Params.portfolio }}
 <!--  Start portfolio  -->
 <section class="tc-portfolio-style3">
@@ -192,7 +186,9 @@
 </section>
 <!--  End portfolio  -->
 {{ end }}
+{{ end }}
 
+{{ partial "project-slider" .Params.portfolio }}
 
 {{ with .Params.clients }}
 <!--  Start certifications  -->
@@ -257,6 +253,7 @@
 
 {{ end }}
 
+
 {{ $team := .Site.GetPage "team" }}
 {{ $bigItems := where $team.Params.list "size" "big" }}
 {{ $bigsmall := where $team.Params.list "size" "small" }}
@@ -313,7 +310,6 @@
     </div>
 </section>
 
-{{ end }}
 {{ end }}
 
 

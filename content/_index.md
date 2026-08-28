@@ -154,7 +154,47 @@ portfolio:
         Our solutions were tailored to meet the client's operational needs while
         remaining cost-effective.
 
+introduction: 
+  title: "*M.D. Modern* Engineering"
+  list:
+    - title: Who we are
+      content: >-
+        **M.D. Modern Engineering, D.P.C.** is a certified **WBE, MBE,** and **DBE**
+        engineering firm dedicated to fostering strong, collaborative relationships
+        with clients and partners. Founded to bridge the gap between large-firm
 
+        expertise and small-firm personalization, we focus on delivering dependable results with a commitment to transparency and integrity.
+      actions:
+      - title: More about us
+        href: /about-us/
+    - title: Our services
+      content: >-
+        **M.D. Modern Engineering, D.P.C.** provides comprehensive civil engineering
+        solutions that address the multifaceted challenges of urban infrastructure.
+        Our expertise spans geometric roadway and pavement design, drainage and
+        utility engineering, and construction administration, all seamlessly
+        integrated to deliver efficient and effective results.
+
+
+
+
+        We specialize in design-build management and excel at navigating complex permitting processes while fostering collaboration with stakeholders to ensure project success. By combining innovative approaches with
+
+        meticulous attention to detail, we deliver tailored solutions that meet client goals and exceed expectations, all while prioritizing efficiency, reliability, and technical excellence from project inception to completion.
+      actions:
+      - title: More on our services
+        href: /services/
+    - title: Our projects
+      content: >-
+        **M.D. Modern Engineering, D.P.C.** is a certified **WBE, MBE,** and **DBE**
+        engineering firm dedicated to fostering strong, collaborative relationships
+        with clients and partners. Founded to bridge the gap between large-firm
+
+        expertise and small-firm personalization, we focus on delivering dependable results with a commitment to transparency and integrity.
+      actions:
+      - title: More about our projects
+        href: /projects/
+  
       
 services:
   title: OUR SERVICES
@@ -229,57 +269,8 @@ services:
       content: We prioritize early stakeholder engagement and will proactively obtain
         required permits and approvals. A comprehensive stakeholder management
         plan will ensure project adherence and address potential challenges.
-  contact: Learn more about how we can help—email us at
-clients:
-  title: OUR CLIENTS
-  list:
-    - title: NYCDOT
-      logo: /img/assets/nycdot.svg.png
-    - title: NYSDOT
-      logo: /img/assets/nysdot.png
-    - title: PANYNJ
-      logo: /img/assets/pa_logo_alrs_black_rgb.png
-    - title: NYCDDC
-      logo: /img/assets/nycddc.png
-    - title: NYCDEP
-      logo: /img/assets/new_york_city_department_of_environmental_protection_logo.png
-    - title: MTA
-      logo: /img/assets/mta_nyc_logo_black.png
-  content: >-
-    At **M.D. Modern Engineering, D.P.C.**, we collaborate with public agencies,
-    utility providers, and private businesses to deliver innovative, sustainable
-    infrastructure solutions. Our clients include:
+  call_to_action: Learn more about how we can help—email us at
 
-
-    * **Public Sector Agencies:**
-
-       NYSDOT, NYCDEP, MTA, PANYNJ, and others.
-    * **Utility Providers:**
-
-       Con Edison, National Grid, ECS, and similar organizations.
-    * **Municipal Boards:**
-
-       Local planning and zoning boards for permitting and compliance.
-    * **Private Sector:**
-
-       Commercial, residential, and institutional clients seeking tailored engineering services.
-
-    Our expertise ensures seamless project execution, from concept to completion, while meeting diverse client needs.
-partners:
-  title: Our partners
-  content: |
-    Our parthers bla bla
-  list:
-    - title: Partner one
-      logo: /img/partners/lg1.svg
-    - title: Partner two
-      logo: /img/partners/lg1.svg
-    - title: Partner three
-      logo: /img/partners/lg1.svg
-    - title: Partner four
-      logo: /img/partners/lg1.svg
-date: 2022-05-21T16:47:17+02:00
-title: Home
 certifications:
   title: OUR CERTIFICATIONS
   content: >-
@@ -311,24 +302,13 @@ certifications:
       logo: /img/assets/dbia-logos-certification-dbia_registered.png
 type: home
 team:
-  title: OUR LEADERSHIP TEAM
+  title: Our *leadership* team
   subtitle: OTHER TEAM MEMBERS
     
   content: >-
-    At **M.D. Modern Engineering**, our leadership is rooted in true partnership
-    and complementary strengths. We draw on different experiences and
-    perspectives that allow us to make smarter decisions, deliver sharper
-    solutions, and stay deeply committed to every client’s success. This
-    collaboration also reflects diversity in race, background, and perspective,
-    which has been shown to directly improve project outcomes.
-
-
-    *A 2023 McKinsey & Company study found that companies with racially and ethnically diverse executive leadership were 36 percent more likely to develop stronger, more innovative solutions. Research from Harvard Business Review has also shown that companies with women in senior leadership roles are more likely to prioritize collaboration, long-term planning, and innovation. These qualities translate directly into better client outcome*s.
-
-
-    As co-owners, we see this every day at **MODERN**. Our leadership structure gives the firm greater depth of expertise, continuity, and shared accountability, which strengthens every project. This dynamic helps us uncover better design options, anticipate challenges earlier, and develop cost conscious solutions that consistently meet and often exceed our clients’ goals.
-
-
-    *Because of the way we lead together, our clients experience a single empowered point of contact backed by a leadership team that is fully invested in delivering infrastructure projects that stand the test of time. This foundation allows us to consistently create work that is sharper, more thoughtful, and more responsive to the communities it serves.*
+    At **M.D. Modern Engineering**, our leadership is rooted in true partnership and complementary strengths. We draw on different experiences and perspectives that allow us to make smarter decisions, deliver sharper solutions, and stay deeply committed to every client’s success. 
+  
+  
+    This collaboration also reflects diversity in race, background, and perspective, which has been shown to directly improve project outcomes.
   intro: " Leadership Model That Creates Better Outcomes"
 ---

@@ -432,6 +432,30 @@ $(function () {
     });
 });
 
+// fancybox-fix.js
+(function($) {
+ if (typeof $.fancybox === 'undefined') return;
+ 
+ // Override the exit method
+ $.fancybox.exit = function() {
+     var fullscreenElement = document.fullscreenElement || 
+                            document.webkitFullscreenElement || 
+                            document.mozFullScreenElement || 
+                            document.msFullscreenElement;
+     
+     if (fullscreenElement) {
+         var exitMethod = document.exitFullscreen || 
+                        document.webkitExitFullscreen || 
+                        document.mozCancelFullScreen || 
+                        document.msExitFullscreen;
+         
+         if (exitMethod && typeof exitMethod === 'function') {
+             exitMethod.call(document);
+         }
+     }
+ };
+})(jQuery);
+
 
 // ------------ scripts -----------
 // $(document).ready(function(){

@@ -1,0 +1,92 @@
+<!--  Start process  -->
+  <div class="services-pg-style1">
+
+
+<section class="tc-process-style1 section-with-bg">
+    <div class="container">
+        <div class="title mb-100 text-center">
+            <h2 class="fsz-45 styled-title orange"> {{ .title | markdownify }} </h2>
+        </div>
+        <div class="content">
+            <div class="row">
+                <div class="col-lg-7">
+                    <div class="info">
+                        <div class="accordion wow fadeInUp slow" id="accordionProcess">
+                            {{ range $k, $v := .list }}
+                            
+                            {{ $cls := "" }}
+                            {{ $clsBtn := "collapsed"}}
+                            {{ if eq $k 0 }}
+                            {{ $cls = "show" }}
+                            {{ $clsBtn = ""}}
+                            {{ end }}
+
+                            {{ $num := add $k 1 }}
+
+                            <div class="accordion-item">
+                                <div class="accordion-header" id="headingOne">
+                                    <button class="accordion-button {{ $clsBtn }}" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#collapse_{{ $num }}">
+                                        
+                                        <h3> {{ $v.title }} </h3>
+                                    </button>
+                                </div>
+                                <div id="collapse_{{ $num }}" class="accordion-collapse collapse {{ $cls }}"
+                                    data-bs-parent="#accordionProcess">
+                                    <div class="accordion-body">
+                                        <div class="text">
+                                            {{ $v.content | markdownify }}
+                                        </div>
+                                        {{ range .actions }}
+                                        <a href="{{ .href }}" class="butn border rounded-pill mt-80 color-orange1 border-orange1 hover-bg-orange1">
+                                            <span> {{ .title }} <i class="small ms-1 ti-arrow-top-right"></i> </span>
+                                        </a>
+                                        {{ end }}
+                                    </div>
+                                    
+                                </div>
+                            </div>
+                            {{ end }}
+                            <!--<div class="accordion-item">
+                                <div class="accordion-header" id="headingOne">
+                                    <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#collapseOne">
+                                        <span class="num"> 1 / </span>
+                                        <h3> Survey & Quotes </h3>
+                                    </button>
+                                </div>
+                                <div id="collapseOne" class="accordion-collapse collapse show"
+                                    data-bs-parent="#accordionProcess">
+                                    <div class="accordion-body">
+                                        <div class="text">
+                                            After surveying and obtaining the necessary information, we will
+                                            create a preliminary design including technical drawings, 3D
+                                            images of the interior and provide a 3D VR experience to help
+                                            customers get a visual view of their project.
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>-->
+                            
+                        </div>
+
+                        {{ range $k, $v := .actions }}
+                        <a href="{{ $v.href }}" class="butn border rounded-pill mt-80 color-orange1 border-orange1 hover-bg-orange1">
+                            <span> {{ $v.title }} <i class="small ms-1 ti-arrow-top-right"></i> </span>
+                        </a>
+                        {{ end }}
+                    </div>
+                </div>
+                <div class="col-lg-4 offset-lg-1">
+                    <div class="img wow">
+                        <img src="/img/assets/kevin-bosc-qpcf90iz6ju-unsplash.jpg" alt="" class="img-cover">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <img src="/img/background/c_line2.png" alt="" class="c-line wow">
+    <img src="/img/background/prc_bg.png" alt="" class="bg pores" data-speed="1.2">
+</section>
+</div>
+<!--  End process  -->

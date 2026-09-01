@@ -3,7 +3,7 @@ backend:
   repo: amihalj/mdmodern-v2
   branch: deploy-v2
 
-site_url: https://modern-engineering-web.netlify.app
+site_url: https://mdmodern-v2.netlify.app
 
 publish_mode: editorial_workflow
 media_folder: static/img/assets

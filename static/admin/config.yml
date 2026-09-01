@@ -209,13 +209,14 @@ collections: # A list of collections the CMS should be able to edit
                 - { label: "Text", name: content, widget: markdown, required: false }
                 - label: Actions
                   name: actions
-                  widget: object
+                  widget: list
                   fields:
                     - { label: "Title", name: title, widget: string }
                     - { label: "Link", name: href, widget: string }
           - label: Our team
             name: team
             widget: object
+            description: "Team members are set on Team page, only big size members are shown here"
             fields:
               - { label: "Title", name: title, widget: string }
               - { label: "Text", name: content, widget: markdown, required: false }

@@ -4,6 +4,32 @@
     }
 }
 
+.inner-navbar-style1 .logo {
+    width: auto;
+    height: 50px;;
+}
+
+.text {
+    p{
+        text-align: justify;
+        margin-bottom: 20px;
+    }
+}
+
+.about-us .text {
+    text-align: justify;
+    ul {
+        list-style: circle;
+        padding: 20px;
+        li {
+            font-size: medium;
+            p {
+                margin-bottom: 5px;
+            }
+        }
+    }
+}
+
 .top-header {
     .title {
         font-size: 60px !important;

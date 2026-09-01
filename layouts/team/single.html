@@ -6,7 +6,6 @@
 {{ partial "header-inner-2" .Params }}
 {{ end }}
 {{ define "main"}}
-{{ $labels := .Params.labels}}
 <section class="tc-team-style4">
     <div class="container">
         <div class="title mb-80">
@@ -46,14 +45,4 @@
         </div>
     </div>
 </section>
-{{ end }}
-{{define "script"}}
-    <script lang="javascript">
-        $(function(){
-            $('.toggle-content .more').hide();
-            $('.toggle-content .toggle-link').click(function(){
-                $(this).closest('.toggle-content').find('.less, .more').toggle();
-            });
-        })
-    </script>
 {{ end }}

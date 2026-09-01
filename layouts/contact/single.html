@@ -25,7 +25,7 @@
         <div class="row justify-content-between">
             <div class="col-lg-4">
                 <div class="info wow fadeInUp slow" data-wow-delay="0.2s">
-                    <h3 class="fsz-45 fw-500 mb-80"> {{ .call_to_action }} </h3>
+                    <h3 class="fsz-45 fw-500 mb-80"> {{ .catch_phrase }} </h3>
                     <p class="fsz-14 color-666 mt-15"> Your email address will not be published. <br>
                        {{ .labels.required }} <span class="text-danger"> * </span> </p>
                 </div>
@@ -41,7 +41,7 @@
                         </div>
                         <div class="col-lg-6">
                             <div class="form-group mb-30">
-                                <label for=""> email address <span class="color-orange1"> * </span> </label>
+                                <label for=""> e-mail address <span class="color-orange1"> * </span> </label>
                                 <input type="text" class="form-control" placeholder="Your email address">
                             </div>
                         </div>
@@ -53,7 +53,7 @@
                         </div>
                         <div class="col-lg-6">
                             <div class="form-group mb-30">
-                                <label for=""> subject <span class="color-orange1"> * </span> </label>
+                                <label for=""> Subject <span class="color-orange1"> * </span> </label>
                                 <select name="" id="" class="form-select form-control">
                                     <option value=""> {{ .labels.subject }} </option>
                                     {{ range .subjects}}
@@ -71,7 +71,7 @@
                         </div>
                     </div>
                     <a href="#" class="butn hover-bg-orange1 text-capitalize bg-white rounded-pill mt-40">
-                        <span> Send Your Message <i class="fal fa-arrow-up-right ms-2"></i> </span>
+                        <span> {{ .labels.send }} <i class="fal fa-arrow-up-right ms-2"></i> </span>
                     </a>
                     <!--<p class="fsz-12 color-666 mt-20"> By summiting, i’m agree to the <a href="#"
                             class="color-000 text-decoration-underline"> Terms & Conditions </a> </p>-->

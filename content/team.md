@@ -35,13 +35,6 @@ content: >-
 
   *Because of the way we lead together, our clients experience a single empowered point of contact backed by a leadership team that is fully invested in delivering infrastructure projects that stand the test of time. This foundation allows us to consistently create work that is sharper, more thoughtful, and more responsive to the communities it serves.*
 
-labels:
-  name: Name
-  position: Position
-  title: Title
-  info: Brief information
-  more: Show more...
-  less: Show less...
 
 list:
   - name: Phoebe Douglas
@@ -49,8 +42,6 @@ list:
     position: Co-Founder and Co-CEO
     img: /img/people/douglas.jpg
     size: big
-    intro: >-
-      Phoebe short 
     content: >-
       Civil engineer and environmental practitioner delivering complex infrastructure work across New York City — site/civil design, stormwater and drainage, and sustainable design, with a strong record navigating multi-agency coordination and approvals.
     linkedin: phoebedouglas
@@ -59,8 +50,6 @@ list:
     position: Co-Founder and Co-CEO
     img: /img/people/maguire.jpg
     size: big
-    intro: >-
-      Lindsay short 
     content: >-
       Licensed PE with 18 years delivering civil engineering for major public infrastructure across New York City — roadway design, drainage, utility coordination, and the approvals and stakeholder management that move complex projects forward.
     linkedin: phoebedouglas
@@ -69,8 +58,6 @@ list:
     position: Director of Structural Engineering
     img: /img/people/Shivani_Troiano.jpg
     size: small
-    intro: >-
-      Lindsay short 
     content: >-
       Leads MODERN’s in-house structural practice, bringing over 17 years of experience in structural design, rehabilitation and repair of existing structures, new building design, fl ood resiliency, and foundation design across DB and DDB projects, from RFP through construction.
     linkedin: phoebedouglas
@@ -79,8 +66,6 @@ list:
     position: CTO and Director of IT
     img: /img/people/Josh_Dolisca.jpg
     size: small
-    intro: >-
-      Josh short 
     content: >-
 
   - name: Erin Alessandro
@@ -88,8 +73,6 @@ list:
     position: Director of Finance Operations
     img: /img/people/Erin_Alessandro.jpg
     size: small
-    intro: >-
-      Erin short 
     content: >-
       Erin Alessandro
   - name: Ellie Kim
@@ -97,8 +80,6 @@ list:
     position: Director of Systems Integration
     img: /img/people/Ellie_Kim.jpg
     size: small
-    intro: >-
-      Camille short 
     Ellie: >-
       Ellie Kim
   - name: Camille Santos
@@ -106,8 +87,6 @@ list:
     position: Director of Technical Design
     img: /img/people/Camille_Santos.jpg
     size: small
-    intro: >-
-      Camille short 
     content: >-
       Civil Engineer with expertise in traffi c and work zone planning, site design, utility relocation, grading, erosion control, and cost estimating. Experience includes major assignments for all major public agencies, providing valuable technical expertise in delivering complex, multidisciplinary infrastructure projects.
   - name: Jeffrey English
@@ -115,8 +94,6 @@ list:
     position: Director of Project Delivery
     img: /img/people/Jeffrey_English.jpg
     size: small
-    intro: >-
-      Jeffrey short 
     content: >-
       Civil Engineer with experience across navigating complex infrastructure projects. His experience includes major assignments for NYC DEP, MTA, NYSDOT, and municipal clients, spanning projects from design through construction.
 

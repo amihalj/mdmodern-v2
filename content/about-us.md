@@ -48,7 +48,7 @@ sections:
 
 
       Our team includes **DBIA-certified, WEDG-certified, and Envision Sustainability Professionals**, ensuring a high level of expertise in delivering sustainable and innovative engineering solutions. We are dedicated to providing top-quality services while fostering diversity and inclusion within the construction industry.
-    list:
+    logos:
     - logo: /img/assets/mwbe-cert-sbs.jpg
       title: Certified NYC MBE
     - title: Certified NYC WBE
@@ -90,7 +90,7 @@ sections:
         Commercial, residential, and institutional clients seeking tailored engineering services.
 
       Our expertise ensures seamless project execution, from concept to completion, while meeting diverse client needs.
-    list:
+    logos:
     - title: NYCDOT
       logo: /img/assets/nycdot.svg.png
     - title: NYSDOT
@@ -106,7 +106,7 @@ sections:
 
 clients:
   title: Our clients
-  list:
+  logos:
     - title: NYCDOT
       logo: /img/assets/nycdot.svg.png
     - title: NYSDOT
@@ -152,7 +152,7 @@ certifications:
 
 
     Our team includes **DBIA-certified, WEDG-certified, and Envision Sustainability Professionals**, ensuring a high level of expertise in delivering sustainable and innovative engineering solutions. We are dedicated to providing top-quality services while fostering diversity and inclusion within the construction industry.
-  list:
+  logos:
     - logo: /img/assets/mwbe-cert-sbs.jpg
       title: Certified NYC MBE
     - title: Certified NYC WBE
@@ -178,7 +178,7 @@ opened_positions:
     At **M.D. Modern Engineering, D.P.C.**, we collaborate with public agencies,
     utility providers, and private businesses to deliver innovative, sustainable
     infrastructure solutions.
-  list:
+  logos:
     - title: Network engineer
       date: Sep 1st 2026
       link: 

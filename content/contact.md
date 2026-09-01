@@ -18,7 +18,7 @@ h1: >
 intro: >
     Want to chat further? We’d love to hear from you, let us oppoturnity
 
-call_to_action: Let us helps build your dream!
+catch_phrase: Let us helps build your dream!
 
 subjects:
   - Information on our services
@@ -28,4 +28,5 @@ subjects:
 labels:
     required: Required fields are marked
     subject: Select a subject
+    send: Send Your Message
 ---

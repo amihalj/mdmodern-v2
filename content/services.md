@@ -27,7 +27,7 @@ content: >-
   *We specialize in design-build management and excel at navigating complex permitting processes while fostering collaboration with stakeholders to ensure project success. By combining innovative approaches with
   meticulous attention to detail, we deliver tailored solutions that meet client goals and exceed expectations, all while prioritizing efficiency, reliability, and technical excellence from project inception to completion.*
 
-list:
+sections:
 - title: Geometric Roadway and Pavement Design
   logo: /img/assets/steven-lewis-dmhnxj-5ilq-unsplash.jpg
   icon: "la la-hard-hat"

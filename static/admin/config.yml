@@ -377,6 +377,27 @@ collections: # A list of collections the CMS should be able to edit
               - { label: "Description", name: description, widget: string, required: false }
               - { label: "Headline", name: headline, widget: string, required: false }
           - { label: "Heading", name: "h1", widget: "string" }
+          - { label: "Top image", name: header_image, widget: image, required: false }
+          - { label: "Text", name: content, widget: markdown, required: false }
+          - { label: "Contact button", name: call_to_action, widget: string }
+          - label: Sections
+            name: sections
+            widget: list
+            required: true
+            fields:
+            - { label: "Title", name: title, widget: string }
+            - { label: "Class", name: cls, widget: string, required: false }
+            - { label: "Logo", name: src, widget: image }
+            - { label: "Icon", name: icon, widget: string, required: false }
+            - { label: "Text", name: content, widget: markdown, required: false }
+            - label: Logos
+              name: logos
+              widget: list
+              required: false
+              fields:
+              - { label: "Title", name: title, widget: string, required: false }
+              - { label: "Logo", name: logo, widget: string }
+
 
       - name: "services"
         label: "Services"
@@ -393,28 +414,19 @@ collections: # A list of collections the CMS should be able to edit
               - { label: "Headline", name: headline, widget: string, required: false }
           - { label: "Heading", name: "h1", widget: "string" }
           - { label: "Top image", name: header_image, widget: image }
+          - { label: "Intro", name: intro, widget: markdown, required: false }
           - { label: "Text", name: content, widget: markdown, required: false }
+          - { label: "Contact button", name: call_to_action, widget: string }
           - label: Services
             name: sections
             widget: list
             required: true
             fields:
             - { label: "Title", name: title, widget: string }
+            - { label: "Class", name: cls, widget: string, required: false }
+            - { label: "Logo", name: src, widget: image }
+            - { label: "Icon", name: icon, widget: string, required: false }
             - { label: "Text", name: content, widget: markdown, required: false }
-            - label: Image
-              name: image
-              widget: "object"
-              required: false
-              fields:
-                - { label: "Image", name: title, widget: image }
-                - { label: "Description", name: alt, widget: string, required: false }
-            - label: Gallery
-              name: gallery
-              widget: list
-              required: false
-              fields:
-              - { label: "Image", name: src, widget: string }
-              - { label: "Description", name: alt, widget: string, required: false }
 
       - name: "projects"
         label: "Projects"
@@ -431,6 +443,7 @@ collections: # A list of collections the CMS should be able to edit
               - { label: "Headline", name: headline, widget: string, required: false }
           - { label: "Heading", name: "h1", widget: "string" }
           - { label: "Top image", name: header_image, widget: image }
+          - { label: "Intro", name: intro, widget: markdown, required: false }
           - { label: "Text", name: content, widget: markdown, required: false }
           - label: Projects
             name: sections
@@ -439,13 +452,7 @@ collections: # A list of collections the CMS should be able to edit
             fields:
             - { label: "Title", name: title, widget: string }
             - { label: "Text", name: content, widget: markdown, required: false }
-            - label: Image
-              name: image
-              widget: "object"
-              required: false
-              fields:
-                - { label: "Image", name: title, widget: image }
-                - { label: "Description", name: alt, widget: string, required: false }
+            - { label: "Tags", name: "tags", widget: "list" }
             - label: Notes
               name: notes
               widget: list
@@ -453,6 +460,14 @@ collections: # A list of collections the CMS should be able to edit
               fields:
               - { label: "Title", name: title, widget: string }
               - { label: "Text", name: text, widget: string, required: false }
+            - label: Image
+              name: image
+              widget: "object"
+              required: false
+              fields:
+                - { label: "Image", name: title, widget: image }
+                - { label: "Description", name: alt, widget: string, required: false }
+            
             - label: Gallery
               name: gallery
               widget: list
@@ -460,5 +475,59 @@ collections: # A list of collections the CMS should be able to edit
               fields:
               - { label: "Image", name: src, widget: string }
               - { label: "Description", name: alt, widget: string, required: false }
+      - name: "contact"
+        label: "Contact"
+        file: "content/contact.md"
+        description: "Contact page"
+        fields:
+          - label: Meta
+            name: meta
+            widget: "object"
+            fields:
+              - { label: "Title", name: title, widget: string }
+              - { label: "Keywords", name: keywords, widget: string, required: false }
+              - { label: "Description", name: description, widget: string, required: false }
+              - { label: "Headline", name: headline, widget: string, required: false }
+          - { label: "Heading", name: "h1", widget: "string" }
+          - { label: "Intro", name: intro, widget: markdown, required: false }
+          - { label: "Catch phrase", name: catch_phrase, widget: string }
+          - { label: "Subject list", name: "subjects", widget: "list" }
+          - label: Contact form labels
+            name: labels
+            widget: "object"
+            fields:
+              - { label: "required", name: required, widget: string, default: "Required fields are marked" }
+              - { label: "subject", name: subject, widget: string, default: "Select a subject" }
+              - { label: "send", name: send, widget: string, default: "Send Your Message" }
+      - name: "team"
+        label: "Team"
+        file: "content/team.md"
+        description: "Team page"
+        fields:
+          - label: Meta
+            name: meta
+            widget: "object"
+            fields:
+              - { label: "Title", name: title, widget: string }
+              - { label: "Keywords", name: keywords, widget: string, required: false }
+              - { label: "Description", name: description, widget: string, required: false }
+              - { label: "Headline", name: headline, widget: string, required: false }
+          - { label: "Heading", name: "h1", widget: "string" }
+          - { label: "Top image", name: header_image, widget: image }
+          - { label: "Intro", name: section_content, widget: markdown, required: false }
+          - { label: "Text", name: content, widget: markdown, required: false }
+          - { label: "Contact button", name: call_to_action, widget: string }
+          - label: Team members
+            name: list
+            widget: list
+            required: true
+            fields:
+            - { label: "Name", name: name, widget: string }
+            - { label: "Title", name: title, widget: string }
+            - { label: "Position", name: position, widget: string }
+            - { label: "Size", name: size, widget: select, options: ["small", "big"] }
+            - { label: "Image", name: img, widget: image }
+            - { label: "Text", name: content, widget: markdown, required: false }
+          
        
           

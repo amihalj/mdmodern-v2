@@ -18,6 +18,7 @@ meta:
 h1: M.D. Modern Engineering, D.P.C.
 introduction: 
   title: "*M.D. Modern* Engineering"
+  side_image: "/img/assets/kevin-bosc-qpcf90iz6ju-unsplash.jpg"
   list:
     - title: Who we are
       content: >-

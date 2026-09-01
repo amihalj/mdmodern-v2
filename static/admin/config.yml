@@ -200,6 +200,7 @@ collections: # A list of collections the CMS should be able to edit
             widget: object
             fields:
               - { label: "Title", name: title, widget: string }
+              - { label: "Side image", name: side_image, widget: image }
               - label: Items
                 name: list
                 widget: list

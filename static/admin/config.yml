@@ -1,7 +1,7 @@
 backend:
   name: github
-  repo: superpheebs/MD-Modern
-  branch: main
+  repo: amihalj/mdmodern-v2
+  branch: deploy-v2
 
 site_url: https://modern-engineering-web.netlify.app
 

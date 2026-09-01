@@ -47,7 +47,7 @@ list:
   - name: Phoebe Douglas
     title: PE, ENV SP, WEDG
     position: Co-Founder and Co-CEO
-    img: /img/assets/douglas_headshot.png
+    img: /img/people/douglas.jpg
     size: big
     intro: >-
       Phoebe short 
@@ -57,7 +57,7 @@ list:
   - name: Lindsay Maguire
     title: PE, ENV SP, DBIA, WEDG
     position: Co-Founder and Co-CEO
-    img: /img/assets/maguire_headshot.png
+    img: /img/people/maguire.jpg
     size: big
     intro: >-
       Lindsay short 

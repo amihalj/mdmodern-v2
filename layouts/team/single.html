@@ -22,7 +22,7 @@
     <div class="container team-members">
         <div class="row">
             {{ range $k, $v := .Params.list }}
-                <div class="col-lg-3 col-md-4 col-xs-6" id="{{ $v.name | urlize }}">
+                <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12" id="{{ $v.name | urlize }}">
                     <div class="team-member">
                         <img src="{{ $v.img }}" alt="{{ $v.name }}" class="person">
                         <div class="member-info">

@@ -13,168 +13,7 @@ slug:
   encoding: "ascii"
   clean_accents: true
 
-collections: # A list of collections the CMS should be able to edit
-  - name: projects # Used in routes, ie.: /admin/collections/:slug/edit
-    label: "Projects" # Used in the UI
-    label_singular: "Project" # Used in the UI, ie: "New Post"
-    description: >
-      Projects pages
-    folder: "content/projects"
-    slug: "{{slug}}"
-    create: true # Allow users to create new documents in this collection
-    sortable_fields: ['title', 'date', 'listed_intro.order']
-    view_filters:
-      - label: Posts With Index
-        field: title
-        pattern: "This is post #"
-      - label: Posts Without Index
-        field: title
-        pattern: front matter post
-      - label: Drafts
-        field: draft
-        pattern: true
-
-    fields: # The fields each document in this collection have
-      - { label: "Title", name: "title", widget: "string", tagname: "h1" }
-      - {
-          label: "Publish Date",
-          name: "date",
-          widget: "datetime",
-          date_format: "YYYY-MM-DD",
-          time_format: "HH:mm",
-          format: "YYYY-MM-DD HH:mm",
-        }
-      - { label: "Type", name: "type", widget: "hidden", default: "procedures" }
-      - { label: "Draft", name: "draft", widget: "boolean", default: false }
-      - {
-        label: Meta,
-        name: meta,
-        widget: "object",
-        fields: [
-          { label: "Title", name: title, widget: string, },
-          { label: "Keywords", name: keywords, widget: string, required: false },
-          { label: "Description", name: description, widget: string, required: false },
-          { label: "Headline", name: headline, widget: string, required: false }
-          ]
-        }
-        
-      - label: List view
-        name: listed_intro
-        widget: "object"
-        fields:
-          - { label: "Order in group", name: order, widget: number }
-          - { label: "Image", name: image, widget: image, class: "thumb" }
-          - { label: "Description", name: description, widget: string, required: false }
-
-      - { label: "Heading", name: h1, widget: string }
-      - label: Intro images
-        name: intro_images
-        widget: list
-        fields:
-        - { label: "Title", name: title, widget: string, required: false }
-        - { label: "Tag", name: tag, widget: string, required: false }
-        - { label: "Class", name: class, widget: select, options: ["gold", "dark", "gray"] }
-        - { label: "Image", name: image, widget: image, class: "thumb" }
-      - { label: "Intro", name: intro, widget: markdown, required: false }
-      - { label: "Sections title", name: sections_title, widget: string, required: false }
-      - label: Sections
-        name: sections
-        widget: list
-        fields:
-          - { label: "Title", name: title, widget: string, required: false }
-          - { label: "Class", name: class, widget: string, required: false }
-          - { label: "Text", name: content, widget: markdown, required: false }
-          - label: Section images
-            name: images
-            widget: list
-            required: false
-            fields:
-            - { label: "Title", name: title, widget: string }
-            - { label: "Tag", name: tag, widget: string, required: false }
-            - { label: "Class", name: class, widget: select, options: ["gold", "dark", "gray"] }
-            - { label: "Image", name: image, widget: image, class: "thumb" }
-  
-  - name: news # Used in routes, ie.: /admin/collections/:slug/edit
-    label: "News" # Used in the UI
-    label_singular: "News" # Used in the UI, ie: "New Post"
-    description: >
-      News pages
-    folder: "content/news"
-    slug: "{{slug}}"
-    create: true # Allow users to create new documents in this collection
-    sortable_fields: ['title', 'date', 'listed_intro.order']
-    view_filters:
-      - label: Posts With Index
-        field: title
-        pattern: "This is post #"
-      - label: Posts Without Index
-        field: title
-        pattern: front matter post
-      - label: Drafts
-        field: draft
-        pattern: true
-
-    fields: # The fields each document in this collection have
-      - { label: "Title", name: "title", widget: "string", tagname: "h1" }
-      - {
-          label: "Publish Date",
-          name: "date",
-          widget: "datetime",
-          date_format: "YYYY-MM-DD",
-          time_format: "HH:mm",
-          format: "YYYY-MM-DD HH:mm",
-        }
-      - { label: "Type", name: "type", widget: "hidden", default: "procedures" }
-      - { label: "Draft", name: "draft", widget: "boolean", default: false }
-      - {
-        label: Meta,
-        name: meta,
-        widget: "object",
-        fields: [
-          { label: "Title", name: title, widget: string, },
-          { label: "Keywords", name: keywords, widget: string, required: false },
-          { label: "Description", name: description, widget: string, required: false },
-          { label: "Headline", name: headline, widget: string, required: false }
-          ]
-        }
-        
-      - label: List view
-        name: listed_intro
-        widget: "object"
-        fields:
-          - { label: "Order in group", name: order, widget: number }
-          - { label: "Image", name: image, widget: image, class: "thumb" }
-          - { label: "Description", name: description, widget: string, required: false }
-
-      - { label: "Heading", name: h1, widget: string }
-      - label: Intro images
-        name: intro_images
-        widget: list
-        fields:
-        - { label: "Title", name: title, widget: string }
-        - { label: "Tag", name: tag, widget: string, required: false }
-        - { label: "Class", name: class, widget: select, options: ["gold", "dark", "gray"] }
-        - { label: "Image", name: image, widget: image, class: "thumb" }
-      - { label: "Intro", name: intro, widget: markdown, required: false }
-      - { label: "Sections title", name: sections_title, widget: string, required: false }
-      - label: Sections
-        name: sections
-        widget: list
-        fields:
-          - { label: "Title", name: title, widget: string }
-          - { label: "Class", name: class, widget: string, required: false }
-          - { label: "Text", name: content, widget: markdown, required: false }
-          - label: Section images
-            name: images
-            widget: list
-            required: false
-            fields:
-            - { label: "Title", name: title, widget: string }
-            - { label: "Tag", name: tag, widget: string, required: false }
-            - { label: "Class", name: class, widget: select, options: ["gold", "dark", "gray"] }
-            - { label: "Image", name: image, widget: image, class: "thumb" }
-  
-
+collections: # A list of collections the CMS should be able to edit  
   - name: "rest"
     label: "Main pages"
     delete: false # Prevent users from deleting documents in this collection
@@ -261,7 +100,6 @@ collections: # A list of collections the CMS should be able to edit
               fields:
               - { label: "Title", name: title, widget: string, required: false }
               - { label: "Logo", name: logo, widget: string }
-
 
       - name: "services"
         label: "Services"
@@ -359,7 +197,7 @@ collections: # A list of collections the CMS should be able to edit
           - { label: "Intro", name: intro, widget: markdown, required: false }
           - { label: "Catch phrase", name: catch_phrase, widget: string }
           - label: "Subjects"
-            name: "subject"
+            name: "subjects"
             widget: "list"
             field: {label: Title, name: title, widget: string}
           - label: Contact form labels
@@ -398,6 +236,87 @@ collections: # A list of collections the CMS should be able to edit
             - { label: "Size", name: size, widget: select, options: ["small", "big"] }
             - { label: "Image", name: img, widget: image }
             - { label: "Text", name: content, widget: markdown, required: false }
-          
+
+
+  - name: projects # Used in routes, ie.: /admin/collections/:slug/edit
+    label: "Projects" # Used in the UI
+    label_singular: "Project" # Used in the UI, ie: "New Post"
+    description: >
+      Projects pages
+    folder: "content/projects"
+    slug: "{{slug}}"
+    create: true # Allow users to create new documents in this collection
+    sortable_fields: ['title', 'date', 'listed_intro.order']
+    view_filters:
+      - label: Posts With Index
+        field: title
+        pattern: "This is post #"
+      - label: Posts Without Index
+        field: title
+        pattern: front matter post
+      - label: Drafts
+        field: draft
+        pattern: true
+
+    fields: # The fields each document in this collection have
+      - { label: "Title", name: "title", widget: "string", tagname: "h1" }
+      - {
+          label: "Publish Date",
+          name: "date",
+          widget: "datetime",
+          date_format: "YYYY-MM-DD",
+          time_format: "HH:mm",
+          format: "YYYY-MM-DD HH:mm",
+        }
+      - { label: "Type", name: "type", widget: "hidden", default: "procedures" }
+      - { label: "Draft", name: "draft", widget: "boolean", default: false }
+      - {
+        label: Meta,
+        name: meta,
+        widget: "object",
+        fields: [
+          { label: "Title", name: title, widget: string, },
+          { label: "Keywords", name: keywords, widget: string, required: false },
+          { label: "Description", name: description, widget: string, required: false },
+          { label: "Headline", name: headline, widget: string, required: false }
+          ]
+        }
+        
+      - label: List view
+        name: listed_intro
+        widget: "object"
+        fields:
+          - { label: "Order in group", name: order, widget: number }
+          - { label: "Image", name: image, widget: image, class: "thumb" }
+          - { label: "Description", name: description, widget: string, required: false }
+
+      - { label: "Heading", name: h1, widget: string }
+      - label: Intro images
+        name: intro_images
+        widget: list
+        fields:
+        - { label: "Title", name: title, widget: string, required: false }
+        - { label: "Tag", name: tag, widget: string, required: false }
+        - { label: "Class", name: class, widget: select, options: ["gold", "dark", "gray"] }
+        - { label: "Image", name: image, widget: image, class: "thumb" }
+      - { label: "Intro", name: intro, widget: markdown, required: false }
+      - { label: "Sections title", name: sections_title, widget: string, required: false }
+      - label: Sections
+        name: sections
+        widget: list
+        fields:
+          - { label: "Title", name: title, widget: string, required: false }
+          - { label: "Class", name: class, widget: string, required: false }
+          - { label: "Text", name: content, widget: markdown, required: false }
+          - label: Section images
+            name: images
+            widget: list
+            required: false
+            fields:
+            - { label: "Title", name: title, widget: string }
+            - { label: "Tag", name: tag, widget: string, required: false }
+            - { label: "Class", name: class, widget: select, options: ["gold", "dark", "gray"] }
+            - { label: "Image", name: image, widget: image, class: "thumb" }
+   
        
           

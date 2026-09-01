@@ -16,26 +16,28 @@ meta:
     testament to our expertise and dedication.
   headline: null
 h1: M.D. Modern Engineering, D.P.C.
-introduction: 
+introduction:
   title: "*M.D. Modern* Engineering"
   list:
     - title: Who we are
       content: >-
-        **M.D. Modern Engineering, D.P.C.** is a certified **WBE, MBE,** and **DBE**
-        engineering firm dedicated to fostering strong, collaborative relationships
-        with clients and partners. Founded to bridge the gap between large-firm
+        **M.D. Modern Engineering, D.P.C.** is a certified **WBE, MBE,** and
+        **DBE** engineering firm dedicated to fostering strong, collaborative
+        relationships with clients and partners. Founded to bridge the gap
+        between large-firm
 
         expertise and small-firm personalization, we focus on delivering dependable results with a commitment to transparency and integrity.
       actions:
-      - title: More about us
-        href: /about-us/
+        - title: More about us
+          href: /about-us/
     - title: Our services
       content: >-
-        **M.D. Modern Engineering, D.P.C.** provides comprehensive civil engineering
-        solutions that address the multifaceted challenges of urban infrastructure.
-        Our expertise spans geometric roadway and pavement design, drainage and
-        utility engineering, and construction administration, all seamlessly
-        integrated to deliver efficient and effective results.
+        **M.D. Modern Engineering, D.P.C.** provides comprehensive civil
+        engineering solutions that address the multifaceted challenges of urban
+        infrastructure. Our expertise spans geometric roadway and pavement
+        design, drainage and utility engineering, and construction
+        administration, all seamlessly integrated to deliver efficient and
+        effective results.
 
 
 
@@ -44,27 +46,28 @@ introduction:
 
         meticulous attention to detail, we deliver tailored solutions that meet client goals and exceed expectations, all while prioritizing efficiency, reliability, and technical excellence from project inception to completion.
       actions:
-      - title: More on our services
-        href: /services/
+        - title: More on our services
+          href: /services/
     - title: Our projects
       content: >-
-        **M.D. Modern Engineering, D.P.C.** is a certified **WBE, MBE,** and **DBE**
-        engineering firm dedicated to fostering strong, collaborative relationships
-        with clients and partners. Founded to bridge the gap between large-firm
+        **M.D. Modern Engineering, D.P.C.** is a certified **WBE, MBE,** and
+        **DBE** engineering firm dedicated to fostering strong, collaborative
+        relationships with clients and partners. Founded to bridge the gap
+        between large-firm
 
         expertise and small-firm personalization, we focus on delivering dependable results with a commitment to transparency and integrity.
       actions:
-      - title: More about our projects
-        href: /projects/
-
+        - title: Find more about our projects
+          href: /projects/
 type: home
 team:
   title: Our *leadership* team
-
   content: >-
-    At **M.D. Modern Engineering**, our leadership is rooted in true partnership and complementary strengths. We draw on different experiences and perspectives that allow us to make smarter decisions, deliver sharper solutions, and stay deeply committed to every client’s success. 
-  
-  
-    This collaboration also reflects diversity in race, background, and perspective, which has been shown to directly improve project outcomes.
+    At **M.D. Modern Engineering**, our leadership is rooted in true partnership
+    and complementary strengths. We draw on different experiences and
+    perspectives that allow us to make smarter decisions, deliver sharper
+    solutions, and stay deeply committed to every client’s success. 
 
+
+    This collaboration also reflects diversity in race, background, and perspective, which has been shown to directly improve project outcomes.
 ---

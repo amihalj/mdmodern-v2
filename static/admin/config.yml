@@ -195,168 +195,30 @@ collections: # A list of collections the CMS should be able to edit
               - { label: "Description", name: description, widget: string, required: false }
               - { label: "Headline", name: headline, widget: string, required: false }
           - { label: "Heading", name: "h1", widget: "string" }
-
-          - label: About us
-            name: about_us
+          - label: Accordion section
+            name: introduction
             widget: object
             fields:
               - { label: "Title", name: title, widget: string }
-              - { label: "Text", name: content, widget: markdown, required: false }
-              - { label: "Intro", name: intro, widget: markdown, required: false }
-              - { label: "Contact us", name: contact, widget: markdown, required: false }
-              - label: Boxes
-                name: boxes
-                widget: object
-                required: true
-                fields:
-                - label: Left box
-                  name: left
-                  widget: object
-                  required: true
-                  fields:
-                  - { label: "Title", name: title, widget: string }
-                  - { label: "Logo", name: logo, widget: image, required: false }
-                - label: Middle box
-                  name: middle
-                  widget: object
-                  required: true
-                  fields:
-                  - { label: "Title", name: title, widget: string }
-                  - { label: "Logo", name: logo, widget: image, required: false }
-                - label: Right box
-                  name: right
-                  widget: object
-                  required: true
-                  fields:
-                  - { label: "Title", name: title, widget: string }
-                  - { label: "Logo", name: logo, widget: image, required: false }
-              - label: Big Image
-                name: big_image
-                widget: object
-                fields:
-                  - { label: "Image", name: img, widget: image }
-                  - { label: "Image class", name: cls, widget: string }
-                  - { label: "Image xxlarge", name: image_xxl, widget: image, required: false }
-                  - { label: "Image xlarge", name: image_xl, widget: image, required: false }
-                  - { label: "Image large", name: image_l, widget: image, required: false }
-                  - { label: "Image medium", name: image_m, widget: image, required: false }
-                  - { label: "Image small", name: image_s, widget: image, required: false }
-                  - { label: "Image x-small", name: image_xs, widget: image, required: false }
-                  - { label: "Image micro", name: image_micro, widget: image, required: false }
-
-          - label: Portfolio old - IGNORE
-            name: portfolio_old
-            widget: object
-            fields:
-              - { label: "Title", name: title, widget: string }
-              - { label: "Text", name: content, widget: markdown, required: false }
-              - label: Groups
-                name: groups
-                widget: list
-                required: true
-                fields:
-                - { label: "Title", name: title, widget: string }
-                - { label: "Group", name: group, widget: string }
-              - label: Projects
-                name: projects
-                widget: list
-                required: true
-                fields:
-                - { label: "Title", name: title, widget: string }
-                - { label: "Tags", name: tags, widget: string, required: false }
-                - { label: "Text", name: content, widget: markdown, required: false }
-                - label: Project image
-                  name: img
-                  widget: object
-                  fields:
-                    - { label: "Image link", name: src, widget: image }
-                    - { label: "Alt", name: alt, widget: string, required: false }
-          
-          - label: Portfolio
-            name: portfolio
-            widget: object
-            fields:
-              - { label: "Title", name: title, widget: string }
-              - label: Projects
-                name: projects
-                widget: list
-                required: true
-                fields:
-                - { label: "Title", name: title, widget: string }
-                - { label: "Text", name: content, widget: markdown, required: false }
-                - label: Project image
-                  name: img
-                  widget: object
-                  fields:
-                    - { label: "Image link", name: src, widget: image }
-                    - { label: "Alt", name: alt, widget: string, required: false }
-
-          - label: Services
-            name: services
-            widget: object
-            fields:
-              - { label: "Title", name: title, widget: string }
-              - { label: "Text", name: content, widget: markdown, required: false }
-              - { label: "Contact us", name: contact, widget: markdown, required: false}
-              - label: List of services
+              - label: Items
                 name: list
                 widget: list
                 required: true
                 fields:
                 - { label: "Title", name: title, widget: string }
-                - { label: "Box class", name: cls, widget: string }
-                - { label: "Size", name: size, widget: select, options: ["big", "small"] }
-                - { label: "Image", name: logo, widget: image, required: false }
-                - { label: "Intro", name: intro, widget: string, required: false }
                 - { label: "Text", name: content, widget: markdown, required: false }
-
-          - label: Clients
-            name: clients
-            widget: object
-            fields:
-              - { label: "Title", name: title, widget: string }
-              - { label: "Text", name: content, widget: markdown, required: false }
-              - label: List of clients
-                name: list
-                widget: list
-                required: true
-                fields:
-                - { label: "Title", name: title, widget: string }
-                - { label: "Logo", name: logo, widget: image }
-
-          - label: Certifications
-            name: certifications
-            widget: object
-            fields:
-              - { label: "Title", name: title, widget: string }
-              - { label: "Text", name: content, widget: markdown, required: false }
-              - label: List of certificates
-                name: list
-                widget: list
-                required: true
-                fields:
-                - { label: "Title", name: title, widget: string }
-                - { label: "Logo", name: logo, widget: image }
-
+                - label: Actions
+                  name: actions
+                  widget: object
+                  fields:
+                    - { label: "Title", name: title, widget: string }
+                    - { label: "Link", name: href, widget: string }
           - label: Our team
             name: team
             widget: object
             fields:
               - { label: "Title", name: title, widget: string }
-              - { label: "Subtitle", name: subtitle, widget: string }
-              - { label: "Intro", name: intro, widget: string }
               - { label: "Text", name: content, widget: markdown, required: false }
-              - label: List of team members
-                name: list
-                widget: list
-                required: true
-                fields:
-                - { label: "Name", name: name, widget: string }
-                - { label: "Title", name: title, widget: string }
-                - { label: "Position", name: position, widget: string }
-                - { label: "Size", name: size, widget: select, options: ["big", "small"] }
-                - { label: "Image", name: img, widget: image }
-                - { label: "Text", name: content, widget: markdown, required: false }
           - label: Bottom form contact
             name: contact
             widget: object
@@ -387,7 +249,7 @@ collections: # A list of collections the CMS should be able to edit
             fields:
             - { label: "Title", name: title, widget: string }
             - { label: "Class", name: cls, widget: string, required: false }
-            - { label: "Logo", name: src, widget: image }
+            - { label: "Logo", name: logo, widget: image }
             - { label: "Icon", name: icon, widget: string, required: false }
             - { label: "Text", name: content, widget: markdown, required: false }
             - label: Logos
@@ -424,7 +286,7 @@ collections: # A list of collections the CMS should be able to edit
             fields:
             - { label: "Title", name: title, widget: string }
             - { label: "Class", name: cls, widget: string, required: false }
-            - { label: "Logo", name: src, widget: image }
+            - { label: "Logo", name: logo, widget: image }
             - { label: "Icon", name: icon, widget: string, required: false }
             - { label: "Text", name: content, widget: markdown, required: false }
 
@@ -452,7 +314,10 @@ collections: # A list of collections the CMS should be able to edit
             fields:
             - { label: "Title", name: title, widget: string }
             - { label: "Text", name: content, widget: markdown, required: false }
-            - { label: "Tags", name: "tags", widget: "list" }
+            - label: "Tags"
+              name: "tags"
+              widget: "list"
+              field: {label: Tag, name: tag, widget: string}
             - label: Notes
               name: notes
               widget: list
@@ -491,7 +356,10 @@ collections: # A list of collections the CMS should be able to edit
           - { label: "Heading", name: "h1", widget: "string" }
           - { label: "Intro", name: intro, widget: markdown, required: false }
           - { label: "Catch phrase", name: catch_phrase, widget: string }
-          - { label: "Subject list", name: "subjects", widget: "list" }
+          - label: "Subjects"
+            name: "subject"
+            widget: "list"
+            field: {label: Title, name: title, widget: string}
           - label: Contact form labels
             name: labels
             widget: "object"

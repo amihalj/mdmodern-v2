@@ -21,10 +21,10 @@ header_image: /img/projects/Watercolor.jpg
 sections:
   - title: "*Interborough* Express Light Rail (IBX)"
     tags:
-    - project management
-    - parking lot design
-    - drainage design
-    - grading
+    - tag: project management
+    - tag: parking lot design
+    - tag: drainage design
+    - tag: grading
     notes:
       - title: Owner
         text: MTA-NYCT
@@ -53,8 +53,8 @@ sections:
 
   - title: "*Seward Park* Cooperative Landscape Project"
     tags:
-    - project management
-    - drainage design
+    - tag: project management
+    - tag: drainage design
     notes:
       - title: Owner
         text: Seward Park Cooperative
@@ -81,8 +81,8 @@ sections:
 
   - title: Reconstruction of *Quisqueya Plaza*
     tags:
-    - project management
-    - drainage design
+    - tag: project management
+    - tag: drainage design
     notes:
       - title: Owner
         text: NYCDDC

@@ -21,9 +21,9 @@ intro: >
 catch_phrase: Let us helps build your dream!
 
 subjects:
-  - Information on our services
-  - Information on the past project
-  - General
+  - title: Information on our services
+  - title: Information on the past project
+  - title: General
 
 labels:
     required: Required fields are marked

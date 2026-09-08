@@ -39,6 +39,11 @@
                                         <li> <a href="#" class="ktk-eml-inf ktk-eml-inf-link">info@domain.com </a> </li>
                                         <!--<li> <a href="#"> (054) 3256 78 87 </a> </li>-->
                                     </ul>
+                                    {{ with .Params.contact.call_to_action }}
+                                        <a href="/contact/" class="butn rounded-pill mt-20 hover-bg-black bg-orange1 text-white">
+                                            <span> {{ . }} <i class="small ms-1 ti-arrow-top-right"></i> </span>
+                                        </a>
+                                    {{ end }}
                                 </div>
                             </div>
                             {{ with .Params.contact.content }}

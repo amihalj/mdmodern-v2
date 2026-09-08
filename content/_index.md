@@ -2,6 +2,7 @@
 contact:
   title: Our location
   content: ""
+  call_to_action: Contact us
 draft: false
 meta:
   title: M.D. Modern Engineering, D.P.C.

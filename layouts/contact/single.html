@@ -57,7 +57,7 @@
                                 <select name="" id="" class="form-select form-control">
                                     <option value=""> {{ .labels.subject }} </option>
                                     {{ range .subjects}}
-                                    <option value="{{.}}">{{.}}</option>
+                                    <option value="{{ .title }}">{{ .title }}</option>
                                     {{ end }}
                                 </select>
                             </div>

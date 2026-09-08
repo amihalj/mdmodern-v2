@@ -60,11 +60,12 @@ collections: # A list of collections the CMS should be able to edit
             fields:
               - { label: "Title", name: title, widget: string }
               - { label: "Text", name: content, widget: markdown, required: false }
-          - label: Bottom form contact
+          - label: Bottom form location
             name: contact
             widget: object
             fields:
               - { label: "Title", name: title, widget: string }
+              - { label: "Contact button", name: call_to_action, widget: string }
               - { label: "Text", name: content, widget: markdown, required: false }
       - name: "aboutus"
         label: "About us"
